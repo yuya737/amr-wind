@@ -1,0 +1,8 @@
+<map id="amr_wind::turbulence::TurbModel&lt; Transport &gt;" name="amr_wind::turbulence::TurbModel&lt; Transport &gt;">
+<area shape="rect" id="node5" href="$classamr__wind_1_1turbulence_1_1_laminar.html" title="Laminar modelImplementation of laminar flow model. " alt="" coords="1005,5,1160,47"/>
+<area shape="rect" id="node6" href="$classamr__wind_1_1turbulence_1_1_turb_model_base.html" title="Turbulence model aspects common to both LES and RANS modelsThis class implements more of the common m..." alt="" coords="983,71,1183,112"/>
+<area shape="rect" id="node2" href="$classamr__wind_1_1turbulence_1_1_turbulence_model.html" title="Abstract representation of a turbulence modelThis class is an abstract representation of a turbulence..." alt="" coords="567,39,713,80"/>
+<area shape="rect" id="node3" href="$structamr__wind_1_1_factory.html" title="amr_wind::Factory\&lt;\l TurbulenceModel, CFDSim &amp;\&gt;" alt="" coords="312,39,517,80"/>
+<area shape="rect" id="node4" href="$structamr__wind_1_1_factory.html" title="Runtime selection of options based on string keyword lookupFactory provides an automated way to regis..." alt="" coords="5,39,144,80"/>
+<area shape="rect" id="node7" href="$classamr__wind_1_1turbulence_1_1_smagorinsky.html" title="Smagorinsky LES Model. " alt="" coords="1232,71,1417,112"/>
+</map>
