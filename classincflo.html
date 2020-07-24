@@ -110,6 +110,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a44fa3bb356ff0eab1fef48612f737b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d0dc085fcc4f94806726b8ddd639df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a18d0dc085fcc4f94806726b8ddd639df">ClearLevel</a> (int lev) override</td></tr>
 <tr class="separator:a18d0dc085fcc4f94806726b8ddd639df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7bc4ffefd8e4723c7f058dae3ccbc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aee7bc4ffefd8e4723c7f058dae3ccbc1">init_mesh</a> ()</td></tr>
+<tr class="separator:aee7bc4ffefd8e4723c7f058dae3ccbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cf33c0538fc17484a53d9b1ccc2a64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a43cf33c0538fc17484a53d9b1ccc2a64">init_amr_wind_modules</a> ()</td></tr>
+<tr class="separator:a43cf33c0538fc17484a53d9b1ccc2a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6fbc59afee957d84c86736bf4f02ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a2d6fbc59afee957d84c86736bf4f02ab">prepare_for_time_integration</a> ()</td></tr>
+<tr class="separator:a2d6fbc59afee957d84c86736bf4f02ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09184db23dbf56c886e48000c7685d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ae09184db23dbf56c886e48000c7685d7">regrid_and_update</a> ()</td></tr>
+<tr class="separator:ae09184db23dbf56c886e48000c7685d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339cc34ea0a08de4eaff982226dab8bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a339cc34ea0a08de4eaff982226dab8bf">post_advance_work</a> ()</td></tr>
+<tr class="separator:a339cc34ea0a08de4eaff982226dab8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98bde37746dcfef9ee62272a7156ac14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html">amr_wind::CFDSim</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a98bde37746dcfef9ee62272a7156ac14">sim</a> ()</td></tr>
 <tr class="separator:a98bde37746dcfef9ee62272a7156ac14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef7ae819dd9015ef9eda1bca7601c2f8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classamr__wind_1_1_sim_time.html">amr_wind::SimTime</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8">time</a> () const</td></tr>
@@ -163,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ac40fe751b2172ccd66d81423ed0ea6ac">init_physics_and_pde</a> ()</td></tr>
 <tr class="memdesc:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Physics instances as well as PDEs (include turbulence models)  <a href="#ac40fe751b2172ccd66d81423ed0ea6ac">More...</a><br /></td></tr>
 <tr class="separator:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a30f5ca0f2fc6a039e7982156454cfa48">Advance</a> ()</td></tr>
+<tr class="separator:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -172,8 +184,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6daa86f4c8700e2c18c7f527b4283b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43662303c371c69cf87d400479fbc460"><td class="memItemLeft" align="right" valign="top">amrex::Array&lt; amrex::LinOpBCType, AMREX_SPACEDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a43662303c371c69cf87d400479fbc460">get_projection_bc</a> (amrex::Orientation::Side side) const noexcept</td></tr>
 <tr class="separator:a43662303c371c69cf87d400479fbc460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a30f5ca0f2fc6a039e7982156454cfa48">Advance</a> ()</td></tr>
-<tr class="separator:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68d93535cbb00fd81545a096b2bd84ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a68d93535cbb00fd81545a096b2bd84ad">set_background_pressure</a> ()</td></tr>
 <tr class="separator:a68d93535cbb00fd81545a096b2bd84ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d9718b0756dda233bcbc0b127fd42f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a44d9718b0756dda233bcbc0b127fd42f">ReadParameters</a> ()</td></tr>
@@ -269,9 +279,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void incflo::Advance </td>
@@ -280,11 +287,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -744,6 +746,40 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a43cf33c0538fc17484a53d9b1ccc2a64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43cf33c0538fc17484a53d9b1ccc2a64">&#9670;&nbsp;</a></span>init_amr_wind_modules()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void incflo::init_amr_wind_modules </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee7bc4ffefd8e4723c7f058dae3ccbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7bc4ffefd8e4723c7f058dae3ccbc1">&#9670;&nbsp;</a></span>init_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void incflo::init_mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac40fe751b2172ccd66d81423ed0ea6ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac40fe751b2172ccd66d81423ed0ea6ac">&#9670;&nbsp;</a></span>init_physics_and_pde()</h2>
 
@@ -1027,6 +1063,40 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a339cc34ea0a08de4eaff982226dab8bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339cc34ea0a08de4eaff982226dab8bf">&#9670;&nbsp;</a></span>post_advance_work()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void incflo::post_advance_work </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d6fbc59afee957d84c86736bf4f02ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6fbc59afee957d84c86736bf4f02ab">&#9670;&nbsp;</a></span>prepare_for_time_integration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void incflo::prepare_for_time_integration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a428f5cd112d5f1234ce50fb08372e322"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a428f5cd112d5f1234ce50fb08372e322">&#9670;&nbsp;</a></span>pressure()</h2>
 
@@ -1252,6 +1322,23 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae09184db23dbf56c886e48000c7685d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09184db23dbf56c886e48000c7685d7">&#9670;&nbsp;</a></span>regrid_and_update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool incflo::regrid_and_update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

@@ -27,6 +27,7 @@ var searchData=
   ['register_5frestart_5fvar',['register_restart_var',['../classamr__wind_1_1_i_o_manager.html#aff0a3c6bc63b4edfb0c8d4c76a837fc3',1,'amr_wind::IOManager']]],
   ['register_5ftransport_5fpde',['register_transport_pde',['../classamr__wind_1_1pde_1_1_p_d_e_mgr.html#aceb55c9b71728d8aee1d70d3a9c025d3',1,'amr_wind::pde::PDEMgr']]],
   ['registered',['registered',['../structamr__wind_1_1_factory_1_1_register.html#a9a86db6e0e89da867c43779de6526a17',1,'amr_wind::Factory::Register']]],
+  ['regrid_5fand_5fupdate',['regrid_and_update',['../classincflo.html#ae09184db23dbf56c886e48000c7685d7',1,'incflo']]],
   ['rel_5ftol',['rel_tol',['../structamr__wind_1_1_m_l_m_g_options.html#a69e80c9b1ce5dd8eddf6983e30d29467',1,'amr_wind::MLMGOptions']]],
   ['remake_5flevel',['remake_level',['../classamr__wind_1_1_field_repo.html#aecf0bf9c5170f11b7fd216ae1e46235a',1,'amr_wind::FieldRepo']]],
   ['remakelevel',['RemakeLevel',['../classincflo.html#a44fa3bb356ff0eab1fef48612f737b70',1,'incflo']]],
