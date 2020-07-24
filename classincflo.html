@@ -72,9 +72,12 @@ $(function() {
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classincflo-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">incflo Class Reference</div>  </div>
+<div class="title">incflo Class Reference<div class="ingroups"><a class="el" href="group__driver.html">AMR-Wind driver code</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>AMR-Wind driver class.  
+ <a href="classincflo.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="incflo_8_h_source.html">incflo.H</a>&gt;</code></p>
 <div class="dynheader">
@@ -97,8 +100,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9142bf1195123dca3537c8998e3066f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#af9142bf1195123dca3537c8998e3066f">~incflo</a> ()</td></tr>
 <tr class="separator:af9142bf1195123dca3537c8998e3066f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5176769479be6d215a8a46fe11465a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ac5176769479be6d215a8a46fe11465a0">InitData</a> ()</td></tr>
+<tr class="memdesc:ac5176769479be6d215a8a46fe11465a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform all initialization actions for AMR-Wind.  <a href="#ac5176769479be6d215a8a46fe11465a0">More...</a><br /></td></tr>
 <tr class="separator:ac5176769479be6d215a8a46fe11465a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0141eeb4fa408c909bca038ec9de0ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a0141eeb4fa408c909bca038ec9de0ef5">Evolve</a> ()</td></tr>
+<tr class="memdesc:a0141eeb4fa408c909bca038ec9de0ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform time-integration for user-defined time or timesteps.  <a href="#a0141eeb4fa408c909bca038ec9de0ef5">More...</a><br /></td></tr>
 <tr class="separator:a0141eeb4fa408c909bca038ec9de0ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab904c076552cbd11927a01cd8809a240"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ab904c076552cbd11927a01cd8809a240">ErrorEst</a> (int lev, amrex::TagBoxArray &amp;tags, amrex::Real <a class="el" href="classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8">time</a>, int ngrow) override</td></tr>
 <tr class="separator:ab904c076552cbd11927a01cd8809a240"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,14 +116,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18d0dc085fcc4f94806726b8ddd639df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a18d0dc085fcc4f94806726b8ddd639df">ClearLevel</a> (int lev) override</td></tr>
 <tr class="separator:a18d0dc085fcc4f94806726b8ddd639df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7bc4ffefd8e4723c7f058dae3ccbc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aee7bc4ffefd8e4723c7f058dae3ccbc1">init_mesh</a> ()</td></tr>
+<tr class="memdesc:aee7bc4ffefd8e4723c7f058dae3ccbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize AMR mesh data structure.  <a href="#aee7bc4ffefd8e4723c7f058dae3ccbc1">More...</a><br /></td></tr>
 <tr class="separator:aee7bc4ffefd8e4723c7f058dae3ccbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43cf33c0538fc17484a53d9b1ccc2a64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a43cf33c0538fc17484a53d9b1ccc2a64">init_amr_wind_modules</a> ()</td></tr>
+<tr class="memdesc:a43cf33c0538fc17484a53d9b1ccc2a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize AMR-Wind data structures after mesh has been created.  <a href="#a43cf33c0538fc17484a53d9b1ccc2a64">More...</a><br /></td></tr>
 <tr class="separator:a43cf33c0538fc17484a53d9b1ccc2a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d6fbc59afee957d84c86736bf4f02ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a2d6fbc59afee957d84c86736bf4f02ab">prepare_for_time_integration</a> ()</td></tr>
+<tr class="memdesc:a2d6fbc59afee957d84c86736bf4f02ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize flow-field before performing time-integration.  <a href="#a2d6fbc59afee957d84c86736bf4f02ab">More...</a><br /></td></tr>
 <tr class="separator:a2d6fbc59afee957d84c86736bf4f02ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae09184db23dbf56c886e48000c7685d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ae09184db23dbf56c886e48000c7685d7">regrid_and_update</a> ()</td></tr>
+<tr class="memdesc:ae09184db23dbf56c886e48000c7685d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform regrid actions at a given timestep.  <a href="#ae09184db23dbf56c886e48000c7685d7">More...</a><br /></td></tr>
 <tr class="separator:ae09184db23dbf56c886e48000c7685d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339cc34ea0a08de4eaff982226dab8bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a339cc34ea0a08de4eaff982226dab8bf">post_advance_work</a> ()</td></tr>
+<tr class="memdesc:a339cc34ea0a08de4eaff982226dab8bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions after a timestep.  <a href="#a339cc34ea0a08de4eaff982226dab8bf">More...</a><br /></td></tr>
 <tr class="separator:a339cc34ea0a08de4eaff982226dab8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98bde37746dcfef9ee62272a7156ac14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html">amr_wind::CFDSim</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a98bde37746dcfef9ee62272a7156ac14">sim</a> ()</td></tr>
 <tr class="separator:a98bde37746dcfef9ee62272a7156ac14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,12 +157,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a77bcdf7928df6e21a0ce4c0d98e1bb7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_field.html">amr_wind::Field</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f">grad_p</a> () const</td></tr>
 <tr class="separator:a77bcdf7928df6e21a0ce4c0d98e1bb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede73bc339a2796caa043794f5f1d847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aede73bc339a2796caa043794f5f1d847">ComputeDt</a> (bool explicit_diffusion)</td></tr>
+<tr class="memdesc:aede73bc339a2796caa043794f5f1d847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the new timestep for adaptive timestepping algorithm.  <a href="#aede73bc339a2796caa043794f5f1d847">More...</a><br /></td></tr>
 <tr class="separator:aede73bc339a2796caa043794f5f1d847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dccdf2ed3bb6e1a2dbdfd2c705999f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a6dccdf2ed3bb6e1a2dbdfd2c705999f9">set_inflow_velocity</a> (int lev, amrex::Real <a class="el" href="classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8">time</a>, amrex::MultiFab &amp;vel, int nghost)</td></tr>
 <tr class="separator:a6dccdf2ed3bb6e1a2dbdfd2c705999f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa714fb08a8d72d05737c797392ebbd6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aa714fb08a8d72d05737c797392ebbd6b">ApplyPredictor</a> (bool incremental_projection=false)</td></tr>
+<tr class="memdesc:aa714fb08a8d72d05737c797392ebbd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply predictor step.  <a href="#aa714fb08a8d72d05737c797392ebbd6b">More...</a><br /></td></tr>
 <tr class="separator:aa714fb08a8d72d05737c797392ebbd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6265c84d909137806fdc667c4404ea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#af6265c84d909137806fdc667c4404ea1">ApplyCorrector</a> ()</td></tr>
+<tr class="memdesc:af6265c84d909137806fdc667c4404ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Corrector step for MOL scheme.  <a href="#af6265c84d909137806fdc667c4404ea1">More...</a><br /></td></tr>
 <tr class="separator:af6265c84d909137806fdc667c4404ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a896442ef8f3df6cdb15d2d3731afc43e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a896442ef8f3df6cdb15d2d3731afc43e">ComputeStrainrate</a> (amrex::Real <a class="el" href="classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8">time</a>)</td></tr>
 <tr class="separator:a896442ef8f3df6cdb15d2d3731afc43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,11 +182,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1834a7ae1b507a021e713a3e21c27350"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a1834a7ae1b507a021e713a3e21c27350">init_plane_poiseuille</a> (amrex::Box const &amp;vbx, amrex::Box const &amp;gbx, amrex::Array4&lt; amrex::Real &gt; const &amp;p, amrex::Array4&lt; amrex::Real &gt; const &amp;vel, amrex::Array4&lt; amrex::Real &gt; const &amp;<a class="el" href="classincflo.html#a048155f20eb799fb99726ab4cccb443a">density</a>, amrex::Array4&lt; amrex::Real &gt; const &amp;tracer, amrex::Box const &amp;domain, amrex::GpuArray&lt; amrex::Real, AMREX_SPACEDIM &gt; const &amp;dx, amrex::GpuArray&lt; amrex::Real, AMREX_SPACEDIM &gt; const &amp;problo, amrex::GpuArray&lt; amrex::Real, AMREX_SPACEDIM &gt; const &amp;probhi)</td></tr>
 <tr class="separator:a1834a7ae1b507a021e713a3e21c27350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ee85fe6dc7300bc166669398ea8da1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a05ee85fe6dc7300bc166669398ea8da1">ApplyProjection</a> (amrex::Vector&lt; amrex::MultiFab const *&gt; <a class="el" href="classincflo.html#a048155f20eb799fb99726ab4cccb443a">density</a>, amrex::Real <a class="el" href="classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8">time</a>, amrex::Real scaling_factor, bool incremental)</td></tr>
+<tr class="memdesc:a05ee85fe6dc7300bc166669398ea8da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform nodal projection.  <a href="#a05ee85fe6dc7300bc166669398ea8da1">More...</a><br /></td></tr>
 <tr class="separator:a05ee85fe6dc7300bc166669398ea8da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ac40fe751b2172ccd66d81423ed0ea6ac">init_physics_and_pde</a> ()</td></tr>
 <tr class="memdesc:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Physics instances as well as PDEs (include turbulence models)  <a href="#ac40fe751b2172ccd66d81423ed0ea6ac">More...</a><br /></td></tr>
 <tr class="separator:ac40fe751b2172ccd66d81423ed0ea6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a30f5ca0f2fc6a039e7982156454cfa48">Advance</a> ()</td></tr>
+<tr class="memdesc:a30f5ca0f2fc6a039e7982156454cfa48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance simulation state by one timestep.  <a href="#a30f5ca0f2fc6a039e7982156454cfa48">More...</a><br /></td></tr>
 <tr class="separator:a30f5ca0f2fc6a039e7982156454cfa48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -187,10 +202,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a68d93535cbb00fd81545a096b2bd84ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a68d93535cbb00fd81545a096b2bd84ad">set_background_pressure</a> ()</td></tr>
 <tr class="separator:a68d93535cbb00fd81545a096b2bd84ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d9718b0756dda233bcbc0b127fd42f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a44d9718b0756dda233bcbc0b127fd42f">ReadParameters</a> ()</td></tr>
+<tr class="memdesc:a44d9718b0756dda233bcbc0b127fd42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the input file and populate parameters.  <a href="#a44d9718b0756dda233bcbc0b127fd42f">More...</a><br /></td></tr>
 <tr class="separator:a44d9718b0756dda233bcbc0b127fd42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c4d735e4da2f63683dfca44d8e4304"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ad6c4d735e4da2f63683dfca44d8e4304">InitialProjection</a> ()</td></tr>
+<tr class="memdesc:ad6c4d735e4da2f63683dfca44d8e4304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure initial velocity field is divergence-free.  <a href="#ad6c4d735e4da2f63683dfca44d8e4304">More...</a><br /></td></tr>
 <tr class="separator:ad6c4d735e4da2f63683dfca44d8e4304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a407eefb42cf4d26a962fb85a8d81f1e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a407eefb42cf4d26a962fb85a8d81f1e2">InitialIterations</a> ()</td></tr>
+<tr class="memdesc:a407eefb42cf4d26a962fb85a8d81f1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform initial pressure iterations.  <a href="#a407eefb42cf4d26a962fb85a8d81f1e2">More...</a><br /></td></tr>
 <tr class="separator:a407eefb42cf4d26a962fb85a8d81f1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68477a812e15170ac6f82cae4bb3c8a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a68477a812e15170ac6f82cae4bb3c8a7">ReadCheckpointFile</a> ()</td></tr>
 <tr class="separator:a68477a812e15170ac6f82cae4bb3c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,7 +248,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a12f600ab0fc288f1936304787fae7c0d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a12f600ab0fc288f1936304787fae7c0d">m_KE_int</a> = -1</td></tr>
 <tr class="separator:a12f600ab0fc288f1936304787fae7c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>AMR-Wind driver class. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a19eee8f0b64ec62e33d4f1a43b1d20d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19eee8f0b64ec62e33d4f1a43b1d20d3">&#9670;&nbsp;</a></span>incflo()</h2>
 
@@ -289,6 +309,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Advance simulation state by one timestep. </p>
+<p>Performs the following actions at a given timestep</p><ul>
+<li>Compute \(\Delta t\)</li>
+<li>Advance all computational fields to new timestate in preparation for time integration</li>
+<li>Call pre-advance work for all registered physics modules</li>
+<li>For Godunov scheme, advance to new time state</li>
+<li>For MOL scheme, call predictor corrector steps</li>
+<li>Perform any post-advance work</li>
+</ul>
+<p>Much of the heavy-lifting is done by <a class="el" href="classincflo.html#aa714fb08a8d72d05737c797392ebbd6b" title="Apply predictor step. ">incflo::ApplyPredictor</a> and <a class="el" href="classincflo.html#af6265c84d909137806fdc667c4404ea1" title="Corrector step for MOL scheme. ">incflo::ApplyCorrector</a>. Please refer to the documentation of those methods for detailed information on the various equations being solved. </p>
+
 </div>
 </div>
 <a id="af6265c84d909137806fdc667c4404ea1"></a>
@@ -305,6 +336,22 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Corrector step for MOL scheme. </p>
+<ol>
+<li>
+<p class="startli">Solve transport equation for momentum and scalars</p>
+<p class="formulaDsp">
+\begin{align} \left[1 - \kappa \frac{\Delta t}{\rho} \nabla \cdot \left( \mu \nabla \right)\right] u^{*} &amp;= u^n - \Delta t C_u + (1 - \kappa) \frac{\Delta t}{\rho} \nabla \cdot \left( \mu \nabla\right) u^{n} + \frac{\Delta t}{\rho} \left( S_u - \nabla(p + p_0)\right) \\ \end{align}
+</p>
+<p>where </p><p class="formulaDsp">
+\begin{align} \kappa = \begin{cases} 0 &amp; \text{Explicit} \\ 0.5 &amp; \text{Crank-Nicholson} \\ 1 &amp; \text{Implicit} \end{cases} \end{align}
+</p>
+<p class="endli"></p>
+</li>
+<li>
+<a class="el" href="classincflo.html#a05ee85fe6dc7300bc166669398ea8da1">Apply projection</a> </li>
+</ol>
 
 </div>
 </div>
@@ -323,6 +370,23 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Apply predictor step. </p>
+<p>For Godunov, this completes the timestep. For MOL, this is the first part of the predictor/corrector within a timestep.</p>
+<ol>
+<li>
+<p class="startli">Solve transport equation for momentum and scalars</p>
+<p class="formulaDsp">
+\begin{align} \left[1 - \kappa \frac{\Delta t}{\rho^{n+1/2}} \nabla \cdot \left( \mu \nabla \right)\right] u^{*} &amp;= u^n - \Delta t (u \cdot \nabla) u + (1 - \kappa) \frac{\Delta t}{\rho^n} \nabla \cdot \left( \mu^{n} \nabla\right) u^{n} + \frac{\Delta t}{\rho^{n+1/2}} \left( S_u - \nabla(p + p_0)\right) \\ \end{align}
+</p>
+<p>where </p><p class="formulaDsp">
+\begin{align} \kappa = \begin{cases} 0 &amp; \text{Explicit} \\ 0.5 &amp; \text{Crank-Nicholson} \\ 1 &amp; \text{Implicit} \end{cases} \end{align}
+</p>
+<p class="endli"></p>
+</li>
+<li>
+<a class="el" href="classincflo.html#a05ee85fe6dc7300bc166669398ea8da1">Apply projection</a> </li>
+</ol>
 
 </div>
 </div>
@@ -363,6 +427,40 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Perform nodal projection. </p>
+<p>Computes the following decomposition:</p>
+<p class="formulaDsp">
+\begin{align} u + \frac{\Delta t}{\rho} \nabla \phi &amp;= u^{*} &amp; \nabla \cdot u = 0 \end{align}
+</p>
+<p>where \(u^{*}\) is a non-div-free velocity field, stored by components in u, v, and w. The resulting div-free velocity field, u, overwrites the value of u* in u, v, and w.</p>
+<p>\(\phi\) is an auxiliary function related to the pressure \(p\) by the relation:</p>
+<p class="formulaDsp">
+\[ p^{\mathrm{new}} = \phi \]
+</p>
+<p>except in the initial projection when</p>
+<p class="formulaDsp">
+\[ p^{\mathrm{new}} = p^{\mathrm{old}} + \phi \]
+</p>
+<p>Velocity is updated using the following relation</p>
+<p class="formulaDsp">
+\begin{align} u^{**} &amp;= u^{*} + \frac{\Delta t}{\rho} \nabla p^{\mathrm{old}} \\ \nabla \cdot \left( \frac{\Delta t}{\rho} \nabla \phi \right) &amp;= \nabla \cdot u^{**} \\ u^{\mathrm{new}} &amp;= u^{**} - \frac{\Delta t}{\rho} \nabla p^\mathrm{new} \end{align}
+</p>
+<p>Notes:</p><ul>
+<li><code>scaling_factor</code> equals \(\Delta t\) except when called during initial projection, when it is 1.0</li>
+<li>\(\rho\) in the above expressions is either at state <code>n+1</code> or <code>n+1/2</code> depending on whether this method was called from <a class="el" href="classincflo.html#aa714fb08a8d72d05737c797392ebbd6b" title="Apply predictor step. ">incflo::ApplyPredictor</a> or <a class="el" href="classincflo.html#af6265c84d909137806fdc667c4404ea1" title="Corrector step for MOL scheme. ">incflo::ApplyCorrector</a>.</li>
+<li>If <code>incremental == true</code>, then the pressure term is not added to \(u^{**}\) and the update is in delta-form.</li>
+</ul>
+<p>Please consult <a href="https://amrex-codes.github.io/amrex/docs_html/LinearSolvers.html#nodal-projection">AMReX Linear Solvers</a> documentation for more information on the nodal projection operator.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">density</td><td>Vector of multifabs containing the density field at all levels </td></tr>
+    <tr><td class="paramname">time</td><td>Current time </td></tr>
+    <tr><td class="paramname">scaling_factor</td><td>Scaling factor \(\Delta t\) </td></tr>
+    <tr><td class="paramname">incremental</td><td>Flag indicating if it is an incremental projection. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -451,6 +549,20 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Estimate the new timestep for adaptive timestepping algorithm. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">explicit_diffusion</td><td>Flag indicating whether user has selected explicit treatment of diffusion term.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Compute new \(\Delta t\) by using the formula derived in "A Boundary Condition
+Capturing Method for Multiphase Incompressible Flow" by Kang et al. (JCP).</p>
+<p class="formulaDsp">
+\begin{align} \text{CFL} &amp;= \frac{\Delta t}{2} \left[\left(C+V \right) + \sqrt{\left(C+V\right)^2 + 4 \left(\frac{|F_x|}{\Delta x} + \frac{|F_y|}{\Delta y} + \frac{|F_z|}{\Delta z} \right)} \right] &amp;&amp; \\ C &amp;= \text{max} \left(\frac{|U_x|}{\Delta x} ,\ \frac{|U_y|}{\Delta y} ,\ \frac{|U_z|}{\Delta z}\right) &amp;&amp; \text{Convection} \\ V &amp;= 2 \left(\frac{\mu}{\rho}\right)_\mathrm{max} \left[\frac{1}{\Delta x^2} + \frac{1}{\Delta y^2} + \frac{1}{\Delta z^2} \right] &amp;&amp; \text{Diffusion} \end{align}
+</p>
+<p>\(F_x, F_y, F_z\) are acceleration due to forcing terms. By default, \(C\) is always used for computing CFL. The term \(V\) is only used when the user has chosen implicit or Crank-Nicholson scheme for diffusion, and contributions from forcing term when <code>time.use_force_cfl</code> is <code>true</code> (default is <code>true</code>). </p>
 
 </div>
 </div>
@@ -617,6 +729,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Perform time-integration for user-defined time or timesteps. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classincflo_a0141eeb4fa408c909bca038ec9de0ef5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
 </div>
 </div>
 <a id="a1f3e37f103eae8a182825b0b66dd52ae"></a>
@@ -761,6 +881,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize AMR-Wind data structures after mesh has been created. </p>
+<p>Modules initialized:</p><ul>
+<li>Registered <a class="el" href="group__physics.html">Physics models</a> classes</li>
+<li>Registered PDE systems</li>
+<li>Registered post-processing classes </li>
+</ul>
+
 </div>
 </div>
 <a id="aee7bc4ffefd8e4723c7f058dae3ccbc1"></a>
@@ -777,6 +904,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize AMR mesh data structure. </p>
+<p>Calls the AmrMesh/AmrCore functions to initialize the mesh. For restarted simulations, it loads the checkpoint file. </p>
 
 </div>
 </div>
@@ -890,6 +1020,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Perform all initialization actions for AMR-Wind. </p>
+<p>This is a wrapper method that calls the following methods to perform the actual work. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classincflo_ac5176769479be6d215a8a46fe11465a0_cgraph.svg" width="307" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="a407eefb42cf4d26a962fb85a8d81f1e2"></a>
@@ -915,6 +1054,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Perform initial pressure iterations. </p>
+<p>Performs a user-defined number of iterations to compute the pressure based on the initial conditions. This method is only invoked for new simulations and skipped for restarted simulations from a checkpoint file. </p>
+
 </div>
 </div>
 <a id="ad6c4d735e4da2f63683dfca44d8e4304"></a>
@@ -939,6 +1081,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Ensure initial velocity field is divergence-free. </p>
+<p>Performs a <a class="el" href="classincflo.html#a05ee85fe6dc7300bc166669398ea8da1">projection</a> step to ensure that the user-provided initial velocity field is divergence free. This method is only invoked for new simulations. For restarted simulations using a checkpoint file, this is not necessary. </p>
 
 </div>
 </div>
@@ -1078,6 +1223,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Perform actions after a timestep. </p>
+<p>Performs any necessary I/O before advancing to next timestep </p>
+
 </div>
 </div>
 <a id="a2d6fbc59afee957d84c86736bf4f02ab"></a>
@@ -1094,6 +1242,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize flow-field before performing time-integration. </p>
+<p>This method calls the <a class="el" href="classincflo.html#ad6c4d735e4da2f63683dfca44d8e4304" title="Ensure initial velocity field is divergence-free. ">incflo::InitialProjection</a> step to ensure that the velocity field is divergence free. Then it performs a user-defined number of initial iterations to compute \(p^{n - 1/2}\) necessary for advancing into the first timestep. These actions are only performed when starting a new simulation, but not for a restarted simulation. </p>
 
 </div>
 </div>
@@ -1324,6 +1475,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Parse the input file and populate parameters. </p>
+
 </div>
 </div>
 <a id="ae09184db23dbf56c886e48000c7685d7"></a>
@@ -1340,6 +1493,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Perform regrid actions at a given timestep. </p>
+<dl class="section return"><dt>Returns</dt><dd>Flag indicating if regrid was performed </dd></dl>
 
 </div>
 </div>

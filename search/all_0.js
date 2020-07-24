@@ -55,6 +55,7 @@ var searchData=
   ['axis',['axis',['../class_plane_averaging.html#a187a63e2524dd225c6e6eeb9c27c07f8',1,'PlaneAveraging::axis()'],['../classamr__wind_1_1_field_plane_averaging.html#adad41ecce092ce1fae9f0799eb5cd4c6',1,'amr_wind::FieldPlaneAveraging::axis()']]],
   ['amr_2dwind_20core',['AMR-Wind core',['../group__core.html',1,'']]],
   ['ctv',['ctv',['../namespaceamr__wind_1_1ctv.html',1,'amr_wind']]],
+  ['amr_2dwind_20driver_20code',['AMR-Wind driver code',['../group__driver.html',1,'']]],
   ['field_5fimpl',['field_impl',['../namespaceamr__wind_1_1field__impl.html',1,'amr_wind']]],
   ['field_5fops',['field_ops',['../namespaceamr__wind_1_1field__ops.html',1,'amr_wind']]],
   ['fvm',['fvm',['../namespaceamr__wind_1_1fvm.html',1,'amr_wind']]],
