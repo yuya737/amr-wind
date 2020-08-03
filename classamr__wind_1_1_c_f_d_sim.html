@@ -135,12 +135,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a02ab5cca6ed7da9d689741c65967dc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14203a05edbec60f8129e93968fd9fd4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classamr__wind_1_1_post_process_manager.html">PostProcessManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a14203a05edbec60f8129e93968fd9fd4">post_manager</a> () const</td></tr>
 <tr class="separator:a14203a05edbec60f8129e93968fd9fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d735aef79c2c83d7d848066290e192"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#af7d735aef79c2c83d7d848066290e192">overset_manager</a> ()</td></tr>
+<tr class="separator:af7d735aef79c2c83d7d848066290e192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182e5e90c04d6ebd440d5334ef304f67"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a182e5e90c04d6ebd440d5334ef304f67">overset_manager</a> () const</td></tr>
+<tr class="separator:a182e5e90c04d6ebd440d5334ef304f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad413351ee8d8f9a1a6426381b901722d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#ad413351ee8d8f9a1a6426381b901722d">has_overset</a> () const</td></tr>
+<tr class="separator:ad413351ee8d8f9a1a6426381b901722d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d2e1f641120e5beda72137cf63175ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a7d2e1f641120e5beda72137cf63175ba">create_turbulence_model</a> ()</td></tr>
 <tr class="memdesc:a7d2e1f641120e5beda72137cf63175ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate the turbulence model based on user inputs.  <a href="#a7d2e1f641120e5beda72137cf63175ba">More...</a><br /></td></tr>
 <tr class="separator:a7d2e1f641120e5beda72137cf63175ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9735fb288e32066d72b08e2301ff124f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a9735fb288e32066d72b08e2301ff124f">init_physics</a> ()</td></tr>
 <tr class="memdesc:a9735fb288e32066d72b08e2301ff124f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate all physics instances based on user inputs.  <a href="#a9735fb288e32066d72b08e2301ff124f">More...</a><br /></td></tr>
 <tr class="separator:a9735fb288e32066d72b08e2301ff124f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7240a4f11bc3c04fc7d22a022714b796"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a7240a4f11bc3c04fc7d22a022714b796">activate_overset</a> ()</td></tr>
+<tr class="memdesc:a7240a4f11bc3c04fc7d22a022714b796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate overset connectivity.  <a href="#a7240a4f11bc3c04fc7d22a022714b796">More...</a><br /></td></tr>
+<tr class="separator:a7240a4f11bc3c04fc7d22a022714b796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -160,6 +169,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a24e396b26831a0e256a86ba25f6769df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfaf5f13f5a45d43008e24cecd0921f5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_post_process_manager.html">PostProcessManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#acfaf5f13f5a45d43008e24cecd0921f5">m_post_mgr</a></td></tr>
 <tr class="separator:acfaf5f13f5a45d43008e24cecd0921f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebb27632f154b202bc19a4fe9e8a9ac"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abebb27632f154b202bc19a4fe9e8a9ac">m_overset_mgr</a></td></tr>
+<tr class="separator:abebb27632f154b202bc19a4fe9e8a9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data structures for a CFD simulation</p>
@@ -210,6 +221,25 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7240a4f11bc3c04fc7d22a022714b796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7240a4f11bc3c04fc7d22a022714b796">&#9670;&nbsp;</a></span>activate_overset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::CFDSim::activate_overset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activate overset connectivity. </p>
+
+</div>
+</div>
 <a id="a7d2e1f641120e5beda72137cf63175ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d2e1f641120e5beda72137cf63175ba">&#9670;&nbsp;</a></span>create_turbulence_model()</h2>
 
@@ -226,6 +256,31 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Instantiate the turbulence model based on user inputs. </p>
+
+</div>
+</div>
+<a id="ad413351ee8d8f9a1a6426381b901722d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad413351ee8d8f9a1a6426381b901722d">&#9670;&nbsp;</a></span>has_overset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool amr_wind::CFDSim::has_overset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -336,6 +391,56 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const amrex::AmrCore&amp; amr_wind::CFDSim::mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7d735aef79c2c83d7d848066290e192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d735aef79c2c83d7d848066290e192">&#9670;&nbsp;</a></span>overset_manager() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a>* amr_wind::CFDSim::overset_manager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a182e5e90c04d6ebd440d5334ef304f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182e5e90c04d6ebd440d5334ef304f67">&#9670;&nbsp;</a></span>overset_manager() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a>* amr_wind::CFDSim::overset_manager </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -738,6 +843,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">amrex::AmrCore&amp; amr_wind::CFDSim::m_mesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abebb27632f154b202bc19a4fe9e8a9ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebb27632f154b202bc19a4fe9e8a9ac">&#9670;&nbsp;</a></span>m_overset_mgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a>&gt; amr_wind::CFDSim::m_overset_mgr</td>
         </tr>
       </table>
   </td>

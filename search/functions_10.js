@@ -20,6 +20,7 @@ var searchData=
   ['register_5fmueff_5ffield',['register_mueff_field',['../classamr__wind_1_1turbulence_1_1_turb_model.html#a6934f8851c0edfeab893602a74be4c68',1,'amr_wind::turbulence::TurbModel::register_mueff_field()'],['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#a9c4c362839c23e39f26434a82a06c47c',1,'amr_wind::turbulence::TurbulenceModel::register_mueff_field()']]],
   ['register_5foutput_5fvar',['register_output_var',['../classamr__wind_1_1_i_o_manager.html#a6c4fce412069a3362b0695e1723986e6',1,'amr_wind::IOManager']]],
   ['register_5frestart_5fvar',['register_restart_var',['../classamr__wind_1_1_i_o_manager.html#aff0a3c6bc63b4edfb0c8d4c76a837fc3',1,'amr_wind::IOManager']]],
+  ['register_5fsolution',['register_solution',['../classamr__wind_1_1_overset_manager.html#a841a62d374c327351791dc344252165d',1,'amr_wind::OversetManager::register_solution()'],['../classamr__wind_1_1_tioga_interface.html#a596419e92d3a066e1923aed7b8259607',1,'amr_wind::TiogaInterface::register_solution()']]],
   ['register_5ftransport_5fpde',['register_transport_pde',['../classamr__wind_1_1pde_1_1_p_d_e_mgr.html#aceb55c9b71728d8aee1d70d3a9c025d3',1,'amr_wind::pde::PDEMgr']]],
   ['regrid_5fand_5fupdate',['regrid_and_update',['../classincflo.html#ae09184db23dbf56c886e48000c7685d7',1,'incflo']]],
   ['remake_5flevel',['remake_level',['../classamr__wind_1_1_field_repo.html#aecf0bf9c5170f11b7fd216ae1e46235a',1,'amr_wind::FieldRepo']]],
