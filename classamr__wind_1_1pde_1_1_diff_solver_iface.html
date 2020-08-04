@@ -99,8 +99,8 @@ Collaboration diagram for amr_wind::pde::DiffSolverIface&lt; LinOp &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a882ff68167ec899d8fc80ea27b542d18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#a882ff68167ec899d8fc80ea27b542d18">DiffSolverIface</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;fields, const std::string &amp;prefix=&quot;diffusion&quot;)</td></tr>
-<tr class="separator:a882ff68167ec899d8fc80ea27b542d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8594f0f436bc44786412063a039f84b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#ac8594f0f436bc44786412063a039f84b">DiffSolverIface</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;fields, const bool has_overset, const std::string &amp;prefix=&quot;diffusion&quot;)</td></tr>
+<tr class="separator:ac8594f0f436bc44786412063a039f84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e147ed1661cc4cc0c7b06dd7af2674"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#af2e147ed1661cc4cc0c7b06dd7af2674">~DiffSolverIface</a> ()=default</td></tr>
 <tr class="separator:af2e147ed1661cc4cc0c7b06dd7af2674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6c777edb27a5c9e48e488cc71ae14ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#aa6c777edb27a5c9e48e488cc71ae14ef">linsys_solve</a> (const amrex::Real dt)</td></tr>
@@ -147,8 +147,8 @@ class amr_wind::pde::DiffSolverIface&lt; LinOp &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a882ff68167ec899d8fc80ea27b542d18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a882ff68167ec899d8fc80ea27b542d18">&#9670;&nbsp;</a></span>DiffSolverIface()</h2>
+<a id="ac8594f0f436bc44786412063a039f84b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8594f0f436bc44786412063a039f84b">&#9670;&nbsp;</a></span>DiffSolverIface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,6 +160,12 @@ template&lt;typename LinOp &gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;&#160;</td>
           <td class="paramname"><em>fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>has_overset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

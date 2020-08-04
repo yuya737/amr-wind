@@ -197,16 +197,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2c5581c96f5a24bfbfbd2667492a5264"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1pde.html#a2c5581c96f5a24bfbfbd2667492a5264">advection_mac_project</a> (<a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a> &amp;repo, const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate)</td></tr>
-<tr class="separator:a2c5581c96f5a24bfbfbd2667492a5264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b42e7fd6f73db19e9896d39305cb46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1pde.html#a66b42e7fd6f73db19e9896d39305cb46">advection_mac_project</a> (<a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a> &amp;repo, const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate, const bool has_overset)</td></tr>
+<tr class="separator:a66b42e7fd6f73db19e9896d39305cb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3af30bd0180291aab9150e67fc04bb"><td class="memTemplParams" colspan="2">template&lt;typename PDE , typename Scheme &gt; </td></tr>
 <tr class="memitem:a8b3af30bd0180291aab9150e67fc04bb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1pde.html#a8b3af30bd0180291aab9150e67fc04bb">create_fields_instance</a> (const <a class="el" href="classamr__wind_1_1_sim_time.html">SimTime</a> &amp;time, <a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a> &amp;repo, const int probtype)</td></tr>
 <tr class="memdesc:a8b3af30bd0180291aab9150e67fc04bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare fields necessary for solving a PDE.  <a href="#a8b3af30bd0180291aab9150e67fc04bb">More...</a><br /></td></tr>
 <tr class="separator:a8b3af30bd0180291aab9150e67fc04bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2c5581c96f5a24bfbfbd2667492a5264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c5581c96f5a24bfbfbd2667492a5264">&#9670;&nbsp;</a></span>advection_mac_project()</h2>
+<a id="a66b42e7fd6f73db19e9896d39305cb46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b42e7fd6f73db19e9896d39305cb46">&#9670;&nbsp;</a></span>advection_mac_project()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +221,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a>&#160;</td>
-          <td class="paramname"><em>fstate</em>&#160;</td>
+          <td class="paramname"><em>fstate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>has_overset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
