@@ -21,6 +21,7 @@ var searchData=
   ['godunov_5fuse_5fforces_5fin_5ftrans',['godunov_use_forces_in_trans',['../structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#abc96e294ff1a3c6f5a906e1cf92e175f',1,'amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;']]],
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../structamr__wind_1_1pde_1_1_src_term_op_3_01_i_c_n_s_01_4.html#afe0f0ae7ed51a1b11de6401018318d16',1,'amr_wind::pde::SrcTermOp&lt; ICNS &gt;::grad_p()'],['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo::grad_p()']]],
+  ['grad_5fz',['grad_z',['../structamr__wind_1_1temp__grad.html#ad7068b4e871bbc5ffdb71bb14b7cb704',1,'amr_wind::temp_grad']]],
   ['gradient',['gradient',['../namespaceamr__wind.html#ad09a47cbd17d624a9e957fde1528ec0a',1,'amr_wind']]],
   ['group',['group',['../classncutils_1_1_n_c_group.html#a757c592cddc2272a86033fe888232333',1,'ncutils::NCGroup']]]
 ];

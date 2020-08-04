@@ -4,6 +4,7 @@ var searchData=
   ['abl_5fwall_5ffunction',['abl_wall_function',['../classamr__wind_1_1_a_b_l.html#af2ba81300e17e8184db27d1618002e11',1,'amr_wind::ABL']]],
   ['ablfieldinit',['ABLFieldInit',['../classamr__wind_1_1_a_b_l_field_init.html#af410ba08dbae769d3a2717df8db9d7a1',1,'amr_wind::ABLFieldInit']]],
   ['ablforcing',['ABLForcing',['../classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#a39d64204c8044d51ede4adbca82bf8d8',1,'amr_wind::pde::icns::ABLForcing']]],
+  ['ablstats',['ABLStats',['../classamr__wind_1_1_a_b_l_stats.html#a1a441e09d079c739bdb86f895a7c2e96',1,'amr_wind::ABLStats']]],
   ['ablvelwallfunc',['ABLVelWallFunc',['../classamr__wind_1_1_a_b_l_vel_wall_func.html#a40c19f4665bb2d9ca78134f61f61492f',1,'amr_wind::ABLVelWallFunc']]],
   ['ablwallfunction',['ABLWallFunction',['../classamr__wind_1_1_a_b_l_wall_function.html#a5359b083772cdfec95d68f65aa10ba04',1,'amr_wind::ABLWallFunction']]],
   ['activate_5foverset',['activate_overset',['../classamr__wind_1_1_c_f_d_sim.html#a7240a4f11bc3c04fc7d22a022714b796',1,'amr_wind::CFDSim']]],
@@ -35,5 +36,5 @@ var searchData=
   ['applyprojection',['ApplyProjection',['../classincflo.html#a05ee85fe6dc7300bc166669398ea8da1',1,'incflo']]],
   ['average_5ftracer_5feta_5fto_5ffaces',['average_tracer_eta_to_faces',['../namespacediffusion.html#a7e204759d865d3cfe29f021322778018',1,'diffusion::average_tracer_eta_to_faces(int comp, const amrex::Geometry &amp;geom, amrex::MultiFab const &amp;cc_eta)'],['../namespacediffusion.html#a3b0c2052cccbb962d85747c833e45d43',1,'diffusion::average_tracer_eta_to_faces(int comp, const amrex::Geometry &amp;geom, MultiFab const &amp;cc_eta)']]],
   ['average_5fvelocity_5feta_5fto_5ffaces',['average_velocity_eta_to_faces',['../namespacediffusion.html#abde43c3eece5df562682eb7ad2ff9d37',1,'diffusion::average_velocity_eta_to_faces(const amrex::Geometry &amp;geom, amrex::MultiFab const &amp;cc_eta)'],['../namespacediffusion.html#a3097fedddedd1c604573cec875be08f8',1,'diffusion::average_velocity_eta_to_faces(const amrex::Geometry &amp;geom, MultiFab const &amp;cc_eta)']]],
-  ['axis',['axis',['../classamr__wind_1_1_field_plane_averaging.html#adad41ecce092ce1fae9f0799eb5cd4c6',1,'amr_wind::FieldPlaneAveraging']]]
+  ['axis',['axis',['../classamr__wind_1_1_f_plane_averaging.html#adbf91f435f5a20093f26b832a1712bc5',1,'amr_wind::FPlaneAveraging']]]
 ];

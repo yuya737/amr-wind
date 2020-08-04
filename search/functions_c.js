@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['name',['name',['../classamr__wind_1_1_field.html#ad6407665116e3c383288c95b49fa8b5f',1,'amr_wind::Field::name()'],['../classamr__wind_1_1_int_field.html#ae184f677983132458449325305c2bd5e',1,'amr_wind::IntField::name()'],['../classamr__wind_1_1_scratch_field.html#a15589406c9fad551b63360d0eb01bc6c',1,'amr_wind::ScratchField::name()'],['../structncutils_1_1_n_c_dim.html#aaf6334138e9892f5403400e31f062fd6',1,'ncutils::NCDim::name()'],['../structncutils_1_1_n_c_var.html#a4b34f3722befd10e92d1267bcbd49724',1,'ncutils::NCVar::name()'],['../classncutils_1_1_n_c_group.html#a3d53c2f625cc6fc286e76c9137b5b1b0',1,'ncutils::NCGroup::name()']]],
-  ['ncell_5fline',['ncell_line',['../classamr__wind_1_1_field_plane_averaging.html#a0740b13f12d4cf825d0a74d7b5f24c13',1,'amr_wind::FieldPlaneAveraging']]],
-  ['ncell_5fplane',['ncell_plane',['../classamr__wind_1_1_field_plane_averaging.html#a60339c76f7c04c3e459c216620efd505',1,'amr_wind::FieldPlaneAveraging']]],
+  ['name',['name',['../classamr__wind_1_1_field.html#ad6407665116e3c383288c95b49fa8b5f',1,'amr_wind::Field::name()'],['../classamr__wind_1_1_int_field.html#ae184f677983132458449325305c2bd5e',1,'amr_wind::IntField::name()'],['../classamr__wind_1_1_scratch_field.html#aba33dbd93f5ab5462829e79985219648',1,'amr_wind::ScratchField::name()'],['../structncutils_1_1_n_c_dim.html#aaf6334138e9892f5403400e31f062fd6',1,'ncutils::NCDim::name()'],['../structncutils_1_1_n_c_var.html#a4b34f3722befd10e92d1267bcbd49724',1,'ncutils::NCVar::name()'],['../classncutils_1_1_n_c_group.html#a3d53c2f625cc6fc286e76c9137b5b1b0',1,'ncutils::NCGroup::name()']]],
+  ['ncell_5fline',['ncell_line',['../classamr__wind_1_1_f_plane_averaging.html#a2319341102e1af12e48b3280fb9d21e0',1,'amr_wind::FPlaneAveraging']]],
+  ['ncell_5fplane',['ncell_plane',['../classamr__wind_1_1_f_plane_averaging.html#a657fd345ee63b34d48a303c90af6fae0',1,'amr_wind::FPlaneAveraging']]],
   ['ncfile',['NCFile',['../classncutils_1_1_n_c_file.html#aec0e1a7f0f93f2f806c0a0abaae66423',1,'ncutils::NCFile']]],
   ['ncgroup',['NCGroup',['../classncutils_1_1_n_c_group.html#a99e8b68dcdebf6a3df74c3575c3a3c65',1,'ncutils::NCGroup::NCGroup(const int id)'],['../classncutils_1_1_n_c_group.html#adcb85f8db72ad6fb60b23031d995f298',1,'ncutils::NCGroup::NCGroup(const int id, const NCGroup *par)']]],
-  ['ncomp',['ncomp',['../classamr__wind_1_1_field_plane_averaging.html#a473a31b82b79b34e2fad10fefabd7a58',1,'amr_wind::FieldPlaneAveraging']]],
+  ['ncomp',['ncomp',['../classamr__wind_1_1_f_plane_averaging.html#a6e03cbb3992d416c933bd2f1952592e1',1,'amr_wind::FPlaneAveraging']]],
   ['ndim',['ndim',['../structncutils_1_1_n_c_var.html#ae0ab15dc4c1033271878c3bf5102f911',1,'ncutils::NCVar']]],
   ['need_5fdivtau',['need_divtau',['../classincflo.html#a6daa86f4c8700e2c18c7f527b4283b51',1,'incflo']]],
   ['new_5ftime',['new_time',['../classamr__wind_1_1_sim_time.html#a41dbe1da02ae4d42df486c64f9014eaf',1,'amr_wind::SimTime']]],

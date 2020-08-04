@@ -2,6 +2,7 @@ var searchData=
 [
   ['_7eabl',['~ABL',['../classamr__wind_1_1_a_b_l.html#a0522a69b2fa8e07a8b4071a44ec5c4ca',1,'amr_wind::ABL']]],
   ['_7eablforcing',['~ABLForcing',['../classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#a3bb49648c369b7ec83f9c1b2619fcbab',1,'amr_wind::pde::icns::ABLForcing']]],
+  ['_7eablstats',['~ABLStats',['../classamr__wind_1_1_a_b_l_stats.html#a6faa0a9d7489658eef7a9a92304e5079',1,'amr_wind::ABLStats']]],
   ['_7eablwallfunction',['~ABLWallFunction',['../classamr__wind_1_1_a_b_l_wall_function.html#ae94dfb6e4e1cad156e6503f8c4a2fb0e',1,'amr_wind::ABLWallFunction']]],
   ['_7ebciface',['~BCIface',['../classamr__wind_1_1_b_c_iface.html#a445d3e021836636ae7dbe1e4aeed2728',1,'amr_wind::BCIface']]],
   ['_7ebodyforce',['~BodyForce',['../classamr__wind_1_1pde_1_1icns_1_1_body_force.html#a48555226456a2df7ed7064c095cd36ba',1,'amr_wind::pde::icns::BodyForce']]],
@@ -21,8 +22,8 @@ var searchData=
   ['_7efieldbciface',['~FieldBCIface',['../classamr__wind_1_1_field_b_c_iface.html#a8cc12997c105768222f02d4abbb9cb9d',1,'amr_wind::FieldBCIface']]],
   ['_7efieldfillpatchopsbase',['~FieldFillPatchOpsBase',['../classamr__wind_1_1_field_fill_patch_ops_base.html#a2547a350c6ea41047dfad56901d33f80',1,'amr_wind::FieldFillPatchOpsBase']]],
   ['_7efieldinfo',['~FieldInfo',['../structamr__wind_1_1_field_info.html#ae10d63fb011319d18ba6561686cd0f33',1,'amr_wind::FieldInfo']]],
-  ['_7efieldplaneaveraging',['~FieldPlaneAveraging',['../classamr__wind_1_1_field_plane_averaging.html#a032bcf799923162477eb3278ce064555',1,'amr_wind::FieldPlaneAveraging']]],
   ['_7efieldrepo',['~FieldRepo',['../classamr__wind_1_1_field_repo.html#a13ca93f0e2989dabf57cf1f0d7f7f7bf',1,'amr_wind::FieldRepo']]],
+  ['_7efplaneaveraging',['~FPlaneAveraging',['../classamr__wind_1_1_f_plane_averaging.html#a26118aaaa372a4529f93e41140c72a2a',1,'amr_wind::FPlaneAveraging']]],
   ['_7efreestream',['~FreeStream',['../classamr__wind_1_1_free_stream.html#a2cfafa65e7bd7dc0107f8ee1532b8b72',1,'amr_wind::FreeStream']]],
   ['_7egeostrophicforcing',['~GeostrophicForcing',['../classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html#acb3e2eb80e0cc79d019ff375455a6146',1,'amr_wind::pde::icns::GeostrophicForcing']]],
   ['_7eincflo',['~incflo',['../classincflo.html#af9142bf1195123dca3537c8998e3066f',1,'incflo']]],
@@ -56,5 +57,6 @@ var searchData=
   ['_7ethirdmomentaveraging',['~ThirdMomentAveraging',['../classamr__wind_1_1_third_moment_averaging.html#a37d9d0735215de3f9d18f71645366798',1,'amr_wind::ThirdMomentAveraging']]],
   ['_7etkesource',['~TKESource',['../classamr__wind_1_1pde_1_1_t_k_e_source.html#ad0ada090fb174f32243b6c1dad4441bf',1,'amr_wind::pde::TKESource']]],
   ['_7etransportmodel',['~TransportModel',['../classamr__wind_1_1transport_1_1_transport_model.html#a25fadb879f4bd7322493d41d94665b19',1,'amr_wind::transport::TransportModel']]],
-  ['_7eturbulencemodel',['~TurbulenceModel',['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#afaefc88d39e01e0caff0a8909d38ff00',1,'amr_wind::turbulence::TurbulenceModel']]]
+  ['_7eturbulencemodel',['~TurbulenceModel',['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#afaefc88d39e01e0caff0a8909d38ff00',1,'amr_wind::turbulence::TurbulenceModel']]],
+  ['_7evelplaneaveraging',['~VelPlaneAveraging',['../classamr__wind_1_1_vel_plane_averaging.html#a46f6fc38acedc8c08c3bc948961ed558',1,'amr_wind::VelPlaneAveraging']]]
 ];

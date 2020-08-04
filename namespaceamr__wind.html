@@ -69,6 +69,7 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -115,6 +116,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html">ABLFieldInit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize <a class="el" href="classamr__wind_1_1_a_b_l.html" title="Atmospheric Boundary Layer physicsThis class implements the necessary code to simulation atmospheric ...">ABL</a> fields.  <a href="classamr__wind_1_1_a_b_l_field_init.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html">ABLStats</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_vel_wall_func.html">ABLVelWallFunc</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a shear-stress value at the domain boundary.  <a href="classamr__wind_1_1_a_b_l_vel_wall_func.html#details">More...</a><br /></td></tr>
@@ -184,14 +187,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_info.html">FieldInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information common to a field that has multiple states.  <a href="structamr__wind_1_1_field_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output average of a field on planes normal to a given directionThe user can choose a direction (x, y, or z), the default value is the z-direction.  <a href="classamr__wind_1_1_field_plane_averaging.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> Repository<a class="el" href="classamr__wind_1_1_field_repo.html" title="Field RepositoryFieldRepo is a database that manages handling of fields used during a simulation...">FieldRepo</a> is a database that manages handling of fields used during a simulation.  <a href="classamr__wind_1_1_field_repo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_fixed_gradient_b_c.html">FixedGradientBC</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a non-zero gradient at the domain boundaryUsed with the inhomogeneous Neumann linear solver BC to apply a user-specified fixed gradient at the domain boundary.  <a href="classamr__wind_1_1_fixed_gradient_b_c.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_f_plane_averaging.html">FPlaneAveraging</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output average of a field on planes normal to a given directionThe user can choose a direction (x, y, or z), the default value is the z-direction.  <a href="classamr__wind_1_1_f_plane_averaging.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_free_stream.html">FreeStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freestream physicsInitializes the velocity, and density field to user-defined constant values throughout the domain.  <a href="classamr__wind_1_1_free_stream.html#details">More...</a><br /></td></tr>
@@ -260,11 +263,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_taylor_green_vortex.html">TaylorGreenVortex</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taylor Green Vortex physics.  <a href="classamr__wind_1_1_taylor_green_vortex.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1temp__grad.html">temp_grad</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_third_moment_averaging.html">ThirdMomentAveraging</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the third moment with three fields.  <a href="classamr__wind_1_1_third_moment_averaging.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html">TiogaInterface</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_vel_plane_averaging.html">VelPlaneAveraging</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specific application of FieldPlaneAveraging to the velocity field.  <a href="classamr__wind_1_1_vel_plane_averaging.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a078c88a857d4018bbbcbfd5a577e63ac"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> = <a class="el" href="classamr__wind_1_1_f_plane_averaging.html">FPlaneAveraging</a>&lt; <a class="el" href="classamr__wind_1_1_field.html">Field</a> &gt;</td></tr>
+<tr class="separator:a078c88a857d4018bbbcbfd5a577e63ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -360,7 +373,22 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AMR-Wind. </p>
 <p>All C++ code in AMR-Wind is organized within the <a class="el" href="namespaceamr__wind.html" title="AMR-Wind. ">amr_wind</a> namespace. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a078c88a857d4018bbbcbfd5a577e63ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a078c88a857d4018bbbcbfd5a577e63ac">&#9670;&nbsp;</a></span>FieldPlaneAveraging</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">amr_wind::FieldPlaneAveraging</a> = typedef <a class="el" href="classamr__wind_1_1_f_plane_averaging.html">FPlaneAveraging</a>&lt;<a class="el" href="classamr__wind_1_1_field.html">Field</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a7bb67bbd954b013e5d1146398470b44b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7bb67bbd954b013e5d1146398470b44b">&#9670;&nbsp;</a></span>compute_curvature()</h2>
 

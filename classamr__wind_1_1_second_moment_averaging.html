@@ -86,13 +86,13 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for amr_wind::SecondMomentAveraging:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classamr__wind_1_1_second_moment_averaging__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classamr__wind_1_1_second_moment_averaging__coll__graph.svg" width="246" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a9620c869bcd7a778caa3ba9966c8d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a2a9620c869bcd7a778caa3ba9966c8d5">SecondMomentAveraging</a> (<a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;pa1, <a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;pa2)</td></tr>
+<tr class="memitem:a2a9620c869bcd7a778caa3ba9966c8d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a2a9620c869bcd7a778caa3ba9966c8d5">SecondMomentAveraging</a> (<a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;pa1, <a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;pa2)</td></tr>
 <tr class="separator:a2a9620c869bcd7a778caa3ba9966c8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375d0e626349ce47ebbc286847e6ee26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a375d0e626349ce47ebbc286847e6ee26">~SecondMomentAveraging</a> ()</td></tr>
 <tr class="separator:a375d0e626349ce47ebbc286847e6ee26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,6 +110,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a87a190c8b62228ce6401eae3d79699ad"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a87a190c8b62228ce6401eae3d79699ad">line_average_cell</a> (int cell, int comp) const</td></tr>
 <tr class="memdesc:a87a190c8b62228ce6401eae3d79699ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluate second moment at specific cell for each component  <a href="#a87a190c8b62228ce6401eae3d79699ad">More...</a><br /></td></tr>
 <tr class="separator:a87a190c8b62228ce6401eae3d79699ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5833af3a8cb8051f0ee73fd0cf496b2e"><td class="memItemLeft" align="right" valign="top">const amrex::Vector&lt; amrex::Real &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a5833af3a8cb8051f0ee73fd0cf496b2e">line_moment</a> ()</td></tr>
+<tr class="separator:a5833af3a8cb8051f0ee73fd0cf496b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e09e5913b81d57dfd54c59f1bf600e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a1e09e5913b81d57dfd54c59f1bf600e3">line_moment</a> (int comp, amrex::Vector&lt; amrex::Real &gt; &amp;l_vec)</td></tr>
+<tr class="separator:a1e09e5913b81d57dfd54c59f1bf600e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9b54a35d915b7d3dcf533560281eac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#ae9b54a35d915b7d3dcf533560281eac3">output_line_average_ascii</a> (std::string filename, int step, amrex::Real time)</td></tr>
 <tr class="separator:ae9b54a35d915b7d3dcf533560281eac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a891170f2029f02d521259b4eab2d5a96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a891170f2029f02d521259b4eab2d5a96">output_line_average_ascii</a> (int step, amrex::Real time)</td></tr>
@@ -135,10 +139,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9e64bb48189b1de52b46a0bb962c48e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a9e64bb48189b1de52b46a0bb962c48e5">m_last_updated_index</a> = -1</td></tr>
 <tr class="memdesc:a9e64bb48189b1de52b46a0bb962c48e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">precision for line plot text file  <a href="#a9e64bb48189b1de52b46a0bb962c48e5">More...</a><br /></td></tr>
 <tr class="separator:a9e64bb48189b1de52b46a0bb962c48e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003f2f8489c27b08d933a7cfe390726d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a003f2f8489c27b08d933a7cfe390726d">m_plane_average1</a></td></tr>
+<tr class="memitem:a003f2f8489c27b08d933a7cfe390726d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a003f2f8489c27b08d933a7cfe390726d">m_plane_average1</a></td></tr>
 <tr class="memdesc:a003f2f8489c27b08d933a7cfe390726d"><td class="mdescLeft">&#160;</td><td class="mdescRight">keep track of the last time index that the operator was called  <a href="#a003f2f8489c27b08d933a7cfe390726d">More...</a><br /></td></tr>
 <tr class="separator:a003f2f8489c27b08d933a7cfe390726d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b5f2471352336ac700925b80328dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#ac7b5f2471352336ac700925b80328dd1">m_plane_average2</a></td></tr>
+<tr class="memitem:ac7b5f2471352336ac700925b80328dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_second_moment_averaging.html#ac7b5f2471352336ac700925b80328dd1">m_plane_average2</a></td></tr>
 <tr class="separator:ac7b5f2471352336ac700925b80328dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -158,13 +162,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">amr_wind::SecondMomentAveraging::SecondMomentAveraging </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;&#160;</td>
           <td class="paramname"><em>pa1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;&#160;</td>
           <td class="paramname"><em>pa2</em>&#160;</td>
         </tr>
         <tr>
@@ -373,6 +377,59 @@ template&lt;typename IndexSelector &gt; </div>
 
 </div>
 </div>
+<a id="a5833af3a8cb8051f0ee73fd0cf496b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5833af3a8cb8051f0ee73fd0cf496b2e">&#9670;&nbsp;</a></span>line_moment() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const amrex::Vector&lt;amrex::Real&gt;&amp; amr_wind::SecondMomentAveraging::line_moment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e09e5913b81d57dfd54c59f1bf600e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e09e5913b81d57dfd54c59f1bf600e3">&#9670;&nbsp;</a></span>line_moment() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::SecondMomentAveraging::line_moment </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Vector&lt; amrex::Real &gt; &amp;&#160;</td>
+          <td class="paramname"><em>l_vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a797e785056e3ec870a1ffa4e85eee602"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a797e785056e3ec870a1ffa4e85eee602">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -537,7 +594,7 @@ template&lt;typename IndexSelector &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a>&amp; amr_wind::SecondMomentAveraging::m_plane_average1</td>
+          <td class="memname"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a>&amp; amr_wind::SecondMomentAveraging::m_plane_average1</td>
         </tr>
       </table>
   </td>
@@ -561,7 +618,7 @@ template&lt;typename IndexSelector &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classamr__wind_1_1_field_plane_averaging.html">FieldPlaneAveraging</a>&amp; amr_wind::SecondMomentAveraging::m_plane_average2</td>
+          <td class="memname"><a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a>&amp; amr_wind::SecondMomentAveraging::m_plane_average2</td>
         </tr>
       </table>
   </td>

@@ -56,6 +56,6 @@ var searchData=
   ['do_5fregrid',['do_regrid',['../classamr__wind_1_1_sim_time.html#a3a462d49c815cceb15b7a976e865a643',1,'amr_wind::SimTime']]],
   ['dof_5fstate',['dof_state',['../namespaceamr__wind_1_1field__impl.html#ac4d9d9bff3243cbdd432904f9cfe5d78',1,'amr_wind::field_impl']]],
   ['dot_5fprod',['dot_prod',['../namespaceamr__wind_1_1utils.html#a1c28676d41ffc309a17fec8d89e9d085',1,'amr_wind::utils::dot_prod(const T *x, const T *y)'],['../namespaceamr__wind_1_1utils.html#a46a0864d8a31479f5c3fcc9854f8fbd8',1,'amr_wind::utils::dot_prod(const T *x, const T *y, const int ndim)']]],
-  ['dx',['dx',['../class_plane_averaging.html#a1f772e46ad8adef95ec5b9905fa0ce0e',1,'PlaneAveraging::dx()'],['../classamr__wind_1_1_field_plane_averaging.html#a7cbd71c3e743450293ce428e56708ee1',1,'amr_wind::FieldPlaneAveraging::dx()']]],
+  ['dx',['dx',['../class_plane_averaging.html#a1f772e46ad8adef95ec5b9905fa0ce0e',1,'PlaneAveraging::dx()'],['../classamr__wind_1_1_f_plane_averaging.html#a3157f62cebbc114f6488a79ed12b86b9',1,'amr_wind::FPlaneAveraging::dx()']]],
   ['data_2dsampling_20utilities',['Data-sampling utilities',['../group__sampling.html',1,'']]]
 ];
