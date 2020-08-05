@@ -125,6 +125,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga78f3959992d8a4562b8f067e6cdf5282"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga78f3959992d8a4562b8f067e6cdf5282">amr_wind::field_ops::lincomb</a> (T1 &amp;dst, amrex::Real a, const T2 &amp;x, int xcomp, amrex::Real b, const T3 &amp;y, int ycomp, int dstcomp, int numcomp, int nghost)</td></tr>
 <tr class="memdesc:ga78f3959992d8a4562b8f067e6cdf5282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform operation \(z = a x + b y\).  <a href="group__field__ops.html#ga78f3959992d8a4562b8f067e6cdf5282">More...</a><br /></td></tr>
 <tr class="separator:ga78f3959992d8a4562b8f067e6cdf5282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa847e8ec31210673919f3004a4f145c4"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
+<tr class="memitem:gaa847e8ec31210673919f3004a4f145c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4">amr_wind::field_ops::lower_bound</a> (FType &amp;field, const amrex::Real min_value, const int icomp=0)</td></tr>
+<tr class="memdesc:gaa847e8ec31210673919f3004a4f145c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lower bound for a given scalar field.  <a href="group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4">More...</a><br /></td></tr>
+<tr class="separator:gaa847e8ec31210673919f3004a4f145c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabc0f891060abf51701e512d958d93e03"><td class="memItemLeft" align="right" valign="top">amrex::IndexType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__field__ops.html#gabc0f891060abf51701e512d958d93e03">amr_wind::field_impl::index_type</a> (const <a class="el" href="group__fields.html#ga10bb78a57539118745ce519da6cd955f">FieldLoc</a> floc)</td></tr>
 <tr class="memdesc:gabc0f891060abf51701e512d958d93e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <a class="el" href="group__fields.html#ga10bb78a57539118745ce519da6cd955f" title="Possible locations for a field in a structured mesh. ">amr_wind::FieldLoc</a> to index type for use with AMReX objects.  <a href="group__field__ops.html#gabc0f891060abf51701e512d958d93e03">More...</a><br /></td></tr>
 <tr class="separator:gabc0f891060abf51701e512d958d93e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -959,6 +963,59 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dstcomp</td><td>Starting component index of destination field </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">numcomp</td><td>Number of components to be updated </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">nghost</td><td>Number of ghost cells to be updated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa847e8ec31210673919f3004a4f145c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa847e8ec31210673919f3004a4f145c4">&#9670;&nbsp;</a></span>lower_bound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::field_ops::lower_bound </td>
+          <td>(</td>
+          <td class="paramtype">FType &amp;&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const amrex::Real&#160;</td>
+          <td class="paramname"><em>min_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>icomp</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the lower bound for a given scalar field. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_value</td><td>Minimum value for a given field </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">icomp</td><td>Component to set the minimum bound </td></tr>
   </table>
   </dd>
 </dl>

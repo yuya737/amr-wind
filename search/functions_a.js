@@ -27,5 +27,6 @@ var searchData=
   ['line_5fvelocity_5fzdir',['line_velocity_zdir',['../class_plane_averaging.html#aa3251e6ab5a99a088d9e4ed5b33bc0f4',1,'PlaneAveraging']]],
   ['linesampler',['LineSampler',['../classamr__wind_1_1sampling_1_1_line_sampler.html#a6a7ac18e9796a64be244ea995dc6485b',1,'amr_wind::sampling::LineSampler']]],
   ['linsys_5fsolve',['linsys_solve',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html#aa6c777edb27a5c9e48e488cc71ae14ef',1,'amr_wind::pde::DiffSolverIface']]],
-  ['log_5flaw_5fheight',['log_law_height',['../classamr__wind_1_1_a_b_l_wall_function.html#ad773940f167a8909ea236a4d35483279',1,'amr_wind::ABLWallFunction']]]
+  ['log_5flaw_5fheight',['log_law_height',['../classamr__wind_1_1_a_b_l_wall_function.html#ad773940f167a8909ea236a4d35483279',1,'amr_wind::ABLWallFunction']]],
+  ['lower_5fbound',['lower_bound',['../group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4',1,'amr_wind::field_ops']]]
 ];

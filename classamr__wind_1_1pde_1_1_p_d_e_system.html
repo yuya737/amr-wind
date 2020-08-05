@@ -134,6 +134,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a25ba03c9bbe887fc2534cf003c2225ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac800661a4223ebee3aad10fb8d236b6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#ac800661a4223ebee3aad10fb8d236b6e">solve</a> (const amrex::Real dt) override</td></tr>
 <tr class="separator:ac800661a4223ebee3aad10fb8d236b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56370a89867516af6f72a11e6bde19c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a56370a89867516af6f72a11e6bde19c8">post_solve_actions</a> () override</td></tr>
+<tr class="separator:a56370a89867516af6f72a11e6bde19c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -171,6 +173,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7dafbf0f84de3b76550945399582d535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19373b3572a7dab16abc630bdbf8a1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1pde_1_1_b_c_op.html">BCOp</a>&lt; PDE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#aa19373b3572a7dab16abc630bdbf8a1d">m_bc_op</a></td></tr>
 <tr class="separator:aa19373b3572a7dab16abc630bdbf8a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105aa5886f9079b73fafaed951dfe638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">PostSolveOp</a>&lt; PDE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a105aa5886f9079b73fafaed951dfe638">m_post_solve_op</a></td></tr>
+<tr class="separator:a105aa5886f9079b73fafaed951dfe638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename PDE, typename Scheme&gt;<br />
@@ -577,6 +581,33 @@ template&lt;typename PDE , typename Scheme &gt; </div>
 
 </div>
 </div>
+<a id="a56370a89867516af6f72a11e6bde19c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56370a89867516af6f72a11e6bde19c8">&#9670;&nbsp;</a></span>post_solve_actions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PDE , typename Scheme &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html">amr_wind::pde::PDESystem</a>&lt; PDE, Scheme &gt;::post_solve_actions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac800661a4223ebee3aad10fb8d236b6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac800661a4223ebee3aad10fb8d236b6e">&#9670;&nbsp;</a></span>solve()</h2>
 
@@ -695,6 +726,30 @@ template&lt;typename PDE , typename Scheme &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html">amr_wind::pde::PDESystem</a>&lt; PDE, Scheme &gt;::m_fields</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a105aa5886f9079b73fafaed951dfe638"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105aa5886f9079b73fafaed951dfe638">&#9670;&nbsp;</a></span>m_post_solve_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PDE , typename Scheme &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">PostSolveOp</a>&lt;PDE&gt; <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html">amr_wind::pde::PDESystem</a>&lt; PDE, Scheme &gt;::m_post_solve_op</td>
         </tr>
       </table>
   </td>

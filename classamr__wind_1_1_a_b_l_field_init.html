@@ -96,6 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a36f448bb5940d2e6808fb6f1d8740377"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a36f448bb5940d2e6808fb6f1d8740377">add_temperature_perturbations</a> () const</td></tr>
 <tr class="memdesc:a36f448bb5940d2e6808fb6f1d8740377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating whether temperature field needs perturbations.  <a href="#a36f448bb5940d2e6808fb6f1d8740377">More...</a><br /></td></tr>
 <tr class="separator:a36f448bb5940d2e6808fb6f1d8740377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f6b729ebd8eb9298b197c91ac1c945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#ad2f6b729ebd8eb9298b197c91ac1c945">init_tke</a> (const amrex::Geometry &amp;geom, amrex::MultiFab &amp;tke) const</td></tr>
+<tr class="memdesc:ad2f6b729ebd8eb9298b197c91ac1c945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize TKE field.  <a href="#ad2f6b729ebd8eb9298b197c91ac1c945">More...</a><br /></td></tr>
+<tr class="separator:ad2f6b729ebd8eb9298b197c91ac1c945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -136,6 +139,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a52c56cfdde1c1ae9a608301f752d17b9"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a52c56cfdde1c1ae9a608301f752d17b9">m_theta_cutoff_height</a> {1.0e16}</td></tr>
 <tr class="memdesc:a52c56cfdde1c1ae9a608301f752d17b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cutoff height for temperature fluctuations.  <a href="#a52c56cfdde1c1ae9a608301f752d17b9">More...</a><br /></td></tr>
 <tr class="separator:a52c56cfdde1c1ae9a608301f752d17b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a470250ec29f5b6b257858bf3b794505a"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a470250ec29f5b6b257858bf3b794505a">m_tke_init</a> {0.1}</td></tr>
+<tr class="memdesc:a470250ec29f5b6b257858bf3b794505a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial value for tke field.  <a href="#a470250ec29f5b6b257858bf3b794505a">More...</a><br /></td></tr>
+<tr class="separator:a470250ec29f5b6b257858bf3b794505a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca91ea70d5d74388b3f36be4c2ffc4c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#aca91ea70d5d74388b3f36be4c2ffc4c1">m_perturb_vel</a> {true}</td></tr>
 <tr class="memdesc:aca91ea70d5d74388b3f36be4c2ffc4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perturb initial velocity field with sinusoidal fluctuations.  <a href="#aca91ea70d5d74388b3f36be4c2ffc4c1">More...</a><br /></td></tr>
 <tr class="separator:aca91ea70d5d74388b3f36be4c2ffc4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +199,37 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Flag indicating whether temperature field needs perturbations. </p>
+
+</div>
+</div>
+<a id="ad2f6b729ebd8eb9298b197c91ac1c945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f6b729ebd8eb9298b197c91ac1c945">&#9670;&nbsp;</a></span>init_tke()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ABLFieldInit::init_tke </td>
+          <td>(</td>
+          <td class="paramtype">const amrex::Geometry &amp;&#160;</td>
+          <td class="paramname"><em>geom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::MultiFab &amp;&#160;</td>
+          <td class="paramname"><em>tke</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize TKE field. </p>
+<p>Initialize sfs tke field at the beginning of the simulation. </p>
 
 </div>
 </div>
@@ -606,6 +643,30 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a470250ec29f5b6b257858bf3b794505a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a470250ec29f5b6b257858bf3b794505a">&#9670;&nbsp;</a></span>m_tke_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::ABLFieldInit::m_tke_init {0.1}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initial value for tke field. </p>
 
 </div>
 </div>

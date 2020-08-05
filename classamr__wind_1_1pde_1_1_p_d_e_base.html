@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73ba758a3744921cb1c370106392a119"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_base.html#a73ba758a3744921cb1c370106392a119">solve</a> (const amrex::Real dt)=0</td></tr>
 <tr class="memdesc:a73ba758a3744921cb1c370106392a119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the diffusion linear system and update the field.  <a href="#a73ba758a3744921cb1c370106392a119">More...</a><br /></td></tr>
 <tr class="separator:a73ba758a3744921cb1c370106392a119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe20260825b8342bbac4d9178dc7e9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_base.html#adfe20260825b8342bbac4d9178dc7e9d">post_solve_actions</a> ()=0</td></tr>
+<tr class="memdesc:adfe20260825b8342bbac4d9178dc7e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform post-processing actions after a system solve.  <a href="#adfe20260825b8342bbac4d9178dc7e9d">More...</a><br /></td></tr>
+<tr class="separator:adfe20260825b8342bbac4d9178dc7e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structamr__wind_1_1_factory"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structamr__wind_1_1_factory')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structamr__wind_1_1_factory.html">amr_wind::Factory&lt; PDEBase, CFDSim &amp;, const int &gt;</a></td></tr>
 <tr class="memitem:aa6fca890ed3550c62d0f65b8d3bc07ad inherit pub_methods_structamr__wind_1_1_factory"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_factory.html#aa6fca890ed3550c62d0f65b8d3bc07ad">~Factory</a> ()=default</td></tr>
 <tr class="separator:aa6fca890ed3550c62d0f65b8d3bc07ad inherit pub_methods_structamr__wind_1_1_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -487,6 +490,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Preform updates specific to PDE after a regrid is performed. </p>
+
+</div>
+</div>
+<a id="adfe20260825b8342bbac4d9178dc7e9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfe20260825b8342bbac4d9178dc7e9d">&#9670;&nbsp;</a></span>post_solve_actions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void amr_wind::pde::PDEBase::post_solve_actions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform post-processing actions after a system solve. </p>
 
 </div>
 </div>
