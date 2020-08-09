@@ -99,6 +99,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a44411565fba069d99e3f8d352f181726"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a44411565fba069d99e3f8d352f181726">operator=</a> (const <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &amp;)=delete</td></tr>
 <tr class="separator:a44411565fba069d99e3f8d352f181726"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba33dbd93f5ab5462829e79985219648"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#aba33dbd93f5ab5462829e79985219648">name</a> () const</td></tr>
+<tr class="memdesc:aba33dbd93f5ab5462829e79985219648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name if available for this scratch field.  <a href="#aba33dbd93f5ab5462829e79985219648">More...</a><br /></td></tr>
 <tr class="separator:aba33dbd93f5ab5462829e79985219648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a799c8705a911b092d09cbb17f3c246b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a799c8705a911b092d09cbb17f3c246b3">num_comp</a> () const</td></tr>
 <tr class="memdesc:a799c8705a911b092d09cbb17f3c246b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of components for this field.  <a href="#a799c8705a911b092d09cbb17f3c246b3">More...</a><br /></td></tr>
@@ -107,8 +108,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0f7cfd8c1e99e7dcb2d1ed4ea8312e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ghost cells.  <a href="#a0f7cfd8c1e99e7dcb2d1ed4ea8312e82">More...</a><br /></td></tr>
 <tr class="separator:a0f7cfd8c1e99e7dcb2d1ed4ea8312e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a034f0cadfce41b634fd436f70681f388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__fields.html#ga10bb78a57539118745ce519da6cd955f">FieldLoc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a034f0cadfce41b634fd436f70681f388">field_location</a> () const</td></tr>
+<tr class="memdesc:a034f0cadfce41b634fd436f70681f388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cell, node, face where the field is stored.  <a href="#a034f0cadfce41b634fd436f70681f388">More...</a><br /></td></tr>
 <tr class="separator:a034f0cadfce41b634fd436f70681f388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb49688c616955c4be2f9abd0fe863f7"><td class="memItemLeft" align="right" valign="top">amrex::MultiFab &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#acb49688c616955c4be2f9abd0fe863f7">operator()</a> (int lev)</td></tr>
+<tr class="memdesc:acb49688c616955c4be2f9abd0fe863f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the field data for a given level.  <a href="#acb49688c616955c4be2f9abd0fe863f7">More...</a><br /></td></tr>
 <tr class="separator:acb49688c616955c4be2f9abd0fe863f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48423380e846b3d78cfd8ba26069aaa4"><td class="memItemLeft" align="right" valign="top">const amrex::MultiFab &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a48423380e846b3d78cfd8ba26069aaa4">operator()</a> (int lev) const</td></tr>
 <tr class="separator:a48423380e846b3d78cfd8ba26069aaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +120,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae213c3b0491c2cf57068e4f9a09c6dce"><td class="memItemLeft" align="right" valign="top">amrex::Vector&lt; const amrex::MultiFab * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#ae213c3b0491c2cf57068e4f9a09c6dce">vec_const_ptrs</a> () const noexcept</td></tr>
 <tr class="separator:ae213c3b0491c2cf57068e4f9a09c6dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a1d5a64ce3bca60483b5df54b23ddcf1f">repo</a> () const</td></tr>
+<tr class="memdesc:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the field repository that created this field.  <a href="#a1d5a64ce3bca60483b5df54b23ddcf1f">More...</a><br /></td></tr>
 <tr class="separator:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c86bc87a90bd35f7ad1b36119d5bbbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a1c86bc87a90bd35f7ad1b36119d5bbbb">fillpatch</a> (amrex::Real time) noexcept</td></tr>
+<tr class="separator:a1c86bc87a90bd35f7ad1b36119d5bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89be16ee0959e2b7c465ebcc1c32573e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a89be16ee0959e2b7c465ebcc1c32573e">fillpatch</a> (amrex::Real time, const amrex::IntVect &amp;ng) noexcept</td></tr>
+<tr class="separator:a89be16ee0959e2b7c465ebcc1c32573e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f5668ea8a4c96cb55f7f0000722484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#ac2f5668ea8a4c96cb55f7f0000722484">fillpatch</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost) noexcept</td></tr>
+<tr class="separator:ac2f5668ea8a4c96cb55f7f0000722484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56755facf3f93dd3c58e75635d2163bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a56755facf3f93dd3c58e75635d2163bf">fillpatch</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost, amrex::Vector&lt; amrex::BCRec &gt; &amp;bcrec) noexcept</td></tr>
+<tr class="separator:a56755facf3f93dd3c58e75635d2163bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -254,6 +266,172 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Cell, node, face where the field is stored. </p>
+
+</div>
+</div>
+<a id="a1c86bc87a90bd35f7ad1b36119d5bbbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c86bc87a90bd35f7ad1b36119d5bbbb">&#9670;&nbsp;</a></span>fillpatch() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ScratchField::fillpatch </td>
+          <td>(</td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89be16ee0959e2b7c465ebcc1c32573e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89be16ee0959e2b7c465ebcc1c32573e">&#9670;&nbsp;</a></span>fillpatch() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ScratchField::fillpatch </td>
+          <td>(</td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
+          <td class="paramname"><em>ng</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2f5668ea8a4c96cb55f7f0000722484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f5668ea8a4c96cb55f7f0000722484">&#9670;&nbsp;</a></span>fillpatch() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ScratchField::fillpatch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::MultiFab &amp;&#160;</td>
+          <td class="paramname"><em>mfab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
+          <td class="paramname"><em>nghost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56755facf3f93dd3c58e75635d2163bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56755facf3f93dd3c58e75635d2163bf">&#9670;&nbsp;</a></span>fillpatch() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ScratchField::fillpatch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::MultiFab &amp;&#160;</td>
+          <td class="paramname"><em>mfab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
+          <td class="paramname"><em>nghost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Vector&lt; amrex::BCRec &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bcrec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="aba33dbd93f5ab5462829e79985219648"></a>
@@ -278,6 +456,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Name if available for this scratch field. </p>
 
 </div>
 </div>
@@ -359,6 +539,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the field data for a given level. </p>
+
 </div>
 </div>
 <a id="a48423380e846b3d78cfd8ba26069aaa4"></a>
@@ -435,6 +617,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return a reference to the field repository that created this field. </p>
 
 </div>
 </div>
@@ -644,8 +828,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_scratch_field_8_h_source.html">ScratchField.H</a></li>
+<li><a class="el" href="_scratch_field_8cpp.html">ScratchField.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
