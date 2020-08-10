@@ -14,6 +14,6 @@ var searchData=
   ['get_5fprojection_5fbc',['get_projection_bc',['../classincflo.html#a43662303c371c69cf87d400479fbc460',1,'incflo::get_projection_bc()'],['../namespacemac.html#a2c7a242842e7c604950f4b1a2cc3af43',1,'mac::get_projection_bc()']]],
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo']]],
-  ['gradient',['gradient',['../namespaceamr__wind.html#ad09a47cbd17d624a9e957fde1528ec0a',1,'amr_wind']]],
+  ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../namespaceamr__wind.html#ad09a47cbd17d624a9e957fde1528ec0a',1,'amr_wind::gradient()'],['../namespaceamr__wind_1_1fvm.html#a97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../namespaceamr__wind_1_1fvm.html#a87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
   ['group',['group',['../classncutils_1_1_n_c_group.html#a757c592cddc2272a86033fe888232333',1,'ncutils::NCGroup']]]
 ];
