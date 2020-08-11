@@ -7,7 +7,6 @@ var searchData=
   ['taylorgreenvortex_2ecpp',['TaylorGreenVortex.cpp',['../_taylor_green_vortex_8cpp.html',1,'']]],
   ['taylorgreenvortex_2eh',['TaylorGreenVortex.H',['../_taylor_green_vortex_8_h.html',1,'']]],
   ['temperature_20transport_20equation',['Temperature transport equation',['../group__temp__eqn.html',1,'']]],
-  ['temp_5fgrad',['temp_grad',['../structamr__wind_1_1temp__grad.html',1,'amr_wind']]],
   ['temperature_20source_20terms',['Temperature Source terms',['../group__temp__src.html',1,'']]],
   ['temperature',['Temperature',['../structamr__wind_1_1pde_1_1_temperature.html',1,'amr_wind::pde::Temperature'],['../classincflo.html#a00532da0eee598ea972de12b1bf42a1c',1,'incflo::temperature()']]],
   ['temperature_2ecpp',['temperature.cpp',['../temperature_8cpp.html',1,'']]],
