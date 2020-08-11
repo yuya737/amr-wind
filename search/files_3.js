@@ -12,5 +12,6 @@ var searchData=
   ['diffusion_2eh',['diffusion.H',['../diffusion_8_h.html',1,'']]],
   ['diffusionops_2ecpp',['DiffusionOps.cpp',['../_diffusion_ops_8cpp.html',1,'']]],
   ['diffusionops_2eh',['DiffusionOps.H',['../_diffusion_ops_8_h.html',1,'']]],
-  ['directionselector_2eh',['DirectionSelector.H',['../_direction_selector_8_h.html',1,'']]]
+  ['directionselector_2eh',['DirectionSelector.H',['../_direction_selector_8_h.html',1,'']]],
+  ['divergence_2eh',['divergence.H',['../divergence_8_h.html',1,'']]]
 ];

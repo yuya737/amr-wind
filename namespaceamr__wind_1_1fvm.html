@@ -88,6 +88,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1fvm_1_1_divergence.html">Divergence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">Godunov</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characteristics of the Godnov numerical scheme.  <a href="structamr__wind_1_1fvm_1_1_godunov.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -101,6 +103,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae783ab34404e6ba3e0c2f689b4529e16"><td class="memTemplParams" colspan="2">template&lt;typename FTypeIn , typename FTypeOut &gt; </td></tr>
+<tr class="memitem:ae783ab34404e6ba3e0c2f689b4529e16"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1fvm.html#ae783ab34404e6ba3e0c2f689b4529e16">divergence</a> (FTypeOut &amp;divphi, const FTypeIn &amp;phi)</td></tr>
+<tr class="separator:ae783ab34404e6ba3e0c2f689b4529e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd04f2296b3c45cdd4954ecbca920056"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
+<tr class="memitem:acd04f2296b3c45cdd4954ecbca920056"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1fvm.html#acd04f2296b3c45cdd4954ecbca920056">divergence</a> (const FType &amp;phi)</td></tr>
+<tr class="separator:acd04f2296b3c45cdd4954ecbca920056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b56629fd2c55ed6faffd0ae7e54f14"><td class="memTemplParams" colspan="2">template&lt;typename FTypeIn , typename FTypeOut &gt; </td></tr>
 <tr class="memitem:a97b56629fd2c55ed6faffd0ae7e54f14"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1fvm.html#a97b56629fd2c55ed6faffd0ae7e54f14">gradient</a> (FTypeOut &amp;gradphi, const FTypeIn &amp;phi)</td></tr>
 <tr class="separator:a97b56629fd2c55ed6faffd0ae7e54f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,6 +117,72 @@ Functions</h2></td></tr>
 <tr class="separator:a87520c61c49b83b906f45ff59c1cb83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae783ab34404e6ba3e0c2f689b4529e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae783ab34404e6ba3e0c2f689b4529e16">&#9670;&nbsp;</a></span>divergence() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FTypeIn , typename FTypeOut &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::fvm::divergence </td>
+          <td>(</td>
+          <td class="paramtype">FTypeOut &amp;&#160;</td>
+          <td class="paramname"><em>divphi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FTypeIn &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd04f2296b3c45cdd4954ecbca920056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd04f2296b3c45cdd4954ecbca920056">&#9670;&nbsp;</a></span>divergence() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a>&gt; amr_wind::fvm::divergence </td>
+          <td>(</td>
+          <td class="paramtype">const FType &amp;&#160;</td>
+          <td class="paramname"><em>phi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a97b56629fd2c55ed6faffd0ae7e54f14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97b56629fd2c55ed6faffd0ae7e54f14">&#9670;&nbsp;</a></span>gradient() <span class="overload">[1/2]</span></h2>
 
