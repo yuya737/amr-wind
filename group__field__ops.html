@@ -141,22 +141,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2e6b7fdbf009b079c6f19549b5a75c9c"><td class="memItemLeft" align="right" valign="top">amrex::Interpolater *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga2e6b7fdbf009b079c6f19549b5a75c9c">amr_wind::field_impl::get_interpolation_operator</a> (const <a class="el" href="group__fields.html#gaeb596eb03c0f5d0352110a7df4c6ec88">FieldInterpolator</a> itype)</td></tr>
 <tr class="memdesc:ga2e6b7fdbf009b079c6f19549b5a75c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an AMReX coarse-to-fine field interpolation object based on <a class="el" href="group__fields.html#gaeb596eb03c0f5d0352110a7df4c6ec88" title="Coarse-to-fine field interpolation options. ">amr_wind::FieldInterpolator</a>.  <a href="group__field__ops.html#ga2e6b7fdbf009b079c6f19549b5a75c9c">More...</a><br /></td></tr>
 <tr class="separator:ga2e6b7fdbf009b079c6f19549b5a75c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f65c81a3a28060ecb1c5e0abfed1a85"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
-<tr class="memitem:ga4f65c81a3a28060ecb1c5e0abfed1a85"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga4f65c81a3a28060ecb1c5e0abfed1a85">amr_wind::compute_strainrate</a> (FType &amp;field, const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;velocity)</td></tr>
-<tr class="memdesc:ga4f65c81a3a28060ecb1c5e0abfed1a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute strain-rate for a given field.  <a href="group__field__ops.html#ga4f65c81a3a28060ecb1c5e0abfed1a85">More...</a><br /></td></tr>
-<tr class="separator:ga4f65c81a3a28060ecb1c5e0abfed1a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga798cb8570912b4693b3b2b575bf97fd8"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
-<tr class="memitem:ga798cb8570912b4693b3b2b575bf97fd8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga798cb8570912b4693b3b2b575bf97fd8">amr_wind::compute_gradient</a> (FType &amp;gradf, const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;field)</td></tr>
-<tr class="memdesc:ga798cb8570912b4693b3b2b575bf97fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute gradient of a scalar or vector field\(\nabla \mathbf{f}\).  <a href="group__field__ops.html#ga798cb8570912b4693b3b2b575bf97fd8">More...</a><br /></td></tr>
-<tr class="separator:ga798cb8570912b4693b3b2b575bf97fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga83a9aac1a51aa2f03bc0f8f62efe2b5c"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
-<tr class="memitem:ga83a9aac1a51aa2f03bc0f8f62efe2b5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga83a9aac1a51aa2f03bc0f8f62efe2b5c">amr_wind::compute_laplacian</a> (FType &amp;laplacef, const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;field)</td></tr>
-<tr class="memdesc:ga83a9aac1a51aa2f03bc0f8f62efe2b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute laplacian of a scalar or vector field\(\nabla^2 \mathbf{f}\).  <a href="group__field__ops.html#ga83a9aac1a51aa2f03bc0f8f62efe2b5c">More...</a><br /></td></tr>
-<tr class="separator:ga83a9aac1a51aa2f03bc0f8f62efe2b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36f0860ad39b966cd7785a19a6d3b8c4"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
-<tr class="memitem:ga36f0860ad39b966cd7785a19a6d3b8c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga36f0860ad39b966cd7785a19a6d3b8c4">amr_wind::normalize_field</a> (FType &amp;field)</td></tr>
-<tr class="memdesc:ga36f0860ad39b966cd7785a19a6d3b8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize a given vector field\( \mathbf{f} = \mathbf{f} / |\mathbf{f}|\).  <a href="group__field__ops.html#ga36f0860ad39b966cd7785a19a6d3b8c4">More...</a><br /></td></tr>
-<tr class="separator:ga36f0860ad39b966cd7785a19a6d3b8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Operators for manipulating fields and computing derived quantities. </p>
@@ -320,141 +304,6 @@ template&lt;typename T1 , typename T2 &gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">dstcomp</td><td>Starting component index of destination field </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">numcomp</td><td>Number of components to be updated </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">nghost</td><td>Number of ghost cells to be updated </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga798cb8570912b4693b3b2b575bf97fd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga798cb8570912b4693b3b2b575bf97fd8">&#9670;&nbsp;</a></span>compute_gradient()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename FType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void amr_wind::compute_gradient </td>
-          <td>(</td>
-          <td class="paramtype">FType &amp;&#160;</td>
-          <td class="paramname"><em>gradf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;&#160;</td>
-          <td class="paramname"><em>field</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute gradient of a scalar or vector field\(\nabla \mathbf{f}\). </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">FType</td><td><a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> or <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gradf</td><td>[out] The gradient of the input field </td></tr>
-    <tr><td class="paramname">field</td><td>[in] <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> on which gradient is to be computed </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga83a9aac1a51aa2f03bc0f8f62efe2b5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga83a9aac1a51aa2f03bc0f8f62efe2b5c">&#9670;&nbsp;</a></span>compute_laplacian()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename FType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void amr_wind::compute_laplacian </td>
-          <td>(</td>
-          <td class="paramtype">FType &amp;&#160;</td>
-          <td class="paramname"><em>laplacef</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;&#160;</td>
-          <td class="paramname"><em>field</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute laplacian of a scalar or vector field\(\nabla^2 \mathbf{f}\). </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">FType</td><td><a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> or <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gradf</td><td>[out] The gradient of the input field </td></tr>
-    <tr><td class="paramname">field</td><td>[in] <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> on which gradient is to be computed </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga4f65c81a3a28060ecb1c5e0abfed1a85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f65c81a3a28060ecb1c5e0abfed1a85">&#9670;&nbsp;</a></span>compute_strainrate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename FType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void amr_wind::compute_strainrate </td>
-          <td>(</td>
-          <td class="paramtype">FType &amp;&#160;</td>
-          <td class="paramname"><em>field</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;&#160;</td>
-          <td class="paramname"><em>velocity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute strain-rate for a given field. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">FType</td><td><a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> or <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">field</td><td>[out] The computed magnitude of strain-rate </td></tr>
-    <tr><td class="paramname">field</td><td>[in] The velocity field </td></tr>
   </table>
   </dd>
 </dl>
@@ -1016,40 +865,6 @@ template&lt;typename FType &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">min_value</td><td>Minimum value for a given field </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">icomp</td><td>Component to set the minimum bound </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga36f0860ad39b966cd7785a19a6d3b8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga36f0860ad39b966cd7785a19a6d3b8c4">&#9670;&nbsp;</a></span>normalize_field()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename FType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void amr_wind::normalize_field </td>
-          <td>(</td>
-          <td class="paramtype">FType &amp;&#160;</td>
-          <td class="paramname"><em>field</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Normalize a given vector field\( \mathbf{f} = \mathbf{f} / |\mathbf{f}|\). </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">FType</td><td><a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> or <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">field</td><td>[inout] <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> to be normalized </td></tr>
   </table>
   </dd>
 </dl>

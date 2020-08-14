@@ -6,15 +6,12 @@ var searchData=
   ['cfdsim_2eh',['CFDSim.H',['../_c_f_d_sim_8_h.html',1,'']]],
   ['collmgr_2eh',['CollMgr.H',['../_coll_mgr_8_h.html',1,'']]],
   ['comprhsops_2eh',['CompRHSOps.H',['../_comp_r_h_s_ops_8_h.html',1,'']]],
-  ['compute_5fcurvature_2ecpp',['compute_curvature.cpp',['../compute__curvature_8cpp.html',1,'']]],
-  ['compute_5fgradient_2ecpp',['compute_gradient.cpp',['../compute__gradient_8cpp.html',1,'']]],
-  ['compute_5flaplacian_2ecpp',['compute_laplacian.cpp',['../compute__laplacian_8cpp.html',1,'']]],
-  ['compute_5fstrainrate_2ecpp',['compute_strainrate.cpp',['../compute__strainrate_8cpp.html',1,'']]],
   ['console_5fio_2ecpp',['console_io.cpp',['../console__io_8cpp.html',1,'']]],
   ['console_5fio_2eh',['console_io.H',['../console__io_8_h.html',1,'']]],
   ['consttransport_2eh',['ConstTransport.H',['../_const_transport_8_h.html',1,'']]],
   ['convectingtaylorvortex_2ecpp',['ConvectingTaylorVortex.cpp',['../_convecting_taylor_vortex_8cpp.html',1,'']]],
   ['convectingtaylorvortex_2eh',['ConvectingTaylorVortex.H',['../_convecting_taylor_vortex_8_h.html',1,'']]],
   ['coriolisforcing_2ecpp',['CoriolisForcing.cpp',['../_coriolis_forcing_8cpp.html',1,'']]],
-  ['coriolisforcing_2eh',['CoriolisForcing.H',['../_coriolis_forcing_8_h.html',1,'']]]
+  ['coriolisforcing_2eh',['CoriolisForcing.H',['../_coriolis_forcing_8_h.html',1,'']]],
+  ['curvature_2eh',['curvature.H',['../curvature_8_h.html',1,'']]]
 ];

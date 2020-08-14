@@ -1,7 +1,12 @@
 <map id="stencils.H" name="stencils.H">
-<area shape="rect" id="node2" href="$fvm__utils_8_h.html" title="fvm_utils.H" alt="" coords="135,80,225,107"/>
-<area shape="rect" id="node3" href="$divergence_8_h.html" title="divergence.H" alt="" coords="5,155,104,181"/>
-<area shape="rect" id="node4" href="$fvm_8_h.html" title="fvm.H" alt="" coords="151,229,209,256"/>
-<area shape="rect" id="node5" href="$gradient_8_h.html" title="gradient.H" alt="" coords="179,155,261,181"/>
-<area shape="rect" id="node6" href="$laplacian_8_h.html" title="laplacian.H" alt="" coords="286,155,373,181"/>
+<area shape="rect" id="node2" href="$fvm__utils_8_h.html" title="fvm_utils.H" alt="" coords="250,80,339,107"/>
+<area shape="rect" id="node3" href="$curvature_8_h.html" title="curvature.H" alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="$divergence_8_h.html" title="divergence.H" alt="" coords="120,155,219,181"/>
+<area shape="rect" id="node5" href="$fvm_8_h.html" title="fvm.H" alt="" coords="213,229,272,256"/>
+<area shape="rect" id="node6" href="$gradient_8_h.html" title="gradient.H" alt="" coords="293,155,376,181"/>
+<area shape="rect" id="node9" href="$laplacian_8_h.html" title="laplacian.H" alt="" coords="401,155,487,181"/>
+<area shape="rect" id="node10" href="$strainrate_8_h.html" title="strainrate.H" alt="" coords="512,155,603,181"/>
+<area shape="rect" id="node7" href="$_one_eq_ksgs_8cpp.html" title="OneEqKsgs.cpp" alt="" coords="424,229,541,256"/>
+<area shape="rect" id="node8" href="$_a_b_l_stats_8cpp.html" title="ABLStats.cpp" alt="" coords="297,229,399,256"/>
+<area shape="rect" id="node11" href="$_smagorinsky_8cpp.html" title="Smagorinsky.cpp" alt="" coords="565,229,688,256"/>
 </map>

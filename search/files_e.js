@@ -19,5 +19,6 @@ var searchData=
   ['smagorinsky_2ecpp',['Smagorinsky.cpp',['../_smagorinsky_8cpp.html',1,'']]],
   ['smagorinsky_2eh',['Smagorinsky.H',['../_smagorinsky_8_h.html',1,'']]],
   ['sourceterm_2eh',['SourceTerm.H',['../_source_term_8_h.html',1,'']]],
-  ['stencils_2eh',['stencils.H',['../stencils_8_h.html',1,'']]]
+  ['stencils_2eh',['stencils.H',['../stencils_8_h.html',1,'']]],
+  ['strainrate_2eh',['strainrate.H',['../strainrate_8_h.html',1,'']]]
 ];

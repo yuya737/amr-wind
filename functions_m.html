@@ -190,6 +190,9 @@ $(function() {
 <li>m_cur_time
 : <a class="el" href="classamr__wind_1_1_sim_time.html#af84d53781c8aedf416213c58ab436051">amr_wind::SimTime</a>
 </li>
+<li>m_curphi
+: <a class="el" href="structamr__wind_1_1fvm_1_1_curvature.html#a40f94316f32af33ee38809b84f9e9abd">amr_wind::fvm::Curvature&lt; FTypeIn, FTypeOut &gt;</a>
+</li>
 <li>m_current_cfl
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a397bb5645ba2f33f8a9445b01f6cefc1">amr_wind::SimTime</a>
 </li>
@@ -592,9 +595,11 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#aca91ea70d5d74388b3f36be4c2ffc4c1">amr_wind::ABLFieldInit</a>
 </li>
 <li>m_phi
-: <a class="el" href="structamr__wind_1_1fvm_1_1_divergence.html#ae6f2ffc286177f2e63f6a412e1b882a7">amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;</a>
+: <a class="el" href="structamr__wind_1_1fvm_1_1_curvature.html#ae6674043bbfd8de54fa19300187b8b92">amr_wind::fvm::Curvature&lt; FTypeIn, FTypeOut &gt;</a>
+, <a class="el" href="structamr__wind_1_1fvm_1_1_divergence.html#ae6f2ffc286177f2e63f6a412e1b882a7">amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_gradient.html#a261d9f18c240970816dfd151ed4698d1">amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_laplacian.html#a6d1aca0be3a428c164ca73d726045472">amr_wind::fvm::Laplacian&lt; FTypeIn, FTypeOut &gt;</a>
+, <a class="el" href="structamr__wind_1_1fvm_1_1_strain_rate.html#a289fb527ace4e3f868cb09132d881071">amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
 <li>m_physics_mgr
 : <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#aa785cee753653dbf12de72a8984110bd">amr_wind::CFDSim</a>
@@ -770,6 +775,9 @@ $(function() {
 </li>
 <li>m_stop_time_index
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a3ad942580cb423547b22449c9be0760b">amr_wind::SimTime</a>
+</li>
+<li>m_strphi
+: <a class="el" href="structamr__wind_1_1fvm_1_1_strain_rate.html#a7aa0a4f887d0c18424ebcff70cc913de">amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
 <li>m_target_vel
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#ae7f8f1adc1df31cfc42040f3f7f0c4b4">amr_wind::pde::icns::ABLForcing</a>
@@ -966,7 +974,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a9e401874e0f0490814f7ff358d9937a3">amr_wind::SimTime</a>
 </li>
 <li>mesh()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a43722465985d48f96c670da7d182f895">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abf7ff85c5fc21b8befe456c81ab7c9bc">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#abbc1f14779d1c6d8ac8d5d6d12431b6e">amr_wind::FieldRepo</a>
 </li>
 <li>MLDiffOp

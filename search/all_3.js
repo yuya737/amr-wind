@@ -30,7 +30,6 @@ var searchData=
   ['densitysource_2eh',['DensitySource.H',['../_density_source_8_h.html',1,'']]],
   ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
   ['derive_2ecpp',['derive.cpp',['../derive_8cpp.html',1,'']]],
-  ['derive_5fk_2eh',['derive_K.H',['../derive___k_8_h.html',1,'']]],
   ['diagnostics_2ecpp',['diagnostics.cpp',['../diagnostics_8cpp.html',1,'']]],
   ['diff_5fterm',['diff_term',['../structamr__wind_1_1pde_1_1_p_d_e_fields.html#a0774e11fababb770ca228fad294b271b',1,'amr_wind::pde::PDEFields']]],
   ['diff_5fterm_5fname',['diff_term_name',['../namespaceamr__wind_1_1pde__impl.html#a149534b65cb090495ecb6f9f678906cc',1,'amr_wind::pde_impl']]],

@@ -6,7 +6,7 @@ var searchData=
   ['laminar_5fschmidt',['laminar_schmidt',['../classamr__wind_1_1transport_1_1_const_transport.html#a1b2538f1025bf6daf12d768be348be80',1,'amr_wind::transport::ConstTransport']]],
   ['laminarmodel_2ecpp',['LaminarModel.cpp',['../_laminar_model_8cpp.html',1,'']]],
   ['laminarmodel_2eh',['LaminarModel.H',['../_laminar_model_8_h.html',1,'']]],
-  ['laplacian',['Laplacian',['../structamr__wind_1_1fvm_1_1_laplacian.html',1,'amr_wind::fvm::Laplacian&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_laplacian.html#af9d3fe4c718b48cb7ca1bf9afdc5bd94',1,'amr_wind::fvm::Laplacian::Laplacian()'],['../namespaceamr__wind.html#aa20a04cd58b1296f6461fc60a4be28c2',1,'amr_wind::laplacian()']]],
+  ['laplacian',['Laplacian',['../structamr__wind_1_1fvm_1_1_laplacian.html',1,'amr_wind::fvm::Laplacian&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_laplacian.html#af9d3fe4c718b48cb7ca1bf9afdc5bd94',1,'amr_wind::fvm::Laplacian::Laplacian()'],['../namespaceamr__wind_1_1fvm.html#a388f60b238ebedf99dc9dfb6622bf013',1,'amr_wind::fvm::laplacian(FTypeOut &amp;lapphi, const FTypeIn &amp;phi)'],['../namespaceamr__wind_1_1fvm.html#aeb03f9672fd6c43780865624920e2e53',1,'amr_wind::fvm::laplacian(const FType &amp;phi)']]],
   ['laplacian_2eh',['laplacian.H',['../laplacian_8_h.html',1,'']]],
   ['last_5favg_5fvar',['last_avg_var',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154dab6add6493a81a6ee3aeeaa96af760463',1,'PlaneAveraging']]],
   ['last_5ffluc_5fvar',['last_fluc_var',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a6208f0fbe5b1f739d6e98387c669ebea',1,'PlaneAveraging']]],
