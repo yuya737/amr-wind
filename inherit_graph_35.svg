@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structamr__wind_1_1fvm_1_1_divergence.html" target="_top" xlink:title="amr_wind::fvm::Divergence\l\&lt; FTypeIn, FTypeOut \&gt;">
+<g id="a_node1"><a xlink:href="structamr__wind_1_1fvm_1_1_divergence.html" target="_top" xlink:title="Divergence operator. ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-30.5 137,-30.5 137,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::fvm::Divergence</text>
 <text text-anchor="middle" x="68.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; FTypeIn, FTypeOut &gt;</text>

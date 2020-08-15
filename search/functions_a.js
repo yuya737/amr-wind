@@ -4,7 +4,7 @@ var searchData=
   ['laminar',['Laminar',['../classamr__wind_1_1turbulence_1_1_laminar.html#a310980687dc8b1dd57f84a5204f4bd25',1,'amr_wind::turbulence::Laminar']]],
   ['laminar_5fprandtl',['laminar_prandtl',['../classamr__wind_1_1transport_1_1_const_transport.html#a8754f897a913bd98cb79da413f4c4b29',1,'amr_wind::transport::ConstTransport']]],
   ['laminar_5fschmidt',['laminar_schmidt',['../classamr__wind_1_1transport_1_1_const_transport.html#a1b2538f1025bf6daf12d768be348be80',1,'amr_wind::transport::ConstTransport']]],
-  ['laplacian',['Laplacian',['../structamr__wind_1_1fvm_1_1_laplacian.html#af9d3fe4c718b48cb7ca1bf9afdc5bd94',1,'amr_wind::fvm::Laplacian::Laplacian()'],['../namespaceamr__wind_1_1fvm.html#a388f60b238ebedf99dc9dfb6622bf013',1,'amr_wind::fvm::laplacian(FTypeOut &amp;lapphi, const FTypeIn &amp;phi)'],['../namespaceamr__wind_1_1fvm.html#aeb03f9672fd6c43780865624920e2e53',1,'amr_wind::fvm::laplacian(const FType &amp;phi)']]],
+  ['laplacian',['Laplacian',['../structamr__wind_1_1fvm_1_1_laplacian.html#af9d3fe4c718b48cb7ca1bf9afdc5bd94',1,'amr_wind::fvm::Laplacian::Laplacian()'],['../group__fvm.html#ga388f60b238ebedf99dc9dfb6622bf013',1,'amr_wind::fvm::laplacian(FTypeOut &amp;lapphi, const FTypeIn &amp;phi)'],['../group__fvm.html#gaeb03f9672fd6c43780865624920e2e53',1,'amr_wind::fvm::laplacian(const FType &amp;phi)']]],
   ['last_5fupdated_5findex',['last_updated_index',['../classamr__wind_1_1_f_plane_averaging.html#a8dc05c173f09516f73b903d8e4197237',1,'amr_wind::FPlaneAveraging']]],
   ['len',['len',['../structncutils_1_1_n_c_dim.html#af22c5abe9e67d9825f372f4102c0c06f',1,'ncutils::NCDim']]],
   ['level',['level',['../classamr__wind_1_1_f_plane_averaging.html#af864ec9572d451d94803ff91bce71ab6',1,'amr_wind::FPlaneAveraging']]],

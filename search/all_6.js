@@ -22,7 +22,7 @@ var searchData=
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../structamr__wind_1_1pde_1_1_src_term_op_3_01_i_c_n_s_01_4.html#afe0f0ae7ed51a1b11de6401018318d16',1,'amr_wind::pde::SrcTermOp&lt; ICNS &gt;::grad_p()'],['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo::grad_p()']]],
   ['grad_5fz',['grad_z',['../_a_b_l_stats_8cpp.html#a8689cfebb4bc8af3eabad31026591e22',1,'ABLStats.cpp']]],
-  ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html',1,'amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../namespaceamr__wind_1_1fvm.html#a97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../namespaceamr__wind_1_1fvm.html#a87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
+  ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html',1,'amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../group__fvm.html#ga97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
   ['gradient_2eh',['gradient.H',['../gradient_8_h.html',1,'']]],
   ['group',['group',['../classncutils_1_1_n_c_group.html#a757c592cddc2272a86033fe888232333',1,'ncutils::NCGroup']]]
 ];

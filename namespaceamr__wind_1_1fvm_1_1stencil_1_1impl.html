@@ -80,8 +80,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aedab5f8bc1fdb435e2e76d85fd0fcf82"><td class="memItemLeft" align="right" valign="top">amrex::Box&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1fvm_1_1stencil_1_1impl.html#aedab5f8bc1fdb435e2e76d85fd0fcf82">box_lo</a> (const amrex::Box &amp;bx, const amrex::Geometry &amp;geom, const int idir)</td></tr>
+<tr class="memdesc:aedab5f8bc1fdb435e2e76d85fd0fcf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a layer of cells adjacent to a non-periodic lower boundary.  <a href="#aedab5f8bc1fdb435e2e76d85fd0fcf82">More...</a><br /></td></tr>
 <tr class="separator:aedab5f8bc1fdb435e2e76d85fd0fcf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f182db817a0aa127571684360c753aa"><td class="memItemLeft" align="right" valign="top">amrex::Box&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1fvm_1_1stencil_1_1impl.html#a3f182db817a0aa127571684360c753aa">box_hi</a> (const amrex::Box &amp;bx, const amrex::Geometry &amp;geom, const int idir)</td></tr>
+<tr class="memdesc:a3f182db817a0aa127571684360c753aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a layer of cells adjacent to a non-periodic upper boundary.  <a href="#a3f182db817a0aa127571684360c753aa">More...</a><br /></td></tr>
 <tr class="separator:a3f182db817a0aa127571684360c753aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -125,6 +127,18 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return a layer of cells adjacent to a non-periodic upper boundary. </p>
+<p>Given a box, this function returns a new box that contains the first layer of cells immediately adjacent to the lower boundary in the given direction (<code>idir</code>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bx</td><td>The box whose layers are being considered </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">geom</td><td>The amrex::Geometry object </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Direction</td><td>in which the first cell adjacent to the boundary is desired</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A box with a single layer of cells adjacent to the boundary or empty </dd></dl>
+
 </div>
 </div>
 <a id="aedab5f8bc1fdb435e2e76d85fd0fcf82"></a>
@@ -166,6 +180,18 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return a layer of cells adjacent to a non-periodic lower boundary. </p>
+<p>Given a box, this function returns a new box that contains the first layer of cells immediately adjacent to the lower boundary in the given direction (<code>idir</code>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bx</td><td>The box whose layers are being considered </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">geom</td><td>The amrex::Geometry object </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Direction</td><td>in which the first cell adjacent to the boundary is desired</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A box with a single layer of cells adjacent to the boundary or empty </dd></dl>
 
 </div>
 </div>

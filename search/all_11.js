@@ -112,6 +112,6 @@ var searchData=
   ['stencilkhi',['StencilKHI',['../structamr__wind_1_1fvm_1_1stencil_1_1_stencil_k_h_i.html',1,'amr_wind::fvm::stencil']]],
   ['stencilklo',['StencilKLO',['../structamr__wind_1_1fvm_1_1stencil_1_1_stencil_k_l_o.html',1,'amr_wind::fvm::stencil']]],
   ['stencils_2eh',['stencils.H',['../stencils_8_h.html',1,'']]],
-  ['strainrate',['StrainRate',['../structamr__wind_1_1fvm_1_1_strain_rate.html',1,'amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_strain_rate.html#aa617c6b696ce4a62e4ab3fc4a388a9bc',1,'amr_wind::fvm::StrainRate::StrainRate()'],['../namespaceamr__wind_1_1fvm.html#a1eb09a343113dcb7178c3749645ef0aa',1,'amr_wind::fvm::strainrate(FTypeOut &amp;strphi, const FTypeIn &amp;phi)'],['../namespaceamr__wind_1_1fvm.html#aa337ed82bc65640fbaa416a577d471c5',1,'amr_wind::fvm::strainrate(const FType &amp;phi)']]],
+  ['strainrate',['StrainRate',['../structamr__wind_1_1fvm_1_1_strain_rate.html',1,'amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_strain_rate.html#aa617c6b696ce4a62e4ab3fc4a388a9bc',1,'amr_wind::fvm::StrainRate::StrainRate()'],['../group__fvm.html#ga1eb09a343113dcb7178c3749645ef0aa',1,'amr_wind::fvm::strainrate(FTypeOut &amp;strphi, const FTypeIn &amp;phi)'],['../group__fvm.html#gaa337ed82bc65640fbaa416a577d471c5',1,'amr_wind::fvm::strainrate(const FType &amp;phi)']]],
   ['strainrate_2eh',['strainrate.H',['../strainrate_8_h.html',1,'']]]
 ];
