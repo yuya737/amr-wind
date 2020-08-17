@@ -13,5 +13,6 @@ var searchData=
   ['bodyforce',['BodyForce',['../classamr__wind_1_1pde_1_1icns_1_1_body_force.html',1,'amr_wind::pde::icns']]],
   ['boussinesqbubble',['BoussinesqBubble',['../classamr__wind_1_1_boussinesq_bubble.html',1,'amr_wind']]],
   ['boussinesqbubblefieldinit',['BoussinesqBubbleFieldInit',['../classamr__wind_1_1_boussinesq_bubble_field_init.html',1,'amr_wind']]],
-  ['boussinesqbuoyancy',['BoussinesqBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html',1,'amr_wind::pde::icns']]]
+  ['boussinesqbuoyancy',['BoussinesqBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html',1,'amr_wind::pde::icns']]],
+  ['bufferdata',['BufferData',['../structamr__wind_1_1_buffer_data.html',1,'amr_wind']]]
 ];

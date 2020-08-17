@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data',['data',['../structamr__wind_1_1_buffer_data.html#a21b998cd43f59aaf149b766ad3f0565c',1,'amr_wind::BufferData']]],
   ['declare_5fcc_5ffield',['declare_cc_field',['../classamr__wind_1_1_field_repo.html#ae9154840b9eebbe2e94842edee401480',1,'amr_wind::FieldRepo']]],
   ['declare_5fface_5fnormal_5ffield',['declare_face_normal_field',['../classamr__wind_1_1_field_repo.html#aa77ef977def43395e4d550c0310e9dec',1,'amr_wind::FieldRepo']]],
   ['declare_5ffield',['declare_field',['../classamr__wind_1_1_field_repo.html#a3a5de82750cce16fc911ade860750a6b',1,'amr_wind::FieldRepo']]],
@@ -14,7 +15,9 @@ var searchData=
   ['def_5fscalar',['def_scalar',['../classncutils_1_1_n_c_group.html#a43450deb9f15f2b0b805612d76145bbc',1,'ncutils::NCGroup']]],
   ['def_5fvar',['def_var',['../classncutils_1_1_n_c_group.html#aa049e7d6f5f7f88ad840fa2ced3c61b4',1,'ncutils::NCGroup']]],
   ['default_5fbc_5fvalue',['default_bc_value',['../structamr__wind_1_1pde_1_1_density.html#aeaab97969e5b007106f144b16b525142',1,'amr_wind::pde::Density::default_bc_value()'],['../structamr__wind_1_1pde_1_1_scalar_transport.html#a9c854ddd62d7df74bee8a42c0997d7ca',1,'amr_wind::pde::ScalarTransport::default_bc_value()']]],
+  ['define_5flevel_5fdata',['define_level_data',['../classamr__wind_1_1_inlet_data.html#a9aa9fa829f6754b66cab6556d0fbda24',1,'amr_wind::InletData']]],
   ['define_5fnetcdf_5fmetadata',['define_netcdf_metadata',['../classamr__wind_1_1sampling_1_1_line_sampler.html#a493533ec9fb3555c64935b7ede639d50',1,'amr_wind::sampling::LineSampler::define_netcdf_metadata()'],['../classamr__wind_1_1sampling_1_1_plane_sampler.html#a0a5ef69ce2a01c1be4239a9556a2e581',1,'amr_wind::sampling::PlaneSampler::define_netcdf_metadata()'],['../classamr__wind_1_1sampling_1_1_probe_sampler.html#a71ff95efe1f3a885683d717d8bf13d3e',1,'amr_wind::sampling::ProbeSampler::define_netcdf_metadata()'],['../classamr__wind_1_1sampling_1_1_sampler_base.html#a94c83df484cc5f36c69dbc659b1bf636',1,'amr_wind::sampling::SamplerBase::define_netcdf_metadata()']]],
+  ['define_5fplane',['define_plane',['../classamr__wind_1_1_inlet_data.html#adc5a02aad3802946dc4b06928d114fb5',1,'amr_wind::InletData']]],
   ['degrees',['degrees',['../namespaceamr__wind_1_1utils.html#a5326c74139e50868c1b06b5e2a455915',1,'amr_wind::utils']]],
   ['deltat',['deltaT',['../classamr__wind_1_1_sim_time.html#a90f902f91125cf7f1900963acb5854ae',1,'amr_wind::SimTime::deltaT() const'],['../classamr__wind_1_1_sim_time.html#a9e45690edc602623cf625bb17c70916b',1,'amr_wind::SimTime::deltaT()']]],
   ['deltatnm1',['deltaTNm1',['../classamr__wind_1_1_sim_time.html#a756d9e03114414fabbd71fefbcd7d41d',1,'amr_wind::SimTime::deltaTNm1() const'],['../classamr__wind_1_1_sim_time.html#a19aa9b8bb4a6770e212686333d5dcc61',1,'amr_wind::SimTime::deltaTNm1()']]],

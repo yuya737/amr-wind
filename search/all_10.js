@@ -9,6 +9,9 @@ var searchData=
   ['rayleightaylorfieldinit_2eh',['RayleighTaylorFieldInit.H',['../_rayleigh_taylor_field_init_8_h.html',1,'']]],
   ['read_5fbctype',['read_bctype',['../classamr__wind_1_1_b_c_iface.html#acbfee584ae1766223410c357cda38b95',1,'amr_wind::BCIface']]],
   ['read_5fcheckpoint_5ffields',['read_checkpoint_fields',['../classamr__wind_1_1_i_o_manager.html#a751a8a69c27845729ea78f23357d84ad',1,'amr_wind::IOManager']]],
+  ['read_5fdata',['read_data',['../classamr__wind_1_1_inlet_data.html#a0cab51080178567404ed3bc5bc193eb6',1,'amr_wind::InletData']]],
+  ['read_5ffile',['read_file',['../classamr__wind_1_1_a_b_l_boundary_plane.html#a03e1d7db1755c8846dc7e13baa3c979f',1,'amr_wind::ABLBoundaryPlane']]],
+  ['read_5fheader',['read_header',['../classamr__wind_1_1_a_b_l_boundary_plane.html#a0ed1deadf7ff7510dddc8260915a1c86',1,'amr_wind::ABLBoundaryPlane']]],
   ['read_5finputs',['read_inputs',['../classamr__wind_1_1_cart_box_refinement.html#a0602249343c6d7c1dc1e509bcd05af2c',1,'amr_wind::CartBoxRefinement']]],
   ['read_5fvalues',['read_values',['../classamr__wind_1_1_b_c_iface.html#aa7c99c64af6d30fcc244bdfbe295be82',1,'amr_wind::BCIface::read_values()'],['../classamr__wind_1_1_b_c_velocity.html#af1c1a7057d0a884af21c774d2ddb6965',1,'amr_wind::BCVelocity::read_values()'],['../classamr__wind_1_1_b_c_scalar.html#a8d224540467ba7bf883cef5284f869bd',1,'amr_wind::BCScalar::read_values()'],['../classamr__wind_1_1_b_c_pressure.html#a96d57b2feab45a788772df73718e8a3b',1,'amr_wind::BCPressure::read_values()'],['../classamr__wind_1_1_b_c_src_term.html#a229da3ddaf009cc616418f4d7e02bb77',1,'amr_wind::BCSrcTerm::read_values()'],['../classamr__wind_1_1_b_c_fill_patch_extrap.html#adb3487b59520e642f3bdc4caf0c0290c',1,'amr_wind::BCFillPatchExtrap::read_values()']]],
   ['readcheckpointfile',['ReadCheckpointFile',['../classincflo.html#a68477a812e15170ac6f82cae4bb3c8a7',1,'incflo']]],
@@ -35,6 +38,7 @@ var searchData=
   ['remake_5flevel',['remake_level',['../classamr__wind_1_1_field_repo.html#aecf0bf9c5170f11b7fd216ae1e46235a',1,'amr_wind::FieldRepo']]],
   ['remakelevel',['RemakeLevel',['../classincflo.html#a44fa3bb356ff0eab1fef48612f737b70',1,'incflo']]],
   ['repo',['repo',['../structamr__wind_1_1pde_1_1_p_d_e_fields.html#ae7e32e79964c19aded5433779cf210c7',1,'amr_wind::pde::PDEFields::repo()'],['../classamr__wind_1_1_c_f_d_sim.html#a61967f10c23ad7b831c230c52be7ace5',1,'amr_wind::CFDSim::repo()'],['../classamr__wind_1_1_c_f_d_sim.html#add18c2d5cdc572bffcc72c72e9283f90',1,'amr_wind::CFDSim::repo() const'],['../classamr__wind_1_1_field.html#aeb470a904230f81e922058241e116ceb',1,'amr_wind::Field::repo()'],['../classamr__wind_1_1_int_field.html#ab3e33c09d038a85465d788455b95fc72',1,'amr_wind::IntField::repo()'],['../classamr__wind_1_1_scratch_field.html#a1d5a64ce3bca60483b5df54b23ddcf1f',1,'amr_wind::ScratchField::repo()'],['../classincflo.html#a837cf06e6181d8a9aee5856b9a10c2b4',1,'incflo::repo()'],['../classincflo.html#ab827b0bf63960363903d4f32b5fd32df',1,'incflo::repo() const']]],
+  ['resize',['resize',['../classamr__wind_1_1_inlet_data.html#a5e6d9f52ebfb00602fb845b572f27259',1,'amr_wind::InletData']]],
   ['restart_5ffile',['restart_file',['../classamr__wind_1_1_i_o_manager.html#aae4a733a61f497223cb7b25a1c54beec',1,'amr_wind::IOManager']]],
   ['rho_5f0',['rho_0',['../classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#a6913e53793fbe114be448c41adc1daf6',1,'amr_wind::pde::icns::DensityBuoyancy']]],
   ['root',['root',['../classncutils_1_1_n_c_group.html#a611b25f8209865c4a86251c30e4e4710',1,'ncutils::NCGroup']]]

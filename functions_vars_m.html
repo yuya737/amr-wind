@@ -140,6 +140,10 @@ $(function() {
 <li>m_beta
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#af99fea1a9735e0b4882586ec1142c86b">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 </li>
+<li>m_bndry_plane
+: <a class="el" href="classamr__wind_1_1_a_b_l.html#ae624d8b51c7855147d423b9762501e1a">amr_wind::ABL</a>
+, <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#a061abcdef8a8e2f71260f92a09efa62f">amr_wind::ABLFillInflow</a>
+</li>
 <li>m_body_force
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_body_force.html#a0d186a277b5fd3c72538630438dd0065">amr_wind::pde::icns::BodyForce</a>
 </li>
@@ -175,6 +179,9 @@ $(function() {
 <li>m_comp_deriv
 : <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#a8c4a4ca4d55db7af04d1b48dcb175168">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
 </li>
+<li>m_components
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#aac3b6ae185d31db73bc708708f277900">amr_wind::InletData</a>
+</li>
 <li>m_constant_density
 : <a class="el" href="classincflo.html#a4aa8747f8e9c69a913f90fc58a1f30cd">incflo</a>
 </li>
@@ -198,6 +205,15 @@ $(function() {
 </li>
 <li>m_data
 : <a class="el" href="classamr__wind_1_1_scratch_field.html#a284f2907c4275f5a051130f156fdadaf">amr_wind::ScratchField</a>
+</li>
+<li>m_data_interp
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#a2bf9b4e3c7795899c19bc18970998456">amr_wind::InletData</a>
+</li>
+<li>m_data_n
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#aec5c531b04ae30a1bf0105ccca3479e1">amr_wind::InletData</a>
+</li>
+<li>m_data_np1
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#af7dfaa0095a9e94f5d9043c2718e6f12">amr_wind::InletData</a>
 </li>
 <li>m_deltaT
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a00dea89e1e9a419809711bf716e62b8e">amr_wind::ABLFieldInit</a>
@@ -274,7 +290,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_field_repo.html#a4fcb6497fe20552def4023e7124f26b9">amr_wind::FieldRepo</a>
 </li>
 <li>m_fields
-: <a class="el" href="structamr__wind_1_1pde_1_1_b_c_op_3_01_i_c_n_s_01_4.html#a3a264156460354e6bb14a169260da85b">amr_wind::pde::BCOp&lt; ICNS &gt;</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a745c0e57c94741469ea15e4ba700ee60">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="structamr__wind_1_1pde_1_1_b_c_op_3_01_i_c_n_s_01_4.html#a3a264156460354e6bb14a169260da85b">amr_wind::pde::BCOp&lt; ICNS &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_b_c_op_3_01_p_d_e_00_01typename_01std_1_1enable__if_3_01std_1_1is__ba09d3e606cd77a31531d65648a3482008.html#abf6b7b56fb4467f1257f59d24809f20e">amr_wind::pde::BCOp&lt; PDE, typename std::enable_if&lt; std::is_base_of&lt; ScalarTransport, PDE &gt;::value &gt;::type &gt;</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a91423cff4e8840266b5ef3c72382d532">amr_wind::pde::PDESystem&lt; PDE, Scheme &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op_3_01_t_k_e_01_4.html#ad12769563f69184e1e59318df9d836b7">amr_wind::pde::PostSolveOp&lt; TKE &gt;</a>
@@ -283,6 +300,9 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1pde_1_1_turbulence_op_3_01_temperature_01_4.html#a814172dde289059e9bb78291ea99bad6">amr_wind::pde::TurbulenceOp&lt; Temperature &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_turbulence_op_3_01_t_k_e_01_4.html#ac45b2d5398528f2fa7461896917b5b1a">amr_wind::pde::TurbulenceOp&lt; TKE &gt;</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#ac56d6e69ffd44da2df3ba7900d8a16d3">amr_wind::sampling::Sampling</a>
+</li>
+<li>m_filename
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#ad25f980915dcdadb2609fc89dfe2726e">amr_wind::ABLBoundaryPlane</a>
 </li>
 <li>m_fill_val
 : <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#a85a404084001c94dee921ea9ae0b80d2">amr_wind::FieldFillConstScalar</a>
@@ -331,6 +351,12 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1sampling_1_1_plane_sampler.html#a53214fc00ca94455637bd2ff40cd2d6f">amr_wind::sampling::PlaneSampler</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_probe_sampler.html#a255cfad0161136336de9760c7305cc3d">amr_wind::sampling::ProbeSampler</a>
 </li>
+<li>m_in_data
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a443d6c66daa9a296a92c9c52312a9bbd">amr_wind::ABLBoundaryPlane</a>
+</li>
+<li>m_in_times
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#aadcd08a22d4ec942e5b6fa75391dfa6c">amr_wind::ABLBoundaryPlane</a>
+</li>
 <li>m_info
 : <a class="el" href="classamr__wind_1_1_field.html#a76e199211d9bd9b8482c47833883788e">amr_wind::Field</a>
 , <a class="el" href="classamr__wind_1_1_tioga_interface.html#a6314e27e077bdd8a7208e35b7a03b3c4">amr_wind::TiogaInterface</a>
@@ -359,11 +385,15 @@ $(function() {
 <li>m_io_mgr
 : <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a24e396b26831a0e256a86ba25f6769df">amr_wind::CFDSim</a>
 </li>
+<li>m_io_mode
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a900706911dfb73e8ecbb0c335386556d">amr_wind::ABLBoundaryPlane</a>
+</li>
 <li>m_is_init
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a44153cb6d1c9e8205ea01f8d94623c1d">amr_wind::SimTime</a>
 </li>
 <li>m_is_initialized
-: <a class="el" href="classamr__wind_1_1_field_repo.html#a24731ca76ea3e4b1da972b13f349a0ac">amr_wind::FieldRepo</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#af3ba28177e805f58b8f26da51b84624c">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="classamr__wind_1_1_field_repo.html#a24731ca76ea3e4b1da972b13f349a0ac">amr_wind::FieldRepo</a>
 </li>
 <li>m_kappa
 : <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a62c12ca8357941cdebef2115dbf4825e">amr_wind::ABLWallFunction</a>
@@ -431,7 +461,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#a339f29194d7a88b9247133d430e87c10">amr_wind::pde::icns::ABLForcing</a>
 </li>
 <li>m_mesh
-: <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a64c5525cae721c07df45136d9ac6e6ff">amr_wind::ABLWallFunction</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#abe4872544b96ca2191234327d0465fb1">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a64c5525cae721c07df45136d9ac6e6ff">amr_wind::ABLWallFunction</a>
 , <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a90607ccba30799874dc0290b3c042080">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ad69f66f8e1238a94a46939687a933473">amr_wind::ctv::ConvectingTaylorVortex</a>
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a6634f45447dcaaa18fa49791d3bd6575">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
@@ -540,6 +571,9 @@ $(function() {
 <li>m_origin
 : <a class="el" href="classamr__wind_1_1sampling_1_1_plane_sampler.html#a6324daec594a29baaf93174c50fa72c4">amr_wind::sampling::PlaneSampler</a>
 </li>
+<li>m_out_counter
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a6d1efe9a1022ba019bfc1104ef05975b">amr_wind::ABLBoundaryPlane</a>
+</li>
 <li>m_out_fmt
 : <a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a8144513a5c459c24cb7a69875ce7654f">amr_wind::ABLStats</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#ae2fd54c7d24e87ff40c2c4b9f84ca5c0">amr_wind::sampling::Sampling</a>
@@ -547,6 +581,9 @@ $(function() {
 <li>m_out_freq
 : <a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a6399f25d1e434cdb8a19c8d710764183">amr_wind::ABLStats</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a314758a1a9e04e3e5f2a1e6f27fb97d2">amr_wind::sampling::Sampling</a>
+</li>
+<li>m_out_start_time
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#adeff53311144a380b7f26e79acd2f921">amr_wind::ABLBoundaryPlane</a>
 </li>
 <li>m_output_default_vars
 : <a class="el" href="classamr__wind_1_1_i_o_manager.html#a0df30482e87b80ea62832fb70a155f0a">amr_wind::IOManager</a>
@@ -614,6 +651,12 @@ $(function() {
 </li>
 <li>m_plane_average3
 : <a class="el" href="classamr__wind_1_1_third_moment_averaging.html#a03413aa374a48d66c2ce11943aa616e0">amr_wind::ThirdMomentAveraging</a>
+</li>
+<li>m_plane_names
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#ae50a80926cbbfdd25c147b98b4f33eea">amr_wind::ABLBoundaryPlane</a>
+</li>
+<li>m_planes
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a97805a98832b65f3d278512a605242bc">amr_wind::ABLBoundaryPlane</a>
 </li>
 <li>m_plt_fields
 : <a class="el" href="classamr__wind_1_1_i_o_manager.html#aac0bdde5b91859e6c2b74a57df966190">amr_wind::IOManager</a>
@@ -683,7 +726,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a6be0aac645481139a518a80f022b2819">amr_wind::SimTime</a>
 </li>
 <li>m_repo
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#aaa5de8a5b179362b9f3d4287c5b6ca3d">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#ac6edd0e191c236693d0cf2e9b9a6a4d8">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#aaa5de8a5b179362b9f3d4287c5b6ca3d">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a2bb15a37b106a3af3d771cfe0208df6f">amr_wind::ctv::ConvectingTaylorVortex</a>
 , <a class="el" href="classamr__wind_1_1_field.html#ace4172c86a3daf1c3e384ea2c7fbed77">amr_wind::Field</a>
 , <a class="el" href="classamr__wind_1_1_int_field.html#a4830bfd9767ce77a8764e134d33bcb94">amr_wind::IntField</a>
@@ -815,7 +859,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a0abf4489aa37d2c68e91bd551b5a5ced">amr_wind::ABLFieldInit</a>
 </li>
 <li>m_time
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a0facb4b61242dc1816694b8cd5d6e10d">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#acadf281b25565598a9c01af995152be0">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a0facb4b61242dc1816694b8cd5d6e10d">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ab808689bc77c0738247e4b3c0b4d694c">amr_wind::ctv::ConvectingTaylorVortex</a>
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aee3380df9ff174b5a7f9341dcb137d5f">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
 , <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#ae160fc57950425e983f844ebc5b1a03c">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
@@ -830,6 +875,12 @@ $(function() {
 <li>m_time_index
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a112f5ff9e516cdf78e269b54228436e0">amr_wind::SimTime</a>
 </li>
+<li>m_tinterp
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#a4e8e77b99841f723f3889fa9aeace769">amr_wind::InletData</a>
+</li>
+<li>m_title
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#aecd010b8862dc8b204427718c532a14b">amr_wind::ABLBoundaryPlane</a>
+</li>
 <li>m_tke
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a1c3f253a441c9281164ecacbd0176b55">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html#af41604bc62c0bb5900fccfadaa0273a0">amr_wind::pde::tke::KsgsM84Src</a>
@@ -843,6 +894,12 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1pde_1_1_turbulence_op_3_01_i_c_n_s_01_4.html#a90480e590fd9add39a51ffd0cbf33bfc">amr_wind::pde::TurbulenceOp&lt; ICNS &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_turbulence_op_3_01_temperature_01_4.html#a11f03bb72336ee1550ecb574415cff01">amr_wind::pde::TurbulenceOp&lt; Temperature &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_turbulence_op_3_01_t_k_e_01_4.html#ae626457fa5c742ac20a1f13bcd472c74">amr_wind::pde::TurbulenceOp&lt; TKE &gt;</a>
+</li>
+<li>m_tn
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#ab53c927133ec198fb40fcf02b8f0a820">amr_wind::InletData</a>
+</li>
+<li>m_tnp1
+: <a class="el" href="classamr__wind_1_1_inlet_data.html#a47582c007fc5a9c3cef2a4d32a6dbf67">amr_wind::InletData</a>
 </li>
 <li>m_total_particles
 : <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a71372ad2f01a4b72a277dce99dbecb1b">amr_wind::sampling::Sampling</a>
@@ -902,7 +959,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ae0ee1186fb8ed9e234fcbf56f310355f">amr_wind::ctv::ConvectingTaylorVortex</a>
 </li>
 <li>m_var_names
-: <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#acffe1bc62aba3e3fc48d8f44e80f7b1d">amr_wind::sampling::Sampling</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a2a9ce3a1ba556a8b55703292d93975ed">amr_wind::ABLBoundaryPlane</a>
+, <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#acffe1bc62aba3e3fc48d8f44e80f7b1d">amr_wind::sampling::Sampling</a>
 </li>
 <li>m_vel
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a604a57d7d3b5bcf9c0bf6d1e9f2f2f5f">amr_wind::ABLFieldInit</a>
@@ -933,6 +991,9 @@ $(function() {
 </li>
 <li>m_wall_func
 : <a class="el" href="classamr__wind_1_1_a_b_l_vel_wall_func.html#a57f27a1c47bae0984ac3dd27519fd4d8">amr_wind::ABLVelWallFunc</a>
+</li>
+<li>m_write_frequency
+: <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a7b41c9eb1ab5f14901e38f8c7f4c6cfd">amr_wind::ABLBoundaryPlane</a>
 </li>
 <li>m_xlo
 : <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#a44d2174e086863c5148fd39335adcaee">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
