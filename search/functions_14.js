@@ -11,5 +11,7 @@ var searchData=
   ['velocity',['velocity',['../classincflo.html#a1de28a0fdac347a866345baa39943b0d',1,'incflo']]],
   ['velplaneaveraging',['VelPlaneAveraging',['../classamr__wind_1_1_vel_plane_averaging.html#a11c7c54a1b1616bd8f04a6956bd57cc4',1,'amr_wind::VelPlaneAveraging']]],
   ['visc_5fupdate',['visc_update',['../namespaceamr__wind_1_1turbulence_1_1turb__base__impl.html#a58a8ce02ea4f875dbb9d77a50f0b0f71',1,'amr_wind::turbulence::turb_base_impl']]],
-  ['viscosity',['viscosity',['../classamr__wind_1_1transport_1_1_const_transport.html#a686d8800ee611bc0466d1a53209ba226',1,'amr_wind::transport::ConstTransport']]]
+  ['viscosity',['viscosity',['../classamr__wind_1_1transport_1_1_const_transport.html#a686d8800ee611bc0466d1a53209ba226',1,'amr_wind::transport::ConstTransport']]],
+  ['vorticity_5fmag',['vorticity_mag',['../group__fvm.html#ga9cb7fd0ea23f7f07194371ef1dd22c94',1,'amr_wind::fvm::vorticity_mag(FTypeOut &amp;vortmagphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga666a6e46dfe15694035b6f1fdbc5a98d',1,'amr_wind::fvm::vorticity_mag(const FType &amp;phi)']]],
+  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1fvm_1_1_vorticity_mag.html#ae60be1bece9c62489e473eaaf56bdf2e',1,'amr_wind::fvm::VorticityMag']]]
 ];

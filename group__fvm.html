@@ -94,6 +94,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1fvm_1_1_strain_rate.html">amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strain rate operator.  <a href="structamr__wind_1_1fvm_1_1_strain_rate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1fvm_1_1_vorticity_mag.html">amr_wind::fvm::VorticityMag&lt; FTypeIn, FTypeOut &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structamr__wind_1_1fvm_1_1_vorticity_mag.html" title="VorticityMag operator. ">VorticityMag</a> operator.  <a href="structamr__wind_1_1fvm_1_1_vorticity_mag.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -137,6 +140,14 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa337ed82bc65640fbaa416a577d471c5"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fvm.html#gaa337ed82bc65640fbaa416a577d471c5">amr_wind::fvm::strainrate</a> (const FType &amp;phi)</td></tr>
 <tr class="memdesc:gaa337ed82bc65640fbaa416a577d471c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the magnitude of strain rate return as a <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a>.  <a href="group__fvm.html#gaa337ed82bc65640fbaa416a577d471c5">More...</a><br /></td></tr>
 <tr class="separator:gaa337ed82bc65640fbaa416a577d471c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9cb7fd0ea23f7f07194371ef1dd22c94"><td class="memTemplParams" colspan="2">template&lt;typename FTypeIn , typename FTypeOut &gt; </td></tr>
+<tr class="memitem:ga9cb7fd0ea23f7f07194371ef1dd22c94"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fvm.html#ga9cb7fd0ea23f7f07194371ef1dd22c94">amr_wind::fvm::vorticity_mag</a> (FTypeOut &amp;vortmagphi, const FTypeIn &amp;phi)</td></tr>
+<tr class="memdesc:ga9cb7fd0ea23f7f07194371ef1dd22c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the magnitude of vorticity.  <a href="group__fvm.html#ga9cb7fd0ea23f7f07194371ef1dd22c94">More...</a><br /></td></tr>
+<tr class="separator:ga9cb7fd0ea23f7f07194371ef1dd22c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga666a6e46dfe15694035b6f1fdbc5a98d"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
+<tr class="memitem:ga666a6e46dfe15694035b6f1fdbc5a98d"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__fvm.html#ga666a6e46dfe15694035b6f1fdbc5a98d">amr_wind::fvm::vorticity_mag</a> (const FType &amp;phi)</td></tr>
+<tr class="memdesc:ga666a6e46dfe15694035b6f1fdbc5a98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the magnitude of vorticity return as a <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a>.  <a href="group__fvm.html#ga666a6e46dfe15694035b6f1fdbc5a98d">More...</a><br /></td></tr>
+<tr class="separator:ga666a6e46dfe15694035b6f1fdbc5a98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Finite-Volume Operators. </p>
@@ -522,6 +533,89 @@ template&lt;typename FType &gt; </div>
 </div><div class="memdoc">
 
 <p>Compute the magnitude of strain rate return as a <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phi</td><td>[in] The velocity vector field </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9cb7fd0ea23f7f07194371ef1dd22c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9cb7fd0ea23f7f07194371ef1dd22c94">&#9670;&nbsp;</a></span>vorticity_mag() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FTypeIn , typename FTypeOut &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::fvm::vorticity_mag </td>
+          <td>(</td>
+          <td class="paramtype">FTypeOut &amp;&#160;</td>
+          <td class="paramname"><em>vortmagphi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FTypeIn &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the magnitude of vorticity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vortmagphi</td><td>[out] <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> where the vorticity magnitude is populated </td></tr>
+    <tr><td class="paramname">phi</td><td>[in] The velocity vector field </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga666a6e46dfe15694035b6f1fdbc5a98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga666a6e46dfe15694035b6f1fdbc5a98d">&#9670;&nbsp;</a></span>vorticity_mag() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a>&gt; amr_wind::fvm::vorticity_mag </td>
+          <td>(</td>
+          <td class="paramtype">const FType &amp;&#160;</td>
+          <td class="paramname"><em>phi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the magnitude of vorticity return as a <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">phi</td><td>[in] The velocity vector field </td></tr>

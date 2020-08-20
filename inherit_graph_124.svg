@@ -12,9 +12,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="struct_direction_selector_3_012_01_4.html" target="_top" xlink:title="DirectionSelector\&lt; 2 \&gt;">
+<g id="a_node1"><a xlink:href="struct_direction_selector_3_011_01_4.html" target="_top" xlink:title="DirectionSelector\&lt; 1 \&gt;">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 115,-19.5 115,-.5 0,-.5"/>
-<text text-anchor="middle" x="57.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">DirectionSelector&lt; 2 &gt;</text>
+<text text-anchor="middle" x="57.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">DirectionSelector&lt; 1 &gt;</text>
 </a>
 </g>
 </g>

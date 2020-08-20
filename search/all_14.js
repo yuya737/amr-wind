@@ -17,6 +17,9 @@ var searchData=
   ['verbose',['verbose',['../structamr__wind_1_1_m_l_m_g_options.html#af93c207fe16324a58f79b618ed144b99',1,'amr_wind::MLMGOptions']]],
   ['visc_5fupdate',['visc_update',['../namespaceamr__wind_1_1turbulence_1_1turb__base__impl.html#a58a8ce02ea4f875dbb9d77a50f0b0f71',1,'amr_wind::turbulence::turb_base_impl']]],
   ['viscosity',['viscosity',['../classamr__wind_1_1transport_1_1_const_transport.html#a686d8800ee611bc0466d1a53209ba226',1,'amr_wind::transport::ConstTransport']]],
+  ['vorticity_5fmag',['vorticity_mag',['../group__fvm.html#ga9cb7fd0ea23f7f07194371ef1dd22c94',1,'amr_wind::fvm::vorticity_mag(FTypeOut &amp;vortmagphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga666a6e46dfe15694035b6f1fdbc5a98d',1,'amr_wind::fvm::vorticity_mag(const FType &amp;phi)']]],
+  ['vorticity_5fmag_2eh',['vorticity_mag.H',['../vorticity__mag_8_h.html',1,'']]],
+  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1fvm_1_1_vorticity_mag.html',1,'amr_wind::fvm::VorticityMag&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_vorticity_mag.html#ae60be1bece9c62489e473eaaf56bdf2e',1,'amr_wind::fvm::VorticityMag::VorticityMag()']]],
   ['vv',['vv',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87aa241888ff14530a2e6d35e520dba51da',1,'PlaneAveraging']]],
   ['vw',['vw',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87aad58dca4ba57f28c92d094052eac5442',1,'PlaneAveraging']]]
 ];
