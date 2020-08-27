@@ -32,6 +32,7 @@ var searchData=
   ['no_5fslip_5fwall',['no_slip_wall',['../incflo__enums_8_h.html#a6e1412fca31cbd35d0f50f12fcc70b0facb8c716b8d9b499d9bc323d8f8a410d3',1,'incflo_enums.H']]],
   ['node',['NODE',['../group__fields.html#gga10bb78a57539118745ce519da6cd955fa0cc25b606fe928a0c9a58f7f209c4495',1,'amr_wind']]],
   ['nodebilinear',['NodeBilinear',['../group__fields.html#ggaeb596eb03c0f5d0352110a7df4c6ec88a8c83efc1cd144441076dcaee421cc286',1,'amr_wind']]],
+  ['normalize',['normalize',['../group__field__ops.html#ga1d01357fe05c0ea429147719d363b0ac',1,'amr_wind::field_ops']]],
   ['normalize_5ffield',['normalize_field',['../namespaceamr__wind.html#af27a953df4bef8522ea7a0a20d201d96',1,'amr_wind']]],
   ['normalize_5ffield_3c_20field_20_3e',['normalize_field&lt; Field &gt;',['../namespaceamr__wind.html#a9bce94d8a0948f739de80295203573ee',1,'amr_wind']]],
   ['normalize_5ffield_3c_20scratchfield_20_3e',['normalize_field&lt; ScratchField &gt;',['../namespaceamr__wind.html#a3a498dfcc5d9b638cd949428069582d5',1,'amr_wind']]],

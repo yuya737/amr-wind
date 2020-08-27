@@ -12,6 +12,7 @@ var searchData=
   ['get_5fmfab_5fvec',['get_mfab_vec',['../classamr__wind_1_1_field_fill_patch_ops.html#ae17a2692035cf484e899ae1bf3effb9a',1,'amr_wind::FieldFillPatchOps']]],
   ['get_5fmultifab',['get_multifab',['../classamr__wind_1_1_field_repo.html#a3e37a6b9fb1d90268148153ba2bab5f1',1,'amr_wind::FieldRepo']]],
   ['get_5fprojection_5fbc',['get_projection_bc',['../classincflo.html#a43662303c371c69cf87d400479fbc460',1,'incflo::get_projection_bc()'],['../namespacemac.html#a2c7a242842e7c604950f4b1a2cc3af43',1,'mac::get_projection_bc()']]],
+  ['global_5fmax_5fmagnitude',['global_max_magnitude',['../group__field__ops.html#gaec69eec8e1e211dcc30cabe1e9132e14',1,'amr_wind::field_ops']]],
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo']]],
   ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../group__fvm.html#ga97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],

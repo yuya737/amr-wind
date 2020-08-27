@@ -129,6 +129,14 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa847e8ec31210673919f3004a4f145c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4">amr_wind::field_ops::lower_bound</a> (FType &amp;field, const amrex::Real min_value, const int icomp=0)</td></tr>
 <tr class="memdesc:gaa847e8ec31210673919f3004a4f145c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lower bound for a given scalar field.  <a href="group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4">More...</a><br /></td></tr>
 <tr class="separator:gaa847e8ec31210673919f3004a4f145c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec69eec8e1e211dcc30cabe1e9132e14"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
+<tr class="memitem:gaec69eec8e1e211dcc30cabe1e9132e14"><td class="memTemplItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#gaec69eec8e1e211dcc30cabe1e9132e14">amr_wind::field_ops::global_max_magnitude</a> (FType &amp;field)</td></tr>
+<tr class="memdesc:gaec69eec8e1e211dcc30cabe1e9132e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the global maximum of a field from all levels.  <a href="group__field__ops.html#gaec69eec8e1e211dcc30cabe1e9132e14">More...</a><br /></td></tr>
+<tr class="separator:gaec69eec8e1e211dcc30cabe1e9132e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d01357fe05c0ea429147719d363b0ac"><td class="memTemplParams" colspan="2">template&lt;typename FType &gt; </td></tr>
+<tr class="memitem:ga1d01357fe05c0ea429147719d363b0ac"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__field__ops.html#ga1d01357fe05c0ea429147719d363b0ac">amr_wind::field_ops::normalize</a> (FType &amp;field)</td></tr>
+<tr class="memdesc:ga1d01357fe05c0ea429147719d363b0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a field using its magnitude.  <a href="group__field__ops.html#ga1d01357fe05c0ea429147719d363b0ac">More...</a><br /></td></tr>
+<tr class="separator:ga1d01357fe05c0ea429147719d363b0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabc0f891060abf51701e512d958d93e03"><td class="memItemLeft" align="right" valign="top">amrex::IndexType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__field__ops.html#gabc0f891060abf51701e512d958d93e03">amr_wind::field_impl::index_type</a> (const <a class="el" href="group__fields.html#ga10bb78a57539118745ce519da6cd955f">FieldLoc</a> floc)</td></tr>
 <tr class="memdesc:gabc0f891060abf51701e512d958d93e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <a class="el" href="group__fields.html#ga10bb78a57539118745ce519da6cd955f" title="Possible locations for a field in a structured mesh. ">amr_wind::FieldLoc</a> to index type for use with AMReX objects.  <a href="group__field__ops.html#gabc0f891060abf51701e512d958d93e03">More...</a><br /></td></tr>
 <tr class="separator:gabc0f891060abf51701e512d958d93e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -540,6 +548,42 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
+<a id="gaec69eec8e1e211dcc30cabe1e9132e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec69eec8e1e211dcc30cabe1e9132e14">&#9670;&nbsp;</a></span>global_max_magnitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::field_ops::global_max_magnitude </td>
+          <td>(</td>
+          <td class="paramtype">FType &amp;&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the global maximum of a field from all levels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">field</td><td>we need to compute its global maximum magnitude </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gabc0f891060abf51701e512d958d93e03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabc0f891060abf51701e512d958d93e03">&#9670;&nbsp;</a></span>index_type()</h2>
 
@@ -865,6 +909,42 @@ template&lt;typename FType &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">min_value</td><td>Minimum value for a given field </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">icomp</td><td>Component to set the minimum bound </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga1d01357fe05c0ea429147719d363b0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d01357fe05c0ea429147719d363b0ac">&#9670;&nbsp;</a></span>normalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::field_ops::normalize </td>
+          <td>(</td>
+          <td class="paramtype">FType &amp;&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Normalizes a field using its magnitude. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">field</td><td>that needs to be normalized </td></tr>
   </table>
   </dd>
 </dl>
