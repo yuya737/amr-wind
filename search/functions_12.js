@@ -3,6 +3,7 @@ var searchData=
   ['table',['table',['../structamr__wind_1_1_factory.html#a64faf4997754405b0144c4563302a7b7',1,'amr_wind::Factory']]],
   ['taylorgreenvortex',['TaylorGreenVortex',['../classamr__wind_1_1_taylor_green_vortex.html#a37862cd4c63df236b6bb370d10c41179',1,'amr_wind::TaylorGreenVortex']]],
   ['temperature',['temperature',['../classincflo.html#a00532da0eee598ea972de12b1bf42a1c',1,'incflo']]],
+  ['temperature_5fplane_5fstats',['temperature_plane_stats',['../classamr__wind_1_1_a_b_l_stats.html#a11f3e58ad355534da34fc31d6dcea6ea',1,'amr_wind::ABLStats']]],
   ['thermal_5fdiffusivity',['thermal_diffusivity',['../classamr__wind_1_1transport_1_1_const_transport.html#a2139721b7b04c75ad031e36c33918225',1,'amr_wind::transport::ConstTransport']]],
   ['thirdmomentaveraging',['ThirdMomentAveraging',['../classamr__wind_1_1_third_moment_averaging.html#a184046c6e9347c79a32a4f0e53e8180f',1,'amr_wind::ThirdMomentAveraging']]],
   ['time',['time',['../classamr__wind_1_1_c_f_d_sim.html#a4097ddbf5e81c71a117104c40b81cbd6',1,'amr_wind::CFDSim::time()'],['../classamr__wind_1_1_c_f_d_sim.html#a2b14794facdecac431a2ea85191d3ba5',1,'amr_wind::CFDSim::time() const'],['../classincflo.html#aef7ae819dd9015ef9eda1bca7601c2f8',1,'incflo::time()']]],

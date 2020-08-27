@@ -11,6 +11,7 @@ var searchData=
   ['temperature',['Temperature',['../structamr__wind_1_1pde_1_1_temperature.html',1,'amr_wind::pde::Temperature'],['../classincflo.html#a00532da0eee598ea972de12b1bf42a1c',1,'incflo::temperature()']]],
   ['temperature_2ecpp',['temperature.cpp',['../temperature_8cpp.html',1,'']]],
   ['temperature_2eh',['temperature.H',['../temperature_8_h.html',1,'']]],
+  ['temperature_5fplane_5fstats',['temperature_plane_stats',['../classamr__wind_1_1_a_b_l_stats.html#a11f3e58ad355534da34fc31d6dcea6ea',1,'amr_wind::ABLStats']]],
   ['temperaturesource',['TemperatureSource',['../classamr__wind_1_1pde_1_1_temperature_source.html',1,'amr_wind::pde']]],
   ['temperaturesource_2eh',['TemperatureSource.H',['../_temperature_source_8_h.html',1,'']]],
   ['tensor_5fops_2eh',['tensor_ops.H',['../tensor__ops_8_h.html',1,'']]],

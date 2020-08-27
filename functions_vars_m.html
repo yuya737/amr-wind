@@ -72,6 +72,9 @@ $(function() {
 <li>m_abl_forcing
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a8572cf6d5bc0af736689372624703943">amr_wind::ABL</a>
 </li>
+<li>m_abl_mean_bous
+: <a class="el" href="classamr__wind_1_1_a_b_l.html#a525668ec480c207643df7cfcb65aec78">amr_wind::ABL</a>
+</li>
 <li>m_abl_wall_func
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a42b9b1d5bdf03c09ed917cf89166feb9">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a39a3f312a5de3eac70639b152fe9cf53">amr_wind::ABLStats</a>
@@ -96,6 +99,7 @@ $(function() {
 </li>
 <li>m_axis
 : <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#ac3d4509b61bc9132d3c0a7e4d9a008af">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#aa7b68f03fec71a50a79191608986477e">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 </li>
 <li>m_axis1
 : <a class="el" href="classamr__wind_1_1sampling_1_1_plane_sampler.html#a6ead68784f736c87b6099553690eb744">amr_wind::sampling::PlaneSampler</a>
@@ -138,7 +142,8 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5a08f6a4d09b8b40f43ec75dc6685adc">amr_wind::FieldBCNoOp</a>
 </li>
 <li>m_beta
-: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#af99fea1a9735e0b4882586ec1142c86b">amr_wind::pde::icns::BoussinesqBuoyancy</a>
+: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a227b1a79fedf69968c9ca14fcc955d32">amr_wind::pde::icns::ABLMeanBoussinesq</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#af99fea1a9735e0b4882586ec1142c86b">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 </li>
 <li>m_bndry_plane
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#ae624d8b51c7855147d423b9762501e1a">amr_wind::ABL</a>
@@ -331,7 +336,8 @@ $(function() {
 : <a class="el" href="structamr__wind_1_1fvm_1_1_gradient.html#ae9e001c2ccf536010160a588bac8a50f">amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
 <li>m_gravity
-: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#ac4833ba7ca42a64a144c7e53892cf259">amr_wind::pde::icns::BoussinesqBuoyancy</a>
+: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a0c9e5d2856494adf7f62ca7b7c16a7df">amr_wind::pde::icns::ABLMeanBoussinesq</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#ac4833ba7ca42a64a144c7e53892cf259">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#a85799ce6d1eca3d33f4c3b852a11f178">amr_wind::pde::icns::DensityBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a1c868f4dea5731453322a798e94dcb74">amr_wind::turbulence::OneEqKsgsM84&lt; Transport &gt;</a>
 </li>
@@ -468,6 +474,7 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a6634f45447dcaaa18fa49791d3bd6575">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#a1a2fe397c6939923cb4c9600cf07931f">amr_wind::FieldRepo</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a0d155821838fb0050355aa86a4c99013">amr_wind::mms::MMS</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a6cb6588c4f615d50918766592e5d998e">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling_container.html#abf6a4de1938dbad0599bba5a66dd947a">amr_wind::sampling::SamplingContainer</a>
 </li>
 <li>m_mfabs
@@ -717,7 +724,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#afcd568f5795e1225c85700070864daf9">amr_wind::ABLFieldInit</a>
 </li>
 <li>m_ref_theta
-: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#a6aa8e45cbb101cddd04ee2a4d8037ce2">amr_wind::pde::icns::BoussinesqBuoyancy</a>
+: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#aa558d46ea84e53ee5b6773deae3dcf38">amr_wind::pde::icns::ABLMeanBoussinesq</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#a6aa8e45cbb101cddd04ee2a4d8037ce2">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a06cc4bf640d8c0dc92c5ed83b0fc69f4">amr_wind::turbulence::OneEqKsgsM84&lt; Transport &gt;</a>
 </li>
 <li>m_refine_criteria
@@ -846,6 +854,12 @@ $(function() {
 </li>
 <li>m_theta_heights
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#adaf7550a16c990c4bbb939f9b59d4b33">amr_wind::ABLFieldInit</a>
+</li>
+<li>m_theta_ht
+: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#ad43da5965460663798ab37b038730992">amr_wind::pde::icns::ABLMeanBoussinesq</a>
+</li>
+<li>m_theta_vals
+: <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#aea625ce288fd1a3d4d01ee7696619bbe">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 </li>
 <li>m_theta_values
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a4ddb1db74c672a5890884ea74dc755f8">amr_wind::ABLFieldInit</a>

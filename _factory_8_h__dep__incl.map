@@ -45,7 +45,7 @@
 <area shape="rect" id="node38" href="$_tioga_interface_8_h.html" title="TiogaInterface.H" alt="" coords="1287,155,1406,181"/>
 <area shape="rect" id="node40" href="$_p_d_e_traits_8_h.html" title="PDETraits.H" alt="" coords="2894,304,2991,331"/>
 <area shape="rect" id="node43" href="$_a_b_l_forcing_8_h.html" title="ABLForcing.H" alt="" coords="3088,155,3192,181"/>
-<area shape="rect" id="node44" href="$_body_force_8_h.html" title="BodyForce.H" alt="" coords="3216,155,3315,181"/>
-<area shape="rect" id="node45" href="$_boussinesq_buoyancy_8_h.html" title="BoussinesqBuoyancy.H" alt="" coords="3339,155,3501,181"/>
-<area shape="rect" id="node46" href="$_coriolis_forcing_8_h.html" title="CoriolisForcing.H" alt="" coords="3525,155,3648,181"/>
+<area shape="rect" id="node44" href="$_a_b_l_mean_boussinesq_8_h.html" title="ABLMeanBoussinesq.H" alt="" coords="3217,155,3378,181"/>
+<area shape="rect" id="node45" href="$_body_force_8_h.html" title="BodyForce.H" alt="" coords="3403,155,3501,181"/>
+<area shape="rect" id="node46" href="$_boussinesq_buoyancy_8_h.html" title="BoussinesqBuoyancy.H" alt="" coords="3525,155,3688,181"/>
 </map>

@@ -20,6 +20,7 @@ var searchData=
   ['register_5fforcing_5fterm',['register_forcing_term',['../classamr__wind_1_1_a_b_l.html#ab431de40b53fa4ff6c3ce189752e232b',1,'amr_wind::ABL']]],
   ['register_5ficns',['register_icns',['../classamr__wind_1_1pde_1_1_p_d_e_mgr.html#a86086926849cfe0c889b8e63355f548c',1,'amr_wind::pde::PDEMgr']]],
   ['register_5fio_5fvar',['register_io_var',['../classamr__wind_1_1_i_o_manager.html#ac31999a428baec6d606849a78dedb551',1,'amr_wind::IOManager']]],
+  ['register_5fmean_5fboussinesq_5fterm',['register_mean_boussinesq_term',['../classamr__wind_1_1_a_b_l.html#ae390c9ebe4cc198515f77f7eb1906ac1',1,'amr_wind::ABL']]],
   ['register_5fmueff_5ffield',['register_mueff_field',['../classamr__wind_1_1turbulence_1_1_turb_model.html#a6934f8851c0edfeab893602a74be4c68',1,'amr_wind::turbulence::TurbModel::register_mueff_field()'],['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#a9c4c362839c23e39f26434a82a06c47c',1,'amr_wind::turbulence::TurbulenceModel::register_mueff_field()']]],
   ['register_5foutput_5fvar',['register_output_var',['../classamr__wind_1_1_i_o_manager.html#a6c4fce412069a3362b0695e1723986e6',1,'amr_wind::IOManager']]],
   ['register_5frestart_5fvar',['register_restart_var',['../classamr__wind_1_1_i_o_manager.html#aff0a3c6bc63b4edfb0c8d4c76a837fc3',1,'amr_wind::IOManager']]],
