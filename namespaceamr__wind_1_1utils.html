@@ -82,6 +82,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab34425b6e44fee3d4921b0781c1965c0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1utils.html#ab34425b6e44fee3d4921b0781c1965c0">has_extdir</a> (amrex::BCRec const *bcrec, int ncomp, int dir)</td></tr>
 <tr class="memdesc:ab34425b6e44fee3d4921b0781c1965c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pair of bools, value is true if at least one boundary has an ext_dir specified.  <a href="#ab34425b6e44fee3d4921b0781c1965c0">More...</a><br /></td></tr>
 <tr class="separator:ab34425b6e44fee3d4921b0781c1965c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d199132950cc64edbd00ad817000dd2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1utils.html#a8d199132950cc64edbd00ad817000dd2">has_extdir_or_ho</a> (amrex::BCRec const *bcrec, int ncomp, int dir)</td></tr>
+<tr class="separator:a8d199132950cc64edbd00ad817000dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d4005e841a56fdfc2c260b498731aee"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7d4005e841a56fdfc2c260b498731aee"><td class="memTemplItemLeft" align="right" valign="top">AMREX_GPU_HOST_DEVICE AMREX_FORCE_INLINE T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1utils.html#a7d4005e841a56fdfc2c260b498731aee">vec_norm</a> (const T *x)</td></tr>
 <tr class="memdesc:a7d4005e841a56fdfc2c260b498731aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the norm of a 3-D vector.  <a href="#a7d4005e841a56fdfc2c260b498731aee">More...</a><br /></td></tr>
@@ -308,6 +310,40 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Return a pair of bools, value is true if at least one boundary has an ext_dir specified. </p>
+
+</div>
+</div>
+<a id="a8d199132950cc64edbd00ad817000dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d199132950cc64edbd00ad817000dd2">&#9670;&nbsp;</a></span>has_extdir_or_ho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; bool, bool &gt; amr_wind::utils::has_extdir_or_ho </td>
+          <td>(</td>
+          <td class="paramtype">amrex::BCRec const *&#160;</td>
+          <td class="paramname"><em>bcrec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ncomp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
