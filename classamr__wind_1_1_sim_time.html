@@ -112,9 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac072a0b6439bf83a0a899dd01b486086"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_sim_time.html#ac072a0b6439bf83a0a899dd01b486086">write_last_checkpoint</a> ()</td></tr>
 <tr class="memdesc:ac072a0b6439bf83a0a899dd01b486086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if checkpoint files should be written at this timestep.  <a href="#ac072a0b6439bf83a0a899dd01b486086">More...</a><br /></td></tr>
 <tr class="separator:ac072a0b6439bf83a0a899dd01b486086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade2cc78b06a954d3530015b78d51b4f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_sim_time.html#ade2cc78b06a954d3530015b78d51b4f7">set_current_cfl</a> (amrex::Real cfl_unit_time)</td></tr>
-<tr class="memdesc:ade2cc78b06a954d3530015b78d51b4f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current CFL and update timestep based on CFL.  <a href="#ade2cc78b06a954d3530015b78d51b4f7">More...</a><br /></td></tr>
-<tr class="separator:ade2cc78b06a954d3530015b78d51b4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd42ac87333a2c282124779cb199726"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_sim_time.html#a0bd42ac87333a2c282124779cb199726">set_current_cfl</a> (const amrex::Real conv_cfl, const amrex::Real diff_cfl, const amrex::Real src_cfl)</td></tr>
+<tr class="memdesc:a0bd42ac87333a2c282124779cb199726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current CFL and update timestep based on CFL components.  <a href="#a0bd42ac87333a2c282124779cb199726">More...</a><br /></td></tr>
+<tr class="separator:a0bd42ac87333a2c282124779cb199726"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac34212aed4ea0f3c42e7a5939fb5e7e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_sim_time.html#ac34212aed4ea0f3c42e7a5939fb5e7e2">set_restart_time</a> (int tidx, amrex::Real time)</td></tr>
 <tr class="memdesc:ac34212aed4ea0f3c42e7a5939fb5e7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set start time and index based on checkpoint/restart file.  <a href="#ac34212aed4ea0f3c42e7a5939fb5e7e2">More...</a><br /></td></tr>
 <tr class="separator:ac34212aed4ea0f3c42e7a5939fb5e7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -624,8 +624,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ade2cc78b06a954d3530015b78d51b4f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade2cc78b06a954d3530015b78d51b4f7">&#9670;&nbsp;</a></span>set_current_cfl()</h2>
+<a id="a0bd42ac87333a2c282124779cb199726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd42ac87333a2c282124779cb199726">&#9670;&nbsp;</a></span>set_current_cfl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -633,20 +633,30 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void amr_wind::SimTime::set_current_cfl </td>
           <td>(</td>
-          <td class="paramtype">amrex::Real&#160;</td>
-          <td class="paramname"><em>cfl_unit_time</em></td><td>)</td>
+          <td class="paramtype">const amrex::Real&#160;</td>
+          <td class="paramname"><em>conv_cfl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const amrex::Real&#160;</td>
+          <td class="paramname"><em>diff_cfl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const amrex::Real&#160;</td>
+          <td class="paramname"><em>src_cfl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set current CFL and update timestep based on CFL. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cfl_unit_time</td><td><code>(U / dx)</code>, i.e., CFL assuming unit dt </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Set current CFL and update timestep based on CFL components. </p>
 
 </div>
 </div>
