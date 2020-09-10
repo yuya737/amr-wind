@@ -95,15 +95,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a079dc0dd184896125971968598f28041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2547a350c6ea41047dfad56901d33f80"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#a2547a350c6ea41047dfad56901d33f80">~FieldFillPatchOpsBase</a> ()=default</td></tr>
 <tr class="separator:a2547a350c6ea41047dfad56901d33f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8932412c5bad2dddae9760373eb77b74"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#a8932412c5bad2dddae9760373eb77b74">fillpatch</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost)=0</td></tr>
-<tr class="memdesc:a8932412c5bad2dddae9760373eb77b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling patches on a single level as well as across a coarse-fine interface.  <a href="#a8932412c5bad2dddae9760373eb77b74">More...</a><br /></td></tr>
-<tr class="separator:a8932412c5bad2dddae9760373eb77b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e102d1288990f23cfca507f3c0d542"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#a85e102d1288990f23cfca507f3c0d542">fillpatch_from_coarse</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost)=0</td></tr>
-<tr class="memdesc:a85e102d1288990f23cfca507f3c0d542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling patches from a coarse to fine level.  <a href="#a85e102d1288990f23cfca507f3c0d542">More...</a><br /></td></tr>
-<tr class="separator:a85e102d1288990f23cfca507f3c0d542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8fc8616b5298e4fbddcd919c4c25334"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#aa8fc8616b5298e4fbddcd919c4c25334">fillphysbc</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost)=0</td></tr>
-<tr class="memdesc:aa8fc8616b5298e4fbddcd919c4c25334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling physical boundary conditions.  <a href="#aa8fc8616b5298e4fbddcd919c4c25334">More...</a><br /></td></tr>
-<tr class="separator:aa8fc8616b5298e4fbddcd919c4c25334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f77872a0eda2f4f379636fd418fe64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#a57f77872a0eda2f4f379636fd418fe64">fillpatch</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost, const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate=<a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a>)=0</td></tr>
+<tr class="memdesc:a57f77872a0eda2f4f379636fd418fe64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling patches on a single level as well as across a coarse-fine interface.  <a href="#a57f77872a0eda2f4f379636fd418fe64">More...</a><br /></td></tr>
+<tr class="separator:a57f77872a0eda2f4f379636fd418fe64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15617752de8119dc119f2022ad00449"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#aa15617752de8119dc119f2022ad00449">fillpatch_from_coarse</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost, const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate=<a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a>)=0</td></tr>
+<tr class="memdesc:aa15617752de8119dc119f2022ad00449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling patches from a coarse to fine level.  <a href="#aa15617752de8119dc119f2022ad00449">More...</a><br /></td></tr>
+<tr class="separator:aa15617752de8119dc119f2022ad00449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c610c73f4963c6b7cab80c9a6d4a95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_fill_patch_ops_base.html#a34c610c73f4963c6b7cab80c9a6d4a95">fillphysbc</a> (int lev, amrex::Real time, amrex::MultiFab &amp;mfab, const amrex::IntVect &amp;nghost, const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate=<a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a>)=0</td></tr>
+<tr class="memdesc:a34c610c73f4963c6b7cab80c9a6d4a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation that handles filling physical boundary conditions.  <a href="#a34c610c73f4963c6b7cab80c9a6d4a95">More...</a><br /></td></tr>
+<tr class="separator:a34c610c73f4963c6b7cab80c9a6d4a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract interface for classes that handle fill patch and physical boundary condition operations for multi-level AMR meshes. </p>
@@ -159,8 +159,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8932412c5bad2dddae9760373eb77b74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8932412c5bad2dddae9760373eb77b74">&#9670;&nbsp;</a></span>fillpatch()</h2>
+<a id="a57f77872a0eda2f4f379636fd418fe64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f77872a0eda2f4f379636fd418fe64">&#9670;&nbsp;</a></span>fillpatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +190,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
-          <td class="paramname"><em>nghost</em>&#160;</td>
+          <td class="paramname"><em>nghost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a>&#160;</td>
+          <td class="paramname"><em>fstate</em> = <code><a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -207,12 +213,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Implementation that handles filling patches on a single level as well as across a coarse-fine interface. </p>
 
-<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a1eafaaba14207877e1ab52879213989f">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a1eafaaba14207877e1ab52879213989f">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#ae18895f367e9cfaf5e72717d12f63ac3">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#a6b3cbb531277d4a2fcd37a7483fa7256">amr_wind::ABLFillInflow</a>.</p>
+<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aa917349d3022bc4ce09ffe5f4b33b39c">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aa917349d3022bc4ce09ffe5f4b33b39c">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#af9b41a89b38c370c74b0ce62a6a8f6a3">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#a0c32dacf2416f977337713e781ca9b76">amr_wind::ABLFillInflow</a>.</p>
 
 </div>
 </div>
-<a id="a85e102d1288990f23cfca507f3c0d542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e102d1288990f23cfca507f3c0d542">&#9670;&nbsp;</a></span>fillpatch_from_coarse()</h2>
+<a id="aa15617752de8119dc119f2022ad00449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15617752de8119dc119f2022ad00449">&#9670;&nbsp;</a></span>fillpatch_from_coarse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +248,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
-          <td class="paramname"><em>nghost</em>&#160;</td>
+          <td class="paramname"><em>nghost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a>&#160;</td>
+          <td class="paramname"><em>fstate</em> = <code><a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -259,12 +271,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Implementation that handles filling patches from a coarse to fine level. </p>
 
-<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aed4b14bd8f0e17c5ba939a81aaf89d84">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aed4b14bd8f0e17c5ba939a81aaf89d84">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#a39c9e79f12a8ef3fca8b80017af94f34">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#a5754f708c9a389f5bdd81f2a9c2b7a36">amr_wind::ABLFillInflow</a>.</p>
+<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a990f6b4b985fbdf6aecb6e469aacd061">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a990f6b4b985fbdf6aecb6e469aacd061">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#a1e905bfe75678d79c6e6b57dd29fbfd1">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#a09ed79321d71f7fc77b560513462e550">amr_wind::ABLFillInflow</a>.</p>
 
 </div>
 </div>
-<a id="aa8fc8616b5298e4fbddcd919c4c25334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8fc8616b5298e4fbddcd919c4c25334">&#9670;&nbsp;</a></span>fillphysbc()</h2>
+<a id="a34c610c73f4963c6b7cab80c9a6d4a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34c610c73f4963c6b7cab80c9a6d4a95">&#9670;&nbsp;</a></span>fillphysbc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +306,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const amrex::IntVect &amp;&#160;</td>
-          <td class="paramname"><em>nghost</em>&#160;</td>
+          <td class="paramname"><em>nghost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a>&#160;</td>
+          <td class="paramname"><em>fstate</em> = <code><a class="el" href="group__fields.html#ggaba2b7a43f2e9cb10cdb5e2ab8acfcdd8a03c2e7e41ffc181a4e84080b4710e81e">FieldState::New</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -311,7 +329,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implementation that handles filling physical boundary conditions. </p>
 
-<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aa8a78e63ac9839047abe55f3cb710f13">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aa8a78e63ac9839047abe55f3cb710f13">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#a07dad8cc0540940034a07b188f3e1f15">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#abfc2cb486051be0b90ca41bbe26a9a6d">amr_wind::ABLFillInflow</a>.</p>
+<p>Implemented in <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a5fc6d051426787e58cf8a47a397ccf27">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a5fc6d051426787e58cf8a47a397ccf27">amr_wind::FieldFillPatchOps&lt; FieldBCNoOp &gt;</a>, <a class="el" href="classamr__wind_1_1_field_fill_const_scalar.html#a91412737fa9103351018d6fc56df624e">amr_wind::FieldFillConstScalar</a>, and <a class="el" href="classamr__wind_1_1_a_b_l_fill_inflow.html#afef41a67510fdf2b2d7e733a5b90a98b">amr_wind::ABLFillInflow</a>.</p>
 
 </div>
 </div>
