@@ -26,6 +26,7 @@ var searchData=
   ['inject_5fturbulence_5fsrc_5fterms',['inject_turbulence_src_terms',['../namespaceamr__wind_1_1turbulence_1_1turb__utils.html#a27e7503100ff504623e787fc89a3d179',1,'amr_wind::turbulence::turb_utils']]],
   ['inletdata',['InletData',['../classamr__wind_1_1_inlet_data.html#a9f6de9a779823b1962353bad5a58437a',1,'amr_wind::InletData']]],
   ['instantiate_5fturbulence_5fmodel',['INSTANTIATE_TURBULENCE_MODEL',['../namespaceamr__wind.html#acfff473d09db4c163c5a424132dcbe32',1,'amr_wind::INSTANTIATE_TURBULENCE_MODEL(Laminar)'],['../namespaceamr__wind.html#a47e9646fe62be203212d054a52517552',1,'amr_wind::INSTANTIATE_TURBULENCE_MODEL(OneEqKsgsM84)'],['../namespaceamr__wind.html#a63340252876aee8ff615aa54c21374d3',1,'amr_wind::INSTANTIATE_TURBULENCE_MODEL(OneEqKsgsS94)'],['../namespaceamr__wind.html#aae031410ecc385334cf2a4979579b5e6',1,'amr_wind::INSTANTIATE_TURBULENCE_MODEL(Smagorinsky)']]],
+  ['instplanar',['instplanar',['../classamr__wind_1_1_a_b_l_wall_function.html#a17116463fe1cfd0b08f7bef1ff47915a',1,'amr_wind::ABLWallFunction']]],
   ['int_5ffield_5fexists',['int_field_exists',['../classamr__wind_1_1_field_repo.html#a6933c412245c6af6b08781314ee2256c',1,'amr_wind::FieldRepo']]],
   ['interpolate',['interpolate',['../classamr__wind_1_1_inlet_data.html#a322ab8e0a89f8e07372360d395153b8d',1,'amr_wind::InletData']]],
   ['interpolate_5fdata',['interpolate_data',['../classamr__wind_1_1_inlet_data.html#aa77ba3bda17b9758c5764ecc70caef1b',1,'amr_wind::InletData']]],
