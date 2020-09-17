@@ -72,6 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structamr__wind_1_1pde_1_1_post_solve_op-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">amr_wind::pde::PostSolveOp&lt; PDE &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__eqsys.html">Equation Systems</a> &raquo; <a class="el" href="group__pdeop.html">PDE Operators</a></div></div>  </div>
@@ -82,13 +83,24 @@ $(function() {
  <a href="structamr__wind_1_1pde_1_1_post_solve_op.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_p_d_e_ops_8_h_source.html">PDEOps.H</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for amr_wind::pde::PostSolveOp&lt; PDE &gt;:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="structamr__wind_1_1pde_1_1_post_solve_op__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a468d91d0b6eea2ba3792af00e4b42bc4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html#a468d91d0b6eea2ba3792af00e4b42bc4">PostSolveOp</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;)</td></tr>
-<tr class="separator:a468d91d0b6eea2ba3792af00e4b42bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe3c3dbd2662442bc94dbd0252470d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html#abe3c3dbd2662442bc94dbd0252470d8b">operator()</a> ()</td></tr>
-<tr class="separator:abe3c3dbd2662442bc94dbd0252470d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3707d24e7ed5303c923da8559734a71f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html#a3707d24e7ed5303c923da8559734a71f">PostSolveOp</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;fields)</td></tr>
+<tr class="separator:a3707d24e7ed5303c923da8559734a71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9889e97636b32869ab6ce22d131255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html#a7a9889e97636b32869ab6ce22d131255">operator()</a> (const amrex::Real time)</td></tr>
+<tr class="separator:a7a9889e97636b32869ab6ce22d131255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a7343a516f1d2b20dfe3ba9f582edbe86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html#a7343a516f1d2b20dfe3ba9f582edbe86">m_fields</a></td></tr>
+<tr class="separator:a7343a516f1d2b20dfe3ba9f582edbe86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename PDE&gt;<br />
@@ -96,8 +108,8 @@ struct amr_wind::pde::PostSolveOp&lt; PDE &gt;</h3>
 
 <p>Actions to be performed after a PDE solve. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a468d91d0b6eea2ba3792af00e4b42bc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a468d91d0b6eea2ba3792af00e4b42bc4">&#9670;&nbsp;</a></span>PostSolveOp()</h2>
+<a id="a3707d24e7ed5303c923da8559734a71f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3707d24e7ed5303c923da8559734a71f">&#9670;&nbsp;</a></span>PostSolveOp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -111,7 +123,7 @@ template&lt;typename PDE&gt; </div>
           <td class="memname"><a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">amr_wind::pde::PostSolveOp</a>&lt; PDE &gt;::<a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">PostSolveOp</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>fields</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -125,8 +137,8 @@ template&lt;typename PDE&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abe3c3dbd2662442bc94dbd0252470d8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3c3dbd2662442bc94dbd0252470d8b">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="a7a9889e97636b32869ab6ce22d131255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9889e97636b32869ab6ce22d131255">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,7 +151,8 @@ template&lt;typename PDE&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">amr_wind::pde::PostSolveOp</a>&lt; PDE &gt;::operator() </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const amrex::Real&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -148,6 +161,23 @@ template&lt;typename PDE&gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7343a516f1d2b20dfe3ba9f582edbe86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7343a516f1d2b20dfe3ba9f582edbe86">&#9670;&nbsp;</a></span>m_fields</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PDE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a>&amp; <a class="el" href="structamr__wind_1_1pde_1_1_post_solve_op.html">amr_wind::pde::PostSolveOp</a>&lt; PDE &gt;::m_fields</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

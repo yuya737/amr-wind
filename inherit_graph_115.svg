@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-35 197,-35 197,4 -4,4"/>
-<!-- Node78 -->
+<!-- Node66 -->
 <g id="node1" class="node">
-<title>Node78</title>
+<title>Node66</title>
 <polygon fill="#ffffff" stroke="#bfbfbf" points="0,-6 0,-25 53,-25 53,-6 0,-6"/>
 <text text-anchor="middle" x="26.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Register</text>
 </g>
@@ -25,9 +25,9 @@
 </a>
 </g>
 </g>
-<!-- Node78&#45;&gt;Node0 -->
+<!-- Node66&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node78&#45;&gt;Node0</title>
+<title>Node66&#45;&gt;Node0</title>
 <path fill="none" stroke="#191970" d="M63.0636,-15.5C71.2908,-15.5 80.1765,-15.5 88.9013,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="63.0564,-12.0001 53.0564,-15.5 63.0564,-19.0001 63.0564,-12.0001"/>
 </g>
