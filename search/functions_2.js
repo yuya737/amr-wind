@@ -9,7 +9,7 @@ var searchData=
   ['close',['close',['../classncutils_1_1_n_c_file.html#af2c4a20c38edb3fae69087a80875b8b9',1,'ncutils::NCFile']]],
   ['collmgr',['CollMgr',['../classamr__wind_1_1_coll_mgr.html#a226bb428c86542589db1ae58587b09b5',1,'amr_wind::CollMgr::CollMgr()=default'],['../classamr__wind_1_1_coll_mgr.html#a8def747e4546eb6e6b9651f8d356eabd',1,'amr_wind::CollMgr::CollMgr(const CollMgr &amp;)=delete']]],
   ['component',['component',['../classamr__wind_1_1_inlet_data.html#a9e91e8e11d215bad62e6243d38fba35b',1,'amr_wind::InletData::component(const int id)'],['../classamr__wind_1_1_inlet_data.html#a54c88c22b89d3ae777d8104c91d886b3',1,'amr_wind::InletData::component(const int id) const']]],
-  ['compute_5fadvection',['compute_advection',['../namespacegodunov.html#a614be97656c59f0510edf79bc102d6ef',1,'godunov']]],
+  ['compute_5fadvection',['compute_advection',['../namespacegodunov.html#ac24dc4f902deaea0e918f7674c504122',1,'godunov']]],
   ['compute_5fadvection_5fterm',['compute_advection_term',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#abe7fc05c9b0cdc46aef75096d5885d58',1,'amr_wind::pde::PDESystem::compute_advection_term()'],['../classamr__wind_1_1pde_1_1_p_d_e_base.html#af11c43a11445c49f5a86b79dabb676f1',1,'amr_wind::pde::PDEBase::compute_advection_term()']]],
   ['compute_5faverage',['compute_average',['../classamr__wind_1_1_second_moment_averaging.html#a0ecf8f669c5ec00db86564fc68edee18',1,'amr_wind::SecondMomentAveraging::compute_average()'],['../classamr__wind_1_1_third_moment_averaging.html#a7d843e13d57f4e00548d7ada5a60006d',1,'amr_wind::ThirdMomentAveraging::compute_average()']]],
   ['compute_5faverages',['compute_averages',['../classamr__wind_1_1_f_plane_averaging.html#ada58a929ebed7feb9c9bbd1f33c05520',1,'amr_wind::FPlaneAveraging']]],
