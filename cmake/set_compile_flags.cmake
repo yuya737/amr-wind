@@ -15,6 +15,11 @@ if(AMR_WIND_ENABLE_ALL_WARNINGS)
   endif()
 endif()
 
+# Workaround for intel beta09 issues
+if (AMR_WIND_ENABLE_DPCPP)
+  list(APPEND AMR_WIND_CXX_FLAGS "-fno-sycl-early-optimizations")
+endif()
+
 # Add our extra flags according to language
 separate_arguments(AMR_WIND_CXX_FLAGS)
 target_compile_options(
