@@ -232,6 +232,9 @@ $(function() {
 <li>m_data_np1
 : <a class="el" href="classamr__wind_1_1_inlet_data.html#af7dfaa0095a9e94f5d9043c2718e6f12">amr_wind::InletData</a>
 </li>
+<li>m_DE
+: <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a9fd261f1a232f53ba26eba6b434331e9">amr_wind::EkmanSpiral</a>
+</li>
 <li>m_deltaT
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a00dea89e1e9a419809711bf716e62b8e">amr_wind::ABLFieldInit</a>
 </li>
@@ -245,6 +248,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#ae42a0aecdf7050b63cf1eab942bcccab">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_boussinesq_bubble.html#a7952cbf660af8e97d308afe9dc94c63f">amr_wind::BoussinesqBubble</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a85ed2029b5fa3836992630dfa8272f4f">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a08b3790bef3ec6be1a8c335937e9d0f7">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_free_stream.html#ac63ba204724dfcf217395b404d87e85a">amr_wind::FreeStream</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a77f28980332eeb4316be007bdde91986">amr_wind::mms::MMS</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#a31f3d877a22d1cb98079f1a71c8ce5eb">amr_wind::pde::DiffSolverIface&lt; LinOp &gt;</a>
@@ -500,6 +504,7 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a64c5525cae721c07df45136d9ac6e6ff">amr_wind::ABLWallFunction</a>
 , <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a90607ccba30799874dc0290b3c042080">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ad69f66f8e1238a94a46939687a933473">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#adb922b95e06fd53d73e1663bbcab68f3">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a6634f45447dcaaa18fa49791d3bd6575">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#a1a2fe397c6939923cb4c9600cf07931f">amr_wind::FieldRepo</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a0d155821838fb0050355aa86a4c99013">amr_wind::mms::MMS</a>
@@ -635,6 +640,7 @@ $(function() {
 </li>
 <li>m_output_fname
 : <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#afe63214baa9ebf45ebcf643d7d8a64e8">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a551399f4534432df51e32e823f19a2a5">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#ab5627b3f3134144ad297828a2764553f">amr_wind::mms::MMS</a>
 </li>
 <li>m_overset_mgr
@@ -791,6 +797,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#ac6edd0e191c236693d0cf2e9b9a6a4d8">amr_wind::ABLBoundaryPlane</a>
 , <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#aaa5de8a5b179362b9f3d4287c5b6ca3d">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a2bb15a37b106a3af3d771cfe0208df6f">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a70c358f440b58c55ce09d80c762940e5">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_field.html#ace4172c86a3daf1c3e384ea2c7fbed77">amr_wind::Field</a>
 , <a class="el" href="classamr__wind_1_1_int_field.html#a4830bfd9767ce77a8764e134d33bcb94">amr_wind::IntField</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#aface2625629ccc80fc538bb2661bc9da">amr_wind::mms::MMS</a>
@@ -806,6 +813,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a38aa075d22cf5bfde9183e0436465476">amr_wind::ABLFieldInit</a>
 , <a class="el" href="classamr__wind_1_1_boussinesq_bubble_field_init.html#a17b71bcb568e50e39db643b0a97c9ca3">amr_wind::BoussinesqBubbleFieldInit</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a25ccfbdadd38aec0e1d0786abcd42391">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#ad97fdde45290d5ac312d599a322fea21">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_free_stream.html#ad274f4f47015a7793878bc49a25320e9">amr_wind::FreeStream</a>
 , <a class="el" href="classamr__wind_1_1_taylor_green_vortex.html#adb69271d51b6db497c670eed670a8d3d">amr_wind::TaylorGreenVortex</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html#a90b1f217def0eec0e448e2d378f2a37e">amr_wind::turbulence::OneEqKsgs&lt; Transport &gt;</a>
@@ -952,6 +960,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#acadf281b25565598a9c01af995152be0">amr_wind::ABLBoundaryPlane</a>
 , <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a0facb4b61242dc1816694b8cd5d6e10d">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ab808689bc77c0738247e4b3c0b4d694c">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a2fe427e6d2765d98d7065a0aa6b3c92c">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aee3380df9ff174b5a7f9341dcb137d5f">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
 , <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#ae160fc57950425e983f844ebc5b1a03c">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a71e36b1b05fbc4a9ace11a44e7357559">amr_wind::mms::MMS</a>
@@ -1054,6 +1063,7 @@ $(function() {
 </li>
 <li>m_vel
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a604a57d7d3b5bcf9c0bf6d1e9f2f2f5f">amr_wind::ABLFieldInit</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a9405f2248fd15200961730fce9f2a4f4">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_free_stream.html#a8776ef4e6e12e88821f6d972f246d94e">amr_wind::FreeStream</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html#acb3585b95c0fa4bcb0b2d89467e76f2d">amr_wind::turbulence::OneEqKsgs&lt; Transport &gt;</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_smagorinsky.html#adfe1388969da625f98fe39aa7588a46d">amr_wind::turbulence::Smagorinsky&lt; Transport &gt;</a>
@@ -1062,6 +1072,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#aa36522844bc8b194eda44d8729933696">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_boussinesq_bubble.html#a30f7f44ba5ff48f3b76427117ab2201f">amr_wind::BoussinesqBubble</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a70bfed10ff36ec970f641c28cde25068">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#adc1f0489a1b3284b718932c02b653a9e">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_free_stream.html#a0e95615eb39aa73f4fb6194b385150cd">amr_wind::FreeStream</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#aa3095a0e50abd6331615a220c1ea86d9">amr_wind::mms::MMS</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html#a3f0200f6da57cd259a78cd163f0c700f">amr_wind::pde::icns::CoriolisForcing</a>
@@ -1080,6 +1091,7 @@ $(function() {
 </li>
 <li>m_w
 : <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a871e2f726f3f760803843ceebf065efe">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_ekman_spiral.html#aa166e18d85b15d01b69e9e0aadfa7adf">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#adfe74a12174d3a56d24b9f524bb85e6c">amr_wind::mms::MMS</a>
 </li>
 <li>m_wall_func
@@ -1141,7 +1153,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#aa20547c5ff1ecc12b01c89e83c5f78da">amr_wind::ABLWallFunction</a>
 </li>
 <li>mesh()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a43722465985d48f96c670da7d182f895">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abf7ff85c5fc21b8befe456c81ab7c9bc">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#abbc1f14779d1c6d8ac8d5d6d12431b6e">amr_wind::FieldRepo</a>
 </li>
 <li>MLDiffOp
@@ -1150,7 +1162,7 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1pde_1_1_vector_transport.html#a9cae5b443e97ec8fa22e00e2ecbf63ee">amr_wind::pde::VectorTransport</a>
 </li>
 <li>MLMGOptions()
-: <a class="el" href="structamr__wind_1_1_m_l_m_g_options.html#a093835ce737816481dbb589a677c80c2">amr_wind::MLMGOptions</a>
+: <a class="el" href="structamr__wind_1_1_m_l_m_g_options.html#ae56475d9a69df5d159d5c117ff3759a6">amr_wind::MLMGOptions</a>
 </li>
 <li>MMS()
 : <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a826c5ec4840ade952c25c3119aa30ca3">amr_wind::mms::MMS</a>

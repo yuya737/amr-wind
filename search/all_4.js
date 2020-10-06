@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['ekmanspiral',['EkmanSpiral',['../classamr__wind_1_1_ekman_spiral.html',1,'amr_wind::EkmanSpiral'],['../classamr__wind_1_1_ekman_spiral.html#a2b558e484af2ec24a225e8e7cca88542',1,'amr_wind::EkmanSpiral::EkmanSpiral()']]],
+  ['ekmanspiral_2ecpp',['EkmanSpiral.cpp',['../_ekman_spiral_8cpp.html',1,'']]],
+  ['ekmanspiral_2eh',['EkmanSpiral.H',['../_ekman_spiral_8_h.html',1,'']]],
   ['enter_5fdef_5fmode',['enter_def_mode',['../classncutils_1_1_n_c_group.html#aef6b6e2be36e6179a001d9873e94df82',1,'ncutils::NCGroup']]],
   ['equation_20systems',['Equation Systems',['../group__eqsys.html',1,'']]],
   ['errorest',['ErrorEst',['../classincflo.html#ab904c076552cbd11927a01cd8809a240',1,'incflo']]],

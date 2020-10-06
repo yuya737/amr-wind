@@ -3,7 +3,8 @@
 <area shape="rect" id="node3" href="$_coriolis_forcing_8cpp.html" title="CoriolisForcing.cpp" alt="" coords="140,80,275,107"/>
 <area shape="rect" id="node4" href="$_geostrophic_forcing_8cpp.html" title="GeostrophicForcing.cpp" alt="" coords="299,80,459,107"/>
 <area shape="rect" id="node5" href="$_convecting_taylor_vortex_8cpp.html" title="ConvectingTaylorVortex.cpp" alt="" coords="483,80,670,107"/>
-<area shape="rect" id="node6" href="$_free_stream_8cpp.html" title="FreeStream.cpp" alt="" coords="694,80,809,107"/>
-<area shape="rect" id="node7" href="$_taylor_green_vortex_8cpp.html" title="TaylorGreenVortex.cpp" alt="" coords="833,80,989,107"/>
-<area shape="rect" id="node8" href="$_a_b_l_wall_function_8cpp.html" title="ABLWallFunction.cpp" alt="" coords="1013,80,1161,107"/>
+<area shape="rect" id="node6" href="$_ekman_spiral_8cpp.html" title="EkmanSpiral.cpp" alt="" coords="695,80,816,107"/>
+<area shape="rect" id="node7" href="$_free_stream_8cpp.html" title="FreeStream.cpp" alt="" coords="841,80,955,107"/>
+<area shape="rect" id="node8" href="$_taylor_green_vortex_8cpp.html" title="TaylorGreenVortex.cpp" alt="" coords="980,80,1136,107"/>
+<area shape="rect" id="node9" href="$_a_b_l_wall_function_8cpp.html" title="ABLWallFunction.cpp" alt="" coords="1160,80,1308,107"/>
 </map>

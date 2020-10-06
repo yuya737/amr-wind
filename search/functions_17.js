@@ -19,6 +19,7 @@ var searchData=
   ['_7edensitybuoyancy',['~DensityBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#acf37749399109429a77c93592740ed33',1,'amr_wind::pde::icns::DensityBuoyancy']]],
   ['_7edensitysource',['~DensitySource',['../classamr__wind_1_1pde_1_1_density_source.html#aaeaea62a859d5c2aadc5272041b0a76e',1,'amr_wind::pde::DensitySource']]],
   ['_7ediffsolveriface',['~DiffSolverIface',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html#af2e147ed1661cc4cc0c7b06dd7af2674',1,'amr_wind::pde::DiffSolverIface']]],
+  ['_7eekmanspiral',['~EkmanSpiral',['../classamr__wind_1_1_ekman_spiral.html#a745e58d3c2a076ed4ce8372f6bd4efcb',1,'amr_wind::EkmanSpiral']]],
   ['_7efactory',['~Factory',['../structamr__wind_1_1_factory.html#aa6fca890ed3550c62d0f65b8d3bc07ad',1,'amr_wind::Factory']]],
   ['_7efield',['~Field',['../classamr__wind_1_1_field.html#a3e8a8f91f3a1ee9d37016820d7321bbe',1,'amr_wind::Field']]],
   ['_7efieldbciface',['~FieldBCIface',['../classamr__wind_1_1_field_b_c_iface.html#a8cc12997c105768222f02d4abbb9cb9d',1,'amr_wind::FieldBCIface']]],

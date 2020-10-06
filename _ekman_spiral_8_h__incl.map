@@ -1,0 +1,16 @@
+<map id="EkmanSpiral.H" name="EkmanSpiral.H">
+<area shape="rect" id="node2" href="$_physics_8_h.html" title="amr&#45;wind/core/Physics.H" alt="" coords="832,162,1001,189"/>
+<area shape="rect" id="node14" href="$_field_8_h.html" title="amr&#45;wind/core/Field.H" alt="" coords="993,251,1144,278"/>
+<area shape="rect" id="node19" href="$_c_f_d_sim_8_h.html" title="amr&#45;wind/CFDSim.H" alt="" coords="1490,80,1634,107"/>
+<area shape="rect" id="node3" href="$_factory_8_h.html" title="amr&#45;wind/core/Factory.H" alt="" coords="379,251,545,278"/>
+<area shape="rect" id="node9" href="$_coll_mgr_8_h.html" title="amr&#45;wind/core/CollMgr.H" alt="" coords="803,251,969,278"/>
+<area shape="rect" id="node17" href="$incflo__enums_8_h.html" title="amr&#45;wind/incflo_enums.H" alt="" coords="1023,333,1194,360"/>
+<area shape="rect" id="node18" href="$_field_desc_types_8_h.html" title="amr&#45;wind/core/FieldDescTypes.H" alt="" coords="1835,333,2052,360"/>
+<area shape="rect" id="node21" href="$_sim_time_8_h.html" title="amr&#45;wind/core/SimTime.H" alt="" coords="2621,162,2796,189"/>
+<area shape="rect" id="node25" href="$_field_repo_8_h.html" title="amr&#45;wind/core/FieldRepo.H" alt="" coords="1575,162,1757,189"/>
+<area shape="rect" id="node32" href="$_p_d_e_base_8_h.html" title="amr&#45;wind/equation_systems\l/PDEBase.H" alt="" coords="1365,155,1551,196"/>
+<area shape="rect" id="node26" href="$_field_utils_8_h.html" title="amr&#45;wind/core/FieldUtils.H" alt="" coords="1641,251,1819,278"/>
+<area shape="rect" id="node28" href="$_int_field_8_h.html" title="amr&#45;wind/core/IntField.H" alt="" coords="1945,251,2110,278"/>
+<area shape="rect" id="node30" href="$_scratch_field_8_h.html" title="amr&#45;wind/core/ScratchField.H" alt="" coords="1321,251,1515,278"/>
+<area shape="rect" id="node33" href="$_p_d_e_fields_8_h.html" title="amr&#45;wind/equation_systems\l/PDEFields.H" alt="" coords="2185,244,2371,285"/>
+</map>

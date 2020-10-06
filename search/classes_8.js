@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['laminar',['Laminar',['../classamr__wind_1_1turbulence_1_1_laminar.html',1,'amr_wind::turbulence']]],
-  ['laplacian',['Laplacian',['../structamr__wind_1_1fvm_1_1_laplacian.html',1,'amr_wind::fvm']]],
-  ['leveldataholder',['LevelDataHolder',['../structamr__wind_1_1_level_data_holder.html',1,'amr_wind']]],
-  ['linesampler',['LineSampler',['../classamr__wind_1_1sampling_1_1_line_sampler.html',1,'amr_wind::sampling']]]
+  ['ksgsm84src',['KsgsM84Src',['../classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html',1,'amr_wind::pde::tke']]],
+  ['ksgss94src',['KsgsS94Src',['../classamr__wind_1_1pde_1_1tke_1_1_ksgs_s94_src.html',1,'amr_wind::pde::tke']]]
 ];
