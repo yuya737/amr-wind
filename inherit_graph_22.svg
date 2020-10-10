@@ -22,7 +22,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="classamr__wind_1_1pde_1_1_s_d_r_source.html" target="_top" xlink:title="amr_wind::pde::SDRSource">
+<g id="a_node2"><a xlink:href="classamr__wind_1_1pde_1_1_s_d_r_source.html" target="_top" xlink:title="Base class for SDR source terms. ">
 <polygon fill="#ffffff" stroke="#000000" points="195,-6 195,-25 334,-25 334,-6 195,-6"/>
 <text text-anchor="middle" x="264.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::SDRSource</text>
 </a>

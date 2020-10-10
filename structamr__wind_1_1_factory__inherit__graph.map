@@ -16,7 +16,7 @@
 <area shape="rect" id="node7" href="$classamr__wind_1_1pde_1_1_momentum_source.html" title="Representation of a momentum source termAll momentum source terms must inherit from this class..." alt="" coords="648,191,869,217"/>
 <area shape="rect" id="node9" href="$classamr__wind_1_1pde_1_1_source_term.html" title="Abstract representation of a source term. " alt="" coords="665,264,852,291"/>
 <area shape="rect" id="node11" href="$classamr__wind_1_1_post_process_base.html" title="Abstract representation of a post&#45;processing utilityProvides an interface for a runtime&#45;selectable po..." alt="" coords="663,337,854,364"/>
-<area shape="rect" id="node13" href="$classamr__wind_1_1pde_1_1_s_d_r_source.html" title="amr_wind::pde::SDRSource" alt="" coords="666,411,851,437"/>
+<area shape="rect" id="node13" href="$classamr__wind_1_1pde_1_1_s_d_r_source.html" title="Base class for SDR source terms. " alt="" coords="666,411,851,437"/>
 <area shape="rect" id="node15" href="$classamr__wind_1_1turbulence_1_1_turbulence_model.html" title="Abstract representation of a turbulence modelThis class is an abstract representation of a turbulence..." alt="" coords="685,469,832,510"/>
 <area shape="rect" id="node16" href="$classamr__wind_1_1turbulence_1_1_turb_model.html" title="Turbulence model with a specific transport modelThis templated class allows turbulence model to be sp..." alt="" coords="919,469,1089,510"/>
 <area shape="rect" id="node17" href="$classamr__wind_1_1turbulence_1_1_laminar.html" title="Laminar modelImplementation of laminar flow model. " alt="" coords="1161,435,1316,477"/>
@@ -29,5 +29,5 @@
 <area shape="rect" id="node26" href="$classamr__wind_1_1_physics.html" title="Abstract representation of different physicsThis class defines an abstract API that represents the no..." alt="" coords="692,607,825,633"/>
 <area shape="rect" id="node28" href="$classamr__wind_1_1sampling_1_1_sampler_base.html" title="Abstract representation of data probes to sample flow dataThis class defines the interface by which t..." alt="" coords="689,665,828,706"/>
 <area shape="rect" id="node30" href="$classamr__wind_1_1pde_1_1_density_source.html" title="amr_wind::pde::DensitySource" alt="" coords="658,745,859,772"/>
-<area shape="rect" id="node32" href="$classamr__wind_1_1pde_1_1_t_k_e_source.html" title="amr_wind::pde::TKESource" alt="" coords="667,819,850,845"/>
+<area shape="rect" id="node32" href="$classamr__wind_1_1pde_1_1_t_k_e_source.html" title="Base class for all TKE source terms. " alt="" coords="667,819,850,845"/>
 </map>

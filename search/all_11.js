@@ -33,6 +33,8 @@ var searchData=
   ['sdr',['SDR',['../structamr__wind_1_1pde_1_1_s_d_r.html',1,'amr_wind::pde']]],
   ['sdr_2ecpp',['SDR.cpp',['../_s_d_r_8cpp.html',1,'']]],
   ['sdr_2eh',['SDR.H',['../_s_d_r_8_h.html',1,'']]],
+  ['specific_20dissipation_20rate_20_28sdr_29_20transport_20equation',['Specific Dissipation Rate (SDR) transport equation',['../group__sdr__eqn.html',1,'']]],
+  ['sdr_20source_20terms',['SDR source terms',['../group__sdr__src.html',1,'']]],
   ['sdrsource',['SDRSource',['../classamr__wind_1_1pde_1_1_s_d_r_source.html',1,'amr_wind::pde']]],
   ['sdrsource_2eh',['SDRSource.H',['../_s_d_r_source_8_h.html',1,'']]],
   ['secondmomentaveraging',['SecondMomentAveraging',['../classamr__wind_1_1_second_moment_averaging.html',1,'amr_wind::SecondMomentAveraging'],['../classamr__wind_1_1_second_moment_averaging.html#a2a9620c869bcd7a778caa3ba9966c8d5',1,'amr_wind::SecondMomentAveraging::SecondMomentAveraging()']]],

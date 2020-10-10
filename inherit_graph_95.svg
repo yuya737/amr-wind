@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structamr__wind_1_1pde_1_1_field_reg_op_3_01_levelset_00_01_scheme_01_4.html" target="_top" xlink:title="amr_wind::pde::FieldRegOp\l\&lt; Levelset, Scheme \&gt;">
+<g id="a_node1"><a xlink:href="structamr__wind_1_1pde_1_1_field_reg_op_3_01_levelset_00_01_scheme_01_4.html" target="_top" xlink:title="Field registration operator for Levelset equation system. ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-30.5 138,-30.5 138,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::FieldRegOp</text>
 <text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; Levelset, Scheme &gt;</text>

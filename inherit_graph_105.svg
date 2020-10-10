@@ -18,7 +18,7 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html" target="_top" xlink:title="One&#45;equation Ksgs LES turbulence modelReference to Moeng paper. ">
+<g id="a_node2"><a xlink:href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html" target="_top" xlink:title="TKE source term based on Moeng 1984 paper. ">
 <polygon fill="#ffffff" stroke="#000000" points="89,-49.5 89,-79.5 189,-79.5 189,-49.5 89,-49.5"/>
 <text text-anchor="start" x="97" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::tke</text>
 <text text-anchor="middle" x="139" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::KsgsM84Src</text>
@@ -34,7 +34,7 @@
 <!-- Node55 -->
 <g id="node3" class="node">
 <title>Node55</title>
-<g id="a_node3"><a xlink:href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_s94_src.html" target="_top" xlink:title="amr_wind::pde::tke\l::KsgsS94Src">
+<g id="a_node3"><a xlink:href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_s94_src.html" target="_top" xlink:title="One&#45;equation k&#45;sgs source term based on Sullivan 1994 paper. ">
 <polygon fill="#ffffff" stroke="#000000" points="89,-.5 89,-30.5 189,-30.5 189,-.5 89,-.5"/>
 <text text-anchor="start" x="97" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::tke</text>
 <text text-anchor="middle" x="139" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::KsgsS94Src</text>

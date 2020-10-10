@@ -33,7 +33,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="structamr__wind_1_1pde_1_1_levelset.html" target="_top" xlink:title="amr_wind::pde::Levelset">
+<g id="a_node3"><a xlink:href="structamr__wind_1_1pde_1_1_levelset.html" target="_top" xlink:title="Characteristics of Levelset transport equation system. ">
 <polygon fill="#ffffff" stroke="#000000" points="200,-114.5 200,-133.5 323,-133.5 323,-114.5 200,-114.5"/>
 <text text-anchor="middle" x="261.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::Levelset</text>
 </a>
@@ -48,7 +48,7 @@
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<g id="a_node4"><a xlink:href="structamr__wind_1_1pde_1_1_s_d_r.html" target="_top" xlink:title="amr_wind::pde::SDR">
+<g id="a_node4"><a xlink:href="structamr__wind_1_1pde_1_1_s_d_r.html" target="_top" xlink:title="Characteristics of SDR transport equation. ">
 <polygon fill="#ffffff" stroke="#000000" points="207.5,-76.5 207.5,-95.5 315.5,-95.5 315.5,-76.5 207.5,-76.5"/>
 <text text-anchor="middle" x="261.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::SDR</text>
 </a>
@@ -78,7 +78,7 @@
 <!-- Node5 -->
 <g id="node6" class="node">
 <title>Node5</title>
-<g id="a_node6"><a xlink:href="structamr__wind_1_1pde_1_1_t_k_e.html" target="_top" xlink:title="amr_wind::pde::TKE">
+<g id="a_node6"><a xlink:href="structamr__wind_1_1pde_1_1_t_k_e.html" target="_top" xlink:title="Characteristics of TKE transport equation. ">
 <polygon fill="#ffffff" stroke="#000000" points="208.5,-.5 208.5,-19.5 314.5,-19.5 314.5,-.5 208.5,-.5"/>
 <text text-anchor="middle" x="261.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::TKE</text>
 </a>

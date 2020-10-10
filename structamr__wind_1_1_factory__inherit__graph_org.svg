@@ -314,7 +314,7 @@
 <!-- Node12 -->
 <g id="node13" class="node">
 <title>Node12</title>
-<g id="a_node13"><a xlink:href="classamr__wind_1_1pde_1_1_s_d_r_source.html" target="_top" xlink:title="amr_wind::pde::SDRSource">
+<g id="a_node13"><a xlink:href="classamr__wind_1_1pde_1_1_s_d_r_source.html" target="_top" xlink:title="Base class for SDR source terms. ">
 <polygon fill="#ffffff" stroke="#000000" points="495.5,-312 495.5,-331 634.5,-331 634.5,-312 495.5,-312"/>
 <text text-anchor="middle" x="565" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::SDRSource</text>
 </a>
@@ -518,7 +518,7 @@
 <!-- Node31 -->
 <g id="node32" class="node">
 <title>Node31</title>
-<g id="a_node32"><a xlink:href="classamr__wind_1_1pde_1_1_t_k_e_source.html" target="_top" xlink:title="amr_wind::pde::TKESource">
+<g id="a_node32"><a xlink:href="classamr__wind_1_1pde_1_1_t_k_e_source.html" target="_top" xlink:title="Base class for all TKE source terms. ">
 <polygon fill="#ffffff" stroke="#000000" points="496.5,-6 496.5,-25 633.5,-25 633.5,-6 496.5,-6"/>
 <text text-anchor="middle" x="565" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::pde::TKESource</text>
 </a>
