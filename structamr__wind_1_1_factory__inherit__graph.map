@@ -23,8 +23,8 @@
 <area shape="rect" id="node18" href="$classamr__wind_1_1turbulence_1_1_turb_model_base.html" title="Turbulence model aspects common to both LES and RANS modelsThis class implements more of the common m..." alt="" coords="1139,501,1339,542"/>
 <area shape="rect" id="node19" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html" title="Base class for 1&#45;Equation subgrid scale TKE turbulence model. " alt="" coords="1391,451,1570,493"/>
 <area shape="rect" id="node22" href="$classamr__wind_1_1turbulence_1_1_smagorinsky.html" title="Smagorinsky LES Model. " alt="" coords="1388,517,1573,558"/>
-<area shape="rect" id="node20" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" title="amr_wind::turbulence\l::OneEqKsgsM84\&lt; Transport \&gt;" alt="" coords="1623,419,1827,461"/>
-<area shape="rect" id="node21" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" title="amr_wind::turbulence\l::OneEqKsgsS94\&lt; Transport \&gt;" alt="" coords="1623,485,1826,526"/>
+<area shape="rect" id="node20" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Moeng 1984 paper ..." alt="" coords="1623,419,1827,461"/>
+<area shape="rect" id="node21" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Sullivan 1994 paper ..." alt="" coords="1623,485,1826,526"/>
 <area shape="rect" id="node24" href="$classamr__wind_1_1_overset_manager.html" title="Overset interface manager. " alt="" coords="667,541,850,568"/>
 <area shape="rect" id="node26" href="$classamr__wind_1_1_physics.html" title="Abstract representation of different physicsThis class defines an abstract API that represents the no..." alt="" coords="692,607,825,633"/>
 <area shape="rect" id="node28" href="$classamr__wind_1_1sampling_1_1_sampler_base.html" title="Abstract representation of data probes to sample flow dataThis class defines the interface by which t..." alt="" coords="689,665,828,706"/>

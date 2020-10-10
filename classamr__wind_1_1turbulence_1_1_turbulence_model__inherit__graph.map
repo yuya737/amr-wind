@@ -6,6 +6,6 @@
 <area shape="rect" id="node6" href="$classamr__wind_1_1turbulence_1_1_turb_model_base.html" title="Turbulence model aspects common to both LES and RANS modelsThis class implements more of the common m..." alt="" coords="983,87,1183,128"/>
 <area shape="rect" id="node7" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html" title="Base class for 1&#45;Equation subgrid scale TKE turbulence model. " alt="" coords="1235,37,1414,79"/>
 <area shape="rect" id="node10" href="$classamr__wind_1_1turbulence_1_1_smagorinsky.html" title="Smagorinsky LES Model. " alt="" coords="1232,103,1417,144"/>
-<area shape="rect" id="node8" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" title="amr_wind::turbulence\l::OneEqKsgsM84\&lt; Transport \&gt;" alt="" coords="1467,5,1671,47"/>
-<area shape="rect" id="node9" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" title="amr_wind::turbulence\l::OneEqKsgsS94\&lt; Transport \&gt;" alt="" coords="1467,71,1670,112"/>
+<area shape="rect" id="node8" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Moeng 1984 paper ..." alt="" coords="1467,5,1671,47"/>
+<area shape="rect" id="node9" href="$classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Sullivan 1994 paper ..." alt="" coords="1467,71,1670,112"/>
 </map>

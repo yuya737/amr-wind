@@ -65,7 +65,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node7" class="node">
 <title>Node6</title>
-<g id="a_node7"><a xlink:href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" target="_top" xlink:title="amr_wind::turbulence\l::OneEqKsgsM84\&lt; Transport \&gt;">
+<g id="a_node7"><a xlink:href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html" target="_top" xlink:title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Moeng 1984 paper ...">
 <polygon fill="#ffffff" stroke="#000000" points="1091,-49.5 1091,-79.5 1244,-79.5 1244,-49.5 1091,-49.5"/>
 <text text-anchor="start" x="1099" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::turbulence</text>
 <text text-anchor="middle" x="1167.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::OneEqKsgsM84&lt; Transport &gt;</text>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node8" class="node">
 <title>Node7</title>
-<g id="a_node8"><a xlink:href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" target="_top" xlink:title="amr_wind::turbulence\l::OneEqKsgsS94\&lt; Transport \&gt;">
+<g id="a_node8"><a xlink:href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html" target="_top" xlink:title="1&#45;equation subgrid scale TKE turbulence modelImplements the model described in Sullivan 1994 paper ...">
 <polygon fill="#ffffff" stroke="#000000" points="1091.5,-.5 1091.5,-30.5 1243.5,-30.5 1243.5,-.5 1091.5,-.5"/>
 <text text-anchor="start" x="1099.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::turbulence</text>
 <text text-anchor="middle" x="1167.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::OneEqKsgsS94&lt; Transport &gt;</text>
