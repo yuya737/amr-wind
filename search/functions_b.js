@@ -22,5 +22,6 @@ var searchData=
   ['mu_5fturb',['mu_turb',['../classamr__wind_1_1turbulence_1_1_laminar.html#a8e3cdccf673cc1eba892ffa350bc11a2',1,'amr_wind::turbulence::Laminar::mu_turb()'],['../classamr__wind_1_1turbulence_1_1_turb_model_base.html#ad44a070d4c5442a02a63517d951e4d3a',1,'amr_wind::turbulence::TurbModelBase::mu_turb()'],['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#a4879d91942c359129a5d315fe87e2f5f',1,'amr_wind::turbulence::TurbulenceModel::mu_turb()']]],
   ['mueff',['mueff',['../classamr__wind_1_1turbulence_1_1_turb_model.html#af08447f27878b6377c6e4c66421b2431',1,'amr_wind::turbulence::TurbModel::mueff()'],['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#aa8b41e4e05d97cf1991140da5fc28354',1,'amr_wind::turbulence::TurbulenceModel::mueff()']]],
   ['mueff_5fname',['mueff_name',['../namespaceamr__wind_1_1pde__impl.html#a57762dc6fdb5bdfdac1da27565a2f820',1,'amr_wind::pde_impl']]],
+  ['multiphase',['MultiPhase',['../classamr__wind_1_1_multi_phase.html#a7074754dd38da2beb64cf5291aaab724',1,'amr_wind::MultiPhase']]],
   ['multiply_5frho',['multiply_rho',['../structamr__wind_1_1pde_1_1_src_term_op_base.html#a875f03313c6d8c40a2d3a472471a4fa7',1,'amr_wind::pde::SrcTermOpBase']]]
 ];

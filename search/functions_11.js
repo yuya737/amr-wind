@@ -21,6 +21,7 @@ var searchData=
   ['set_5fdefault_5fvalue',['set_default_value',['../classamr__wind_1_1_b_c_iface.html#abfaa981b18464233d9721afb2ae7c3cf',1,'amr_wind::BCIface']]],
   ['set_5finflow_5fvelocity',['set_inflow_velocity',['../classincflo.html#a6dccdf2ed3bb6e1a2dbdfd2c705999f9',1,'incflo']]],
   ['set_5fmean_5fvelocities',['set_mean_velocities',['../classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#a5d0572f7cb21f43153dd50dd245b425e',1,'amr_wind::pde::icns::ABLForcing']]],
+  ['set_5fmultiphase_5fproperties',['set_multiphase_properties',['../classamr__wind_1_1_multi_phase.html#a5cecb4d341bfa719eba8e1dbca80bdb1',1,'amr_wind::MultiPhase']]],
   ['set_5fprecision',['set_precision',['../classamr__wind_1_1_f_plane_averaging.html#af99cf97b265b8b09795f10bb1dfde3fb',1,'amr_wind::FPlaneAveraging::set_precision()'],['../class_plane_averaging.html#a578e7d2452063aa7febe975eb2ac87c1',1,'PlaneAveraging::set_precision()'],['../classamr__wind_1_1_second_moment_averaging.html#a9c3e116ce0958222edb20e66e1a83e45',1,'amr_wind::SecondMomentAveraging::set_precision()'],['../classamr__wind_1_1_third_moment_averaging.html#a664b96dff83a022f3c71fee3dcec6ae8',1,'amr_wind::ThirdMomentAveraging::set_precision()']]],
   ['set_5frestart_5ftime',['set_restart_time',['../classamr__wind_1_1_sim_time.html#ac34212aed4ea0f3c42e7a5939fb5e7e2',1,'amr_wind::SimTime']]],
   ['setup_5fcontainer',['setup_container',['../classamr__wind_1_1sampling_1_1_sampling_container.html#abea8e865395c0917312cf13ec1aa2170',1,'amr_wind::sampling::SamplingContainer']]],

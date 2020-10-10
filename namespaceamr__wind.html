@@ -227,6 +227,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_l_m_g_options.html">MLMGOptions</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collection of solver options to control MLMG behavior.  <a href="structamr__wind_1_1_m_l_m_g_options.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_multi_phase.html">MultiPhase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_overset_manager.html">OversetManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overset interface manager.  <a href="classamr__wind_1_1_overset_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +274,16 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_vel_plane_averaging.html">VelPlaneAveraging</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specific application of FieldPlaneAveraging to the velocity field.  <a href="classamr__wind_1_1_vel_plane_averaging.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_vortex_patch.html">VortexPatch</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_vortex_patch_field_init.html">VortexPatchFieldInit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize mutiphase <a class="el" href="classamr__wind_1_1_vortex_patch.html">VortexPatch</a> fields.  <a href="classamr__wind_1_1_vortex_patch_field_init.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_zalesak_disk.html">ZalesakDisk</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html">ZalesakDiskFieldInit</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize mutiphase <a class="el" href="classamr__wind_1_1_zalesak_disk.html">ZalesakDisk</a> fields.  <a href="classamr__wind_1_1_zalesak_disk_field_init.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -337,7 +349,11 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AMR-Wind. </p>
-<p>All C++ code in AMR-Wind is organized within the <a class="el" href="namespaceamr__wind.html" title="AMR-Wind. ">amr_wind</a> namespace. </p>
+<p>Multiphase Zalesak disk physics.</p>
+<p>Multiphase vortex patch physics.</p>
+<p>Multiphase physics.</p>
+<p>All C++ code in AMR-Wind is organized within the <a class="el" href="namespaceamr__wind.html" title="AMR-Wind. ">amr_wind</a> namespace.</p>
+<p>This class implemnts the necessary code to simulate multiphase (air-water interaction) problems with AMR-Wind. It reads the namespace `MultiPhase' from the input file to determine how the initial conditions are generated. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="a078c88a857d4018bbbcbfd5a577e63ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a078c88a857d4018bbbcbfd5a577e63ac">&#9670;&nbsp;</a></span>FieldPlaneAveraging</h2>
