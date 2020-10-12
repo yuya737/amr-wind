@@ -18,8 +18,6 @@ var searchData=
   ['cfdsim',['CFDSim',['../classamr__wind_1_1_c_f_d_sim.html',1,'amr_wind::CFDSim'],['../classamr__wind_1_1_c_f_d_sim.html#aafb7a00e73a1179364ea87ade2f76b7c',1,'amr_wind::CFDSim::CFDSim()']]],
   ['cfdsim_2ecpp',['CFDSim.cpp',['../_c_f_d_sim_8cpp.html',1,'']]],
   ['cfdsim_2eh',['CFDSim.H',['../_c_f_d_sim_8_h.html',1,'']]],
-  ['cg_5fmax_5fiter',['cg_max_iter',['../structamr__wind_1_1_m_l_m_g_options.html#a30ef2887eecd651c0269adb735073cb0',1,'amr_wind::MLMGOptions']]],
-  ['cg_5fverbose',['cg_verbose',['../structamr__wind_1_1_m_l_m_g_options.html#a7b7e56cf3e615481ad470dffeb4be6e3',1,'amr_wind::MLMGOptions']]],
   ['checkfornans',['CheckForNans',['../classincflo.html#a4eaf3f1a0c2d10b8dc8cbad5a6833ddc',1,'incflo']]],
   ['clear_5flevel',['clear_level',['../classamr__wind_1_1_field_repo.html#a01b87f65eb6d7ce098aac888ba9e0b99',1,'amr_wind::FieldRepo']]],
   ['clearlevel',['ClearLevel',['../classincflo.html#a18d0dc085fcc4f94806726b8ddd639df',1,'incflo']]],

@@ -43,5 +43,6 @@ var searchData=
   ['linsys_5fsolve',['linsys_solve',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html#aa6c777edb27a5c9e48e488cc71ae14ef',1,'amr_wind::pde::DiffSolverIface']]],
   ['log_5flaw_5fheight',['log_law_height',['../classamr__wind_1_1_a_b_l_wall_function.html#ad773940f167a8909ea236a4d35483279',1,'amr_wind::ABLWallFunction']]],
   ['lookuptable',['LookupTable',['../structamr__wind_1_1_factory.html#a56993ae399ba77ba870395de8d550276',1,'amr_wind::Factory']]],
-  ['lower_5fbound',['lower_bound',['../group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4',1,'amr_wind::field_ops']]]
+  ['lower_5fbound',['lower_bound',['../group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4',1,'amr_wind::field_ops']]],
+  ['lpinfo',['lpinfo',['../structamr__wind_1_1_m_l_m_g_options.html#a0b0cc49d6585d76b25f36fe13e1bf37f',1,'amr_wind::MLMGOptions']]]
 ];

@@ -12,7 +12,11 @@ var searchData=
   ['nghost_5fstate',['nghost_state',['../structamr__wind_1_1fvm_1_1_godunov.html#a52d8e345f7236eb8cfd003157a66ba7c',1,'amr_wind::fvm::Godunov::nghost_state()'],['../structamr__wind_1_1fvm_1_1_m_o_l.html#a1b617e21d2afc599e28c536dd7426953',1,'amr_wind::fvm::MOL::nghost_state()']]],
   ['ngrids_5fglobal',['ngrids_global',['../structamr__wind_1_1_a_m_r_overset_info.html#a95d47b8b7ff6876f15186ff71c585cfa',1,'amr_wind::AMROversetInfo']]],
   ['ngrids_5flocal',['ngrids_local',['../structamr__wind_1_1_a_m_r_overset_info.html#a667cea19ece22ddcfdde6178155a093d',1,'amr_wind::AMROversetInfo']]],
+  ['num_5fbottom_5fsmooth',['num_bottom_smooth',['../structamr__wind_1_1_m_l_m_g_options.html#a8100922ef4e4c979f6796c851525183e',1,'amr_wind::MLMGOptions']]],
   ['num_5fconv_5fstates',['num_conv_states',['../structamr__wind_1_1fvm_1_1_godunov.html#ac8fd12fb8f9a7d2efefdb59ce02338bf',1,'amr_wind::fvm::Godunov::num_conv_states()'],['../structamr__wind_1_1fvm_1_1_m_o_l.html#a338cef9550b455417bec986ce4f52662',1,'amr_wind::fvm::MOL::num_conv_states()']]],
   ['num_5fdiff_5fstates',['num_diff_states',['../structamr__wind_1_1fvm_1_1_godunov.html#a0efcab849da0ec17ffa33cd4b74705ba',1,'amr_wind::fvm::Godunov::num_diff_states()'],['../structamr__wind_1_1fvm_1_1_m_o_l.html#a7d77b9a22dbf108fd24d01d0203c1c4f',1,'amr_wind::fvm::MOL::num_diff_states()']]],
+  ['num_5ffinal_5fsmooth',['num_final_smooth',['../structamr__wind_1_1_m_l_m_g_options.html#a5b1829601f85929e4b16772da68dd91a',1,'amr_wind::MLMGOptions']]],
+  ['num_5fpost_5fsmooth',['num_post_smooth',['../structamr__wind_1_1_m_l_m_g_options.html#a587f0619eeceb646716c1ee84246a5e4',1,'amr_wind::MLMGOptions']]],
+  ['num_5fpre_5fsmooth',['num_pre_smooth',['../structamr__wind_1_1_m_l_m_g_options.html#a14c6db5c0b47aa129ec4fcbc97649df9',1,'amr_wind::MLMGOptions']]],
   ['num_5fstates',['num_states',['../structamr__wind_1_1fvm_1_1_godunov.html#a4037825364a850bf59aa40b5da79e942',1,'amr_wind::fvm::Godunov::num_states()'],['../structamr__wind_1_1fvm_1_1_m_o_l.html#a596dae5a7f9effb502ad79ea7ab3c2ec',1,'amr_wind::fvm::MOL::num_states()']]]
 ];

@@ -58,6 +58,7 @@ var searchData=
   ['directionselector_3c_202_20_3e',['DirectionSelector&lt; 2 &gt;',['../struct_direction_selector_3_012_01_4.html',1,'']]],
   ['divergence',['Divergence',['../structamr__wind_1_1fvm_1_1_divergence.html',1,'amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_divergence.html#a55c666831fecf600b8e0af8fbd40f413',1,'amr_wind::fvm::Divergence::Divergence()'],['../group__fvm.html#gae783ab34404e6ba3e0c2f689b4529e16',1,'amr_wind::fvm::divergence(FTypeOut &amp;divphi, const FTypeIn &amp;phi)'],['../group__fvm.html#gacd04f2296b3c45cdd4954ecbca920056',1,'amr_wind::fvm::divergence(const FType &amp;phi)']]],
   ['divergence_2eh',['divergence.H',['../divergence_8_h.html',1,'']]],
+  ['do_5ffixed_5fiters',['do_fixed_iters',['../structamr__wind_1_1_m_l_m_g_options.html#a6ec0658b51f2f988c4eff02cc83069a4',1,'amr_wind::MLMGOptions']]],
   ['do_5fregrid',['do_regrid',['../classamr__wind_1_1_sim_time.html#a3a462d49c815cceb15b7a976e865a643',1,'amr_wind::SimTime']]],
   ['dof_5fstate',['dof_state',['../namespaceamr__wind_1_1field__impl.html#ac4d9d9bff3243cbdd432904f9cfe5d78',1,'amr_wind::field_impl']]],
   ['dot_5fprod',['dot_prod',['../namespaceamr__wind_1_1utils.html#a1c28676d41ffc309a17fec8d89e9d085',1,'amr_wind::utils::dot_prod(const T *x, const T *y)'],['../namespaceamr__wind_1_1utils.html#a46a0864d8a31479f5c3fcc9854f8fbd8',1,'amr_wind::utils::dot_prod(const T *x, const T *y, const int ndim)']]],

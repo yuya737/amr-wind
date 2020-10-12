@@ -131,7 +131,7 @@ var sectionId = 'dynsection-1';
 <!-- Node16 -->
 <g id="node12" class="node">
 <title>Node16</title>
-<g id="a_node12"><a xlink:href="structamr__wind_1_1_m_l_m_g_options.html" target="_top" xlink:title="Collection of solver options to control MLMG behavior. ">
+<g id="a_node12"><a xlink:href="structamr__wind_1_1_m_l_m_g_options.html" target="_top" xlink:title="Interface to control the behavior of AMReX LinearSolvers. ">
 <polygon fill="#ffffff" stroke="#000000" points="540,-187.5 540,-206.5 668,-206.5 668,-187.5 540,-187.5"/>
 <text text-anchor="middle" x="604" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::MLMGOptions</text>
 </a>
@@ -142,7 +142,9 @@ var sectionId = 'dynsection-1';
 <title>Node7&#45;&gt;Node16</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M266.6569,-142.2469C276.5623,-144.2059 287.1542,-146.2373 297,-148 380.6774,-162.9807 477.596,-178.0753 539.7899,-187.4732"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="267.1349,-138.7733 256.6429,-140.2459 265.7632,-145.6376 267.1349,-138.7733"/>
-<text text-anchor="middle" x="345.5" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> bottom_solver_type</text>
+<text text-anchor="middle" x="345.5" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> hypre_namespace</text>
+<text text-anchor="middle" x="345.5" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">bottom_solver_type</text>
+<text text-anchor="middle" x="345.5" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">hypre_interface</text>
 </g>
 <!-- Node8 -->
 <g id="node4" class="node">
